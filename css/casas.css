@@ -23,7 +23,7 @@ main{
     width: 70vh;
     height: 85vh;
     margin: 0px;
-    padding: 10px;
+    
 }
 .fondoF{
     background-image: url(img/FondoFer.png);
@@ -35,7 +35,7 @@ main{
     width: 70vh;
     height: 85vh;
     margin: 0px;
-    padding: 10px;
+   
 }
 .fondoM{
     background-image: url(img/FondoMiru.jpeg);
@@ -47,7 +47,7 @@ main{
     width: 70vh;
     height: 85vh;
     margin: 0px;
-    padding: 10px;
+    
 }
 .cajaCasa{
      margin: 15px;
