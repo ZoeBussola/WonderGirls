@@ -92,27 +92,27 @@ main{
     transition: box-shadow 0.5s;
 }
 .main1{
-    background-image: url(/img/Issues/ISSUES-01.jpg) ;
+    background-image: url(img/Issues/ISSUES-01.jpg) ;
     background-size: 101% 104%;
     background-repeat: no-repeat;
     background-position: center top;
 
 }
 .main2{
-    background-image: url(/img/Issues/ISSUES-02.jpg) ;
+    background-image: url(img/Issues/ISSUES-02.jpg) ;
     background-size: 101% 120%;
     background-repeat: no-repeat;
     background-position: center top;
     
 }
 .main3{
-    background-image: url(/img/Issues/ISSUES-03.jpg) ;
+    background-image: url(img/Issues/ISSUES-03.jpg) ;
     background-size: 101% 120%;
     background-repeat: no-repeat;
     background-position: center bottom;
 }
 .main4{
-    background-image: url(/img/Issues/ISSUES-04.jpg) ;
+    background-image: url(img/Issues/ISSUES-04.jpg) ;
     background-size:101% 104%;
     background-repeat: no-repeat;
     background-position: center bottom;
