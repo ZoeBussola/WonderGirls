@@ -13,7 +13,7 @@ header.innerHTML=`
 
         <button id="cerrar" class="cerrar">x</button>
         
-        <a href="/Issues.html"><li>Issue</li></a>
+        <a href="Issues.html"><li>Issue</li></a>
 
         <a href="Frases.html"><li> Frases</li></a> 
 
