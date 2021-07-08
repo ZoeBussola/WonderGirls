@@ -1,0 +1,24 @@
+@import url(comun.css);
+
+.caja{
+    padding: 15px 30px;
+    margin: 15px 30px;
+    background-color: var(--miru);
+    box-shadow: var(--shadow3);
+    transition: box-shadow 0.8s;
+}
+img{
+    width: 20vw;
+}
+a{
+    color:var(--zochu);
+}
+.nombre{
+    font-family: var(--textos);
+    text-align: center;
+}
+.caja:hover{
+    
+    box-shadow: none;
+    transition: box-shadow 0.8s;
+}

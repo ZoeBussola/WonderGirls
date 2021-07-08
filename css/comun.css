@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+
+:root{
+    --zochu:#321156;
+    --ferchu:#D0EEFF;
+    --miru:#FCB9B2;
+    --titulos: 'Abril Fatface', cursive;
+    --textos:  'Montserrat', sans-serif;
+    --shadow:3px 3px 5px 0px rgba(0,0,0,0.75);
+    --shadow3:3px 3px 5px 0px rgb(116, 111, 111);
+    --shadow2:2px 5px 5px darkgray;
+    --cards: 'Bebas Neue', cursive;
+ 
+
+}
+body{
+    /* background-image: url(/img/simon-berger-twukN12EN7c-unsplash.jpg) ;
+    background-size: 101% 104%;
+    background-repeat: no-repeat;
+    background-position: center top; */
+    background-color: var(--zochu);
+}
+main{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.header2{
+    position: fixed;
+    height: fit-content;
+    z-index: 10000;
+}
+.header2 h1{
+    line-height: 50px;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+a{
+    font-size: 20px;
+    color: var(--ferchu);
+    /* color: black; */
+    text-decoration: none;
+}
+
+header {
+    padding: 15px 0 15px 0px;
+    background-color: var(--zochu);
+    color: var(--ferchu);
+     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.42);
+    display: flex;
+     width: 100%;
+}
+h1{
+    font-family: var(--titulos);
+    color: var(--ferchu);
+    font-size: 40px;
+    align-self: start;
+    justify-self: start;
+    margin-left: 30px;
+}
+header nav {
+	display: flex;
+    margin-left: 16rem;
+   
+}
+
+.menu_bar {
+	display:none;
+}
+
+header nav ul {
+    width: 900px;
+	/* overflow:hidden; */
+	list-style:none;
+   
+}
+
+header nav ul a li  {
+	float:left;
+	color:#D0EEFF;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+    font-family: var(--textos);
+}
+
+header nav ul li  {
+    
+	margin-right:10px;
+        padding: 10px;
+        list-style-type: none;
+        font-family:var(--textos);
+        color: var(--ferchu);
+        font-weight: bolder;
+        font-size: 20px;
+        -webkit-transition:all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition:all 50ms ease;
+}
+#desple{
+    
+    padding-top: 20px;
+    border-bottom-right-radius:0 ;
+    border-bottom-left-radius: 0;
+}
+#desple1{
+    
+    border-top-left-radius: 0;
+}
+li:hover{
+    
+    border-radius:20px;
+    background-color: var(--miru);  
+    color: var(--zochu)
+}
+li a:hover {
+    
+    color: var(--zochu)
+}
+nav ul a:hover li  {
+	background-color: var(--miru);
+    color: var(--zochu);
+    border-radius: 20px;
+    
+}
+#menu{
+    align-self: center;
+}
+#menu ul li {
+    position:relative;
+    float:left;
+    align-self: center;
+   }
+#menu ul ul{
+    display: none;
+    padding: 0;
+}
+
+.despegable {
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: #321156b4;
+    padding:0;
+    border-radius:20px;
+     flex-direction: column;
+   }
+   .despegable li {
+
+    margin: 0px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 10px;
+    width:12vw;
+    text-align: center;
+    
+   }
+   #menu ul li:hover > .despegable {
+   display: block;
+   width: fit-content;
+    float:none;
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   }
+#cerrar{
+    width: 40px;
+    display: none;
+    background: none;
+    color: var(--ferchu);
+    border-style: none;
+    font-size: 40px;
+    margin-left:20px;
+}
+section {
+	padding:20px;
+}
+
+
+
+
+
+@media (min-width:200px) and (max-width:1200px ) {
+    #Home{
+        display: none;
+    }
+    #cerrar{
+        width: 20px;
+        display: block;
+    }
+    nav ul a:hover li  {
+        border-radius: 0px;
+    }
+    li:hover{
+        border-radius:0px;
+        background-color: var(--miru);  
+        color: var(--zochu)
+    }
+    #desple{
+        padding-left: 20px;
+    }
+    .despegable {
+        background-color: var(--zochu);
+        z-index: 1000;
+        width:100%;
+        position: relative;
+        border-radius: 0;
+        margin-top: 11px;
+        margin-bottom: 20px;
+    }
+    .despegable li{
+        border-radius: 0;
+        z-index: 1000;
+        margin-left:0 ;
+         display: block;
+        width:50%;
+        align-self: right;
+        height: 50px;
+        text-align: end;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+    #menu ul li:hover > .despegable {
+        width: 100%;
+        float: right;
+    }
+    .icon-list2{
+        display: inline;
+    }
+	header nav {
+		width:80%;
+		height:100%;
+		right: -100%;
+		margin:0;
+		position: fixed;
+        background-color: var(--zochu);
+	}
+    #menu{
+        align-self: start;
+    }
+    #menu ul li {
+        float: none;
+       }
+    #menu ul ul{
+        
+        padding: 0;
+    }
+	header nav ul a li {
+        width: 100%;
+		display:block;
+		border-bottom:1px solid rgba(255,255,255, .3);
+        
+	}
+    nav ul li{
+        width: 100%;
+        justify-items: right;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+	.menu_bar {
+		display:block;
+		width:100%;
+		
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#321156;
+		color:#D0EEFF;
+		text-decoration:none;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+
+
+ .Subir{
+	padding:1rem;
+	background-color: rgba(243, 237, 237, 0.678);
+	font-size:20px;
+	color:black;
+    border-radius:100% ;
+	position: fixed;
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.5s;
+	bottom:20px;
+	right:20px;
+    cursor: pointer;
+}
+.Subir:hover{
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}

@@ -1,0 +1,30 @@
+@import url(comun.css);
+main{
+    justify-content: center;
+    padding: 10px;
+}
+.tarjetaPN{
+    background-color: #fcb9b2ca;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: var(--shadow3);
+}
+.tarjetaPN h3{
+    font-family: var(--textos);
+    text-align: center;
+    padding: 10px 5px;
+    width: 15vw;
+   
+}
+.tarjetaPN img{
+    width: 15vw;
+  align-self: center;
+  border: 1px rgba(85, 74, 74, 0.555) solid;
+}
+.tarjetaPN:hover{
+    box-shadow: none;
+  transition: box-shadow 0.5s;
+}

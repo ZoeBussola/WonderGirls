@@ -1,0 +1,47 @@
+@import url(/css/comun.css);
+main{
+    justify-content: center;
+    width: 100vw;
+    height: 85vh;
+}
+.Contenedor{
+ background-color: #fcb9b2ca;
+ height: fit-content;
+ padding: 20px 40px;
+ border-radius: 30px;
+ margin: 20px 40px;
+ width: 500px; 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+Section {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+
+}
+.Section1 span{
+    margin: 20px 0px 20px 0 ;
+   
+}
+.Section2 span{
+    margin: 20px 0px 20px 0 ;
+   
+}
+.CantidadText{
+    font-family: var(--textos);
+    font-size: 23px;
+    font-weight: bolder;
+}
+.numero{
+    text-align: right;
+    font-family: var(--textos);
+    font-size: 28px;
+    padding: 0px 0 0 0px ;
+    font-weight: bolder;
+}
+#totales{
+    color: rgb(82, 4, 82);
+    font-size: 40px;
+}

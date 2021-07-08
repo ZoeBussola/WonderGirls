@@ -1,0 +1,82 @@
+@import url(comun.css);
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    justify-content: center;
+}
+.ferraro{
+    background-color:var(--ferchu);
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.miru{
+    background-color:var(--miru);
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.todas{
+    background:linear-gradient(30deg, var(--miru),var(--zochu) ,var(--ferchu));
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.zochu{
+    background-color:var(--zochu);
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    color: lightgray;
+}
+.MiruyFerchu{
+    background:linear-gradient(30deg, var(--miru),var(--ferchu) );
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.ZochuYMiru{
+    background:linear-gradient(30deg, var(--miru),var(--zochu) );
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.FerchuyZochu{
+    background:linear-gradient(30deg, var(--zochu),var(--ferchu) );
+    padding: 15px 30px;
+    margin: 15px 30px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.42);
+}
+.fracetexto{
+    background-color: rgba(255, 255, 255, 0.253);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--textos);
+}
+.autortexto{
+    font-family:var(--textos);
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: right;
+    justify-content: right;
+}
+.zochuspan{
+    font-family:var(--textos);
+    color: lightgray;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: right;
+    justify-content: right;
+}
+
+.fondobody{
+    background-image: url(/img/simon-berger-twukN12EN7c-unsplash.jpg) ;
+    background-size: 101% 104%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+

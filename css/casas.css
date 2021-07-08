@@ -1,0 +1,92 @@
+@import url(comun.css);
+/* body{
+    background: 
+    url(/img/FondoFer.png) center center no-repeat, 
+    url(/img//773a056129c6b4d0f026cdb25423e74f.jpg) center left no-repeat,
+    url(/img//FondoMiru.jpeg) center right no-repeat;
+    background-size:70vh 50vw;
+    background-color: black;
+} */
+main{
+    /* justify-content: space-around; */
+    flex-wrap: nowrap;
+     background-color: black;
+}
+
+.fondoZ{
+    background-image: url(/img/773a056129c6b4d0f026cdb25423e74f.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    width: 70vh;
+    height: 84vh;
+    margin: 5px;
+    padding: 10px;
+}
+.fondoF{
+    background-image: url(/img/FondoFer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    width: 70vh;
+    height: 84vh;
+    margin: 5px;
+    padding: 10px;
+}
+.fondoM{
+    background-image: url(/img/FondoMiru.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    width: 70vh;
+    height: 84vh;
+    margin: 5px;
+    padding: 10px;
+}
+.cajaCasa{
+     margin: 15px;
+    border-radius: 30px;
+    box-shadow: none;
+    width: 25rem;
+    height: 40rem;
+    border-radius: 30px;
+    transition: box-shadow 1s;
+
+}
+.cajaCasa:hover{
+box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
+-webkit-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
+-moz-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
+    transition: box-shadow 0.8s;
+   transform: scale(1.05);
+   transition: transform 0.8s;
+   /* filter: blur(2px); */
+}
+.CasaFondo{
+    padding: 0px 30px;
+}
+
+@media(max-width:1300px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fondoZ{
+        width: 98%;
+    
+    }
+    .fondoF{
+        width: 98%;
+      
+    }
+    .fondoM{
+       
+        width: 98%;
+    }
+}

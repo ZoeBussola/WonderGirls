@@ -1,0 +1,156 @@
+@import url(comun.css);
+
+img{
+    width: 11vw;
+    height: 11vw;
+    border-radius: 100%;
+    background-color: rgba(211, 211, 211, 0.815);
+    margin: 0px 30px 0 0px;
+    align-self: center;
+}
+main{
+    align-content: flex-start;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.582);
+    margin: 0;
+    
+}
+.ContenMen{
+    background-color: rgba(211, 211, 211, 0.65);
+    display: flex; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px 15px ;
+    height: fit-content;
+    width:450px;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0 10px;
+    width: 12vw;
+}
+.nombre{
+    font-family: var(--titulos);
+    width: 10vw;
+}
+.puntajes{
+    margin:5px;
+    font-family: var(--textos);
+    font-weight: bolder;
+}
+
+.boton{
+    width: fit-content;
+    padding: 10px 20px;
+    height: 10vh;
+    font-size: 30px;
+    font-family: var(--titulos);
+    border-style: none;
+    margin: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(243, 237, 237, 0.678);
+}
+.sombraSi{
+    box-shadow: var(--shadow3);
+}
+.sombreNo{
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+.conteinbotones{
+    display: flex;
+    justify-content: center;
+}
+.boton:hover{
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+.boton:hover{
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+.Subir{
+	padding:1rem;
+	background-color: rgba(243, 237, 237, 0.678);
+	font-size:20px;
+	color:black;
+    border-radius:100% ;
+	position: fixed;
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.5s;
+	bottom:20px;
+	right:20px;
+    cursor: pointer;
+}
+.Subir:hover{
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+.main1{
+    background-image: url(/img/Issues/ISSUES-01.jpg) ;
+    background-size: 101% 104%;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+.main2{
+    background-image: url(/img/Issues/ISSUES-02.jpg) ;
+    background-size: 101% 120%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+}
+.main3{
+    background-image: url(/img/Issues/ISSUES-03.jpg) ;
+    background-size: 101% 120%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.main4{
+    background-image: url(/img/Issues/ISSUES-04.jpg) ;
+    background-size:101% 104%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+   
+}
+.ajuste{
+    height: 100vh;
+    background-size: 101% 150%;
+    background-position: center;
+}
+.ajusteAbajo{
+    height: 100vh;
+    background-size: 101% 150%;
+    background-position: center bottom;
+}
+
+
+
+
+@media(max-width:1100px){
+img{
+margin: 0;
+}
+    .ContenMen{
+    
+    flex-direction: column;
+    justify-content: center;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 0 10px;
+    width: 15vw;
+}
+.conteinbotones{
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+}
+
