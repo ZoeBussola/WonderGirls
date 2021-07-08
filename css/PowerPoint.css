@@ -1,6 +1,7 @@
 @import url(comun.css);
 
 .caja{
+    width: 25%;
     padding: 15px 30px;
     margin: 15px 30px;
     background-color: var(--miru);
@@ -8,7 +9,7 @@
     transition: box-shadow 0.8s;
 }
 img{
-    width: 20vw;
+    width: 100%;
 }
 a{
     color:var(--zochu);
@@ -21,4 +22,9 @@ a{
     
     box-shadow: none;
     transition: box-shadow 0.8s;
+}
+@media (max-width : 500px){
+ .caja{
+     width: 50%;
+ }
 }

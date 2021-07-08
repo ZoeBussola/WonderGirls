@@ -5,7 +5,10 @@ header.innerHTML=`
 <a href="index.html" id="Home"><h1> Wonder Girls</h1> </a>
 
 <div class="menu_bar">
-    <a href="#" class="bt-menu"><span class="icon-list2"><i class="fas fa-bars"></i></span><h1> Wonder Girls</h1></a>
+    <a href="#" class="bt-menu">
+	<span class="icon-list2"><i class="fas fa-bars"></i></span></a>
+	
+	</a>
 </div>
 
 <nav id="menu">
@@ -18,7 +21,9 @@ header.innerHTML=`
         <a href="Frases.html"><li> Frases</li></a> 
 
         <!-- Desplegable -->
-        <li id="desple">Pelis
+        <li id="desple">Pelis <i class="fas fa-chevron-down"></i>
+
+
         <ul id="despegable">     
        <a href="PelisVistas.html"> <li id="desple1" >Pelis Vistas</li></a> 
         <a href="PelisParaVer.html"><li>Pelis Para Ver</li></a> 
@@ -105,7 +110,7 @@ function maindos(){
 			$('nav').animate({
 				right: '-100%'
 			});
-			contadore = 0;
+			contadore = 1;
 		} else {
 			contadore = 1;
 			$('nav').animate({

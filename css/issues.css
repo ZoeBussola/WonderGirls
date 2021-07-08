@@ -1,11 +1,11 @@
 @import url(comun.css);
 
 img{
-    width: 11vw;
-    height: 11vw;
+    width:10rem ;
+    height: 10rem;
     border-radius: 100%;
     background-color: rgba(211, 211, 211, 0.815);
-    margin: 0px 30px 0 0px;
+    margin: 0px 10px 0 0px;
     align-self: center;
 }
 main{
@@ -17,22 +17,22 @@ main{
 }
 .ContenMen{
     background-color: rgba(211, 211, 211, 0.65);
-    display: flex; 
-    padding: 10px 20px;
+    display: flex;
+    padding: 10px 10px 10px 20px;
     border-radius: 20px;
     margin: 10px 15px ;
     height: fit-content;
-    width:450px;
+    width:25%;
 }
 .textos{
     display: flex;
     flex-direction: column;
-    margin: 10px 0px 0 10px;
-    width: 12vw;
+    margin: 15px 0px 0 10px;
+    width: 75%;
 }
 .nombre{
     font-family: var(--titulos);
-    width: 10vw;
+    width: 75%;
 }
 .puntajes{
     margin:5px;
@@ -137,15 +137,21 @@ img{
 margin: 0;
 }
     .ContenMen{
-    
+    width: 90%;
     flex-direction: column;
     justify-content: center;
 }
+.nombre{
+    text-align: center;
+    width: 100%;
+}
 .textos{
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    margin: 10px 0px 0 10px;
-    width: 15vw;
+    margin: 10px 10px 10px 10px;
+    width: 100%;
+    text-align: center;
 }
 .conteinbotones{
     align-items: center;
