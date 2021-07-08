@@ -14,7 +14,7 @@ main{
 }
 
 .fondoZ{
-    background-image: url('img/773a056129c6b4d0f026cdb25423e74f.jpg');
+    background-image: url(img/773a056129c6b4d0f026cdb25423e74f.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -26,7 +26,7 @@ main{
     padding: 10px;
 }
 .fondoF{
-    background-image: url('img/FondoFer.png');
+    background-image: url(img/FondoFer.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -38,7 +38,7 @@ main{
     padding: 10px;
 }
 .fondoM{
-    background-image: url('img/FondoMiru.jpeg');
+    background-image: url(img/FondoMiru.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
