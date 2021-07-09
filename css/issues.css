@@ -119,12 +119,12 @@ main{
    
 }
 .ajuste{
-    height: 100vh;
+    min-height: 100vh;
     background-size: 101% 150%;
     background-position: center;
 }
 .ajusteAbajo{
-    height: 100vh;
+    min-height: 100vh;
     background-size: 101% 150%;
     background-position: center bottom;
 }
