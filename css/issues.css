@@ -132,13 +132,9 @@ main{
 
 
 
-@media (min-width:200px) and (max-width:1200px ){
+@media (min-width:0px) and (max-width:1200px ){
 .main1{
-    /* background-size: 100vw 100vh ;
-    background-attachment: fixed; */
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+   
 background-attachment: fixed;
 }
 .main2{
