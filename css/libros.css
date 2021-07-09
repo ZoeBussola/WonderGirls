@@ -48,7 +48,7 @@ Section {
 
 @media (min-width:200px) and (max-width:1200px ) {
     .CantidadText{
-        width: 100PX;
+        width: 150PX;
         font-size: 15px;
     }
     .numero{
@@ -56,5 +56,8 @@ Section {
     }
     #totales{
         font-size: 30px;
+    }
+    .Contenedor{
+        padding: 20px;
     }
 }
