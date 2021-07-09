@@ -527,7 +527,7 @@ mens.forEach(men=>{
     if (cuantosM4Z.length < 6 ) {
     mainP4.classList.add("ajusteAbajo")
     } 
-    console.log(cuantosM2Z)
+    
 })
 
 
