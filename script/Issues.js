@@ -77,7 +77,7 @@ let mens=[
     {
         nombre:'Inumaki',
         aclaracion:'',
-        img:'/img/inumaki.gif',
+        img:'img/inumaki.gif',
         //img:'https://i.pinimg.com/736x/0a/80/f2/0a80f21fd4e49d1c5df5269e805c5a94.jpg',
         puntajeF:8,
         puntajeZ:8,
@@ -94,7 +94,7 @@ let mens=[
     {
         nombre:'Chat Noir',
         aclaracion:'',
-        img:'/img/CharaImage_Cat_Noir.png',
+        img:'img/CharaImage_Cat_Noir.png',
         puntajeF:9,
         puntajeZ:9,
         puntajeM:0,
@@ -102,7 +102,7 @@ let mens=[
     {
         nombre:'Luka',
         aclaracion:'',
-        img:'/img/CharaImage_Luka_Couffaine.png',
+        img:'img/CharaImage_Luka_Couffaine.png',
         puntajeF:10,
         puntajeZ:10,
         puntajeM:0,
@@ -119,7 +119,7 @@ let mens=[
     {
         nombre:'Kael',
         aclaracion:'Libro de dragones',
-        img:'/img/descarga11.jpg',
+        img:'img/descarga11.jpg',
         puntajeF:10,
         puntajeZ:8,
         puntajeM:0,
@@ -250,7 +250,7 @@ let mens=[
     {
         nombre:'El pelado tatuado de alice in borderland',
         aclaracion:'',
-        img:'/img/S01E07.jpg',
+        img:'img/S01E07.jpg',
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
@@ -258,7 +258,7 @@ let mens=[
     {
         nombre:'El papá de bambi',
         aclaracion:'El rey del bosque',
-        img:'/img/1692979_1533569449294_full.jpg',
+        img:'img/1692979_1533569449294_full.jpg',
         puntajeF:0,
         puntajeZ:8,
         puntajeM:0,
@@ -299,7 +299,7 @@ let mens=[
         nombre:'Gojo',
         //img:'https://www.tonica.la/__export/1620853539620/sites/debate/img/2021/05/12/5-curiosidades-que-no-sabias-de-satoru-gojo.jpg_423682103.jpg',
         aclaracion:'', 
-        img:'/img/2075bcf401012c9c6336be9d383c255c1f6db5b9r1-498-280_hq1.gif',
+        img:'img/2075bcf401012c9c6336be9d383c255c1f6db5b9r1-498-280_hq1.gif',
         puntajeF:9,
         puntajeZ:9,
         puntajeM:9,
@@ -347,7 +347,7 @@ let mens=[
     {
         nombre:'Caspian',
         aclaracion:'',
-        img:'/img/24868245._SX540_.jpg',
+        img:'img/24868245._SX540_.jpg',
         puntajeF:7,
         puntajeZ:8,
         puntajeM:6,
@@ -355,7 +355,7 @@ let mens=[
     {
         nombre:'Rowan',
         aclaracion:'Del libro TOG',
-        img:'/img/descarga (1).jpg',
+        img:'img/descarga (1).jpg',
         puntajeF:0,
         puntajeZ:10,
         puntajeM:0,
@@ -387,7 +387,7 @@ let mens=[
     {
         nombre:'Aizawa Sensei',
         aclaracion:'',
-        img:'/img/La_cicatriz_de_Shota_de_su_pelea_con_Nomu.png',
+        img:'img/La_cicatriz_de_Shota_de_su_pelea_con_Nomu.png',
         puntajeF:0,
         puntajeZ:8,
         puntajeM:0,
@@ -395,7 +395,7 @@ let mens=[
     {
         nombre:'Barbarians',
         aclaracion:'',
-        img:'/img/image0.jpg',
+        img:'img/image0.jpg',
         puntajeF:9,
         puntajeZ:9,
         puntajeM:9,

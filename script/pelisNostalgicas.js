@@ -21,7 +21,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'Frutillita película de navidad ',
-        img:'/img/PelisN/Frutillita.jpg',
+        img:'img/PelisN/Frutillita.jpg',
     },
     {
         titulo:'House of mouse especial de halloween',
@@ -33,7 +33,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'Película de goofy 2',
-        img:'/img/PelisN/Extremadamente_goofy.jpg',
+        img:'img/PelisN/Extremadamente_goofy.jpg',
     },
     {
         titulo:'Las locuras de kronk',
@@ -69,7 +69,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'Diario de una adolescente',
-        img:'/img/PelisN/196751.jpg',
+        img:'img/PelisN/196751.jpg',
     },
     {
         titulo:'La niñera vampiro',
@@ -77,7 +77,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'Pedro pollo',
-        img:'/img/PelisN/Hatchingpeteposter.jpg',
+        img:'img/PelisN/Hatchingpeteposter.jpg',
     },
     {
         titulo:'Minutemen',
@@ -85,7 +85,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'Halloweentown 1 2 3',
-        img:'/img/PelisN/Disney_-_Halloweentown.jpg',
+        img:'img/PelisN/Disney_-_Halloweentown.jpg',
     },
     {
         titulo:'La guardería de papá',
@@ -93,7 +93,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'La mansion embrujada',
-        img:'/img/PelisN/La_mansion_embrujada_portada.jpg',
+        img:'img/PelisN/La_mansion_embrujada_portada.jpg',
     },
     {
         titulo:'Pequeños genios',
@@ -101,7 +101,7 @@ const PelisNostalgicas=[
     },
     {
         titulo:'Un golpe de suerte',
-        img:'/img/PelisN/JustMyLuck.jpg',
+        img:'img/PelisN/JustMyLuck.jpg',
     },
     
 ]

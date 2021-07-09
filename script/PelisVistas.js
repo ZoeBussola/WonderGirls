@@ -1,7 +1,7 @@
 const Peliculas=[
     {
         titulo:'Wolf Children',
-        img:'/img/wolf-children.jpg',
+        img:'img/wolf-children.jpg',
         ratingM:6,
         ratingZ:9,
         ratingF:6,
@@ -84,7 +84,7 @@ const Peliculas=[
     },
     {
         titulo:'Yuri on Ice',
-        img:'/img/yuri-on-ice-la-serie-anime-sera-proyectada-en-cinepolis-01.jpg',
+        img:'img/yuri-on-ice-la-serie-anime-sera-proyectada-en-cinepolis-01.jpg',
         ratingM:9,
         ratingZ:9,
         ratingF:9,
