@@ -45,3 +45,16 @@ Section {
     color: rgb(82, 4, 82);
     font-size: 40px;
 }
+
+@media (min-width:200px) and (max-width:1200px ) {
+    .CantidadText{
+        width: 100PX;
+        font-size: 15px;
+    }
+    .numero{
+        font-size: 18px;
+    }
+    #totales{
+        font-size: 30px;
+    }
+}
