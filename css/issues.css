@@ -134,6 +134,8 @@ main{
 
 @media(max-width:1100px){
 .main1{
+    width: auto;
+    height: auto;
         background-attachment: fixed;
 }
 .main2{
