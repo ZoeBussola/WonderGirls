@@ -48,25 +48,44 @@ main{
     height: 88vh;
     margin: 0px;
 }
+.escudo{
+    margin-top: 120px;
+    margin-left: 20px;
+    width:25rem;
+    height: 25rem;
+    position: absolute;
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+   
+}
+
 .cajaCasa{
      margin: 15px;
     border-radius: 30px;
     box-shadow: none;
-    width: 22rem;
-    height: 33rem;
+    width: 25rem;
+    height: 40rem;
     border-radius: 30px;
     transition: box-shadow 1s;
 
 }
-.cajaCasa:hover{
+.portal:hover .cajaCasa{
+    
 box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
 -webkit-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
 -moz-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
     transition: box-shadow 0.8s;
    transform: scale(1.05);
    transition: transform 0.8s;
-   /* filter: blur(2px); */
+   filter: blur(2px); 
+   z-index: 10;
 }
+.portal:hover .escudo{
+    z-index: 1000;
+    visibility: visible;
+  opacity: 1;
+} 
 .CasaFondo{
     padding: 0px 30px;
 }
