@@ -278,6 +278,7 @@ nav ul a:hover li  {
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		box-sizing:border-box;
+        float: right;
 	}
 
 	.menu_bar span {
