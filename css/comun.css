@@ -63,7 +63,7 @@ header .logo{
 }
 header nav {
 	display: flex;
-    margin-left: 1rem;
+    margin-left: 10rem;
    
 }
 
@@ -186,8 +186,8 @@ nav ul a:hover li  {
 }
 
 @media (min-width:200px) and (max-width:1200px ) {
-    #Home{
-        
+    .logo{
+        height: fit-content;
     }
     #cerrar{
         width: 20px;
