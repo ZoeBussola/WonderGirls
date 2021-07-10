@@ -186,7 +186,7 @@ nav ul a:hover li  {
 }
 
 @media (min-width:200px) and (max-width:1200px ) {
-    .logo{
+    header .logo{
         margin-left: 2rem;
         margin-top: 0.8rem;
         width: 80vw;
