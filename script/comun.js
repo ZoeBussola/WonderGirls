@@ -2,7 +2,7 @@ let header = document.querySelector("header")
 
 header.innerHTML=`
 
-<a href="index.html" id="Home"><h1> Wonder Girls</h1> </a>
+<a href="index.html" id="Home"><img src="/img/Recurso 1.png" alt="" class="logo"></a>
 
 <div class="menu_bar">
     <a href="#" class="bt-menu">
@@ -28,6 +28,7 @@ header.innerHTML=`
        <a href="PelisVistas.html"> <li id="desple1" >Pelis Vistas</li></a> 
         <a href="PelisParaVer.html"><li>Pelis Para Ver</li></a> 
         <a href="PelisNoltagicas.html"><li>Peliculas Nostalgicas</li> </a>
+		<a href="pRandom.html"><li>Peliculas Random</li> </a>
         </ul>
         </li>
 

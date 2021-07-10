@@ -6,7 +6,8 @@ main{
 }
 
 .Version2 {
-    margin: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     background-color: rgba(255, 255, 255, 0.897);
     padding: 0 0 15px 0;
     box-shadow: 4px 7px 16px 0px rgba(176,159,159,0.75);
@@ -15,15 +16,15 @@ main{
    
 }
 .Version2Img{
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 280px;
     padding: 0;
    
 }
 .Version2Div{
     margin: 0;
-    width: 320px;
-    height: 15vh;
+    width: 300px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     padding:10px 0 0 0 ;
@@ -68,6 +69,5 @@ main{
     }
 
     .Version2 p{
-        padding-bottom: 20px;
     }
 }

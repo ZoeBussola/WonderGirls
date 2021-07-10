@@ -426,7 +426,7 @@ mens.forEach(men=>{
 
   template = `
  <div class="ContenMen">
-         <img src="${men.img}" alt="">
+         <img class="fotoH" src="${men.img}" alt="">
          <section class="textos">
              <h3 class="nombre">${men.nombre}</h3>
          <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -483,7 +483,7 @@ cambioZoe.addEventListener('click',function () {
 mens.forEach(men=>{
             template = `
     <div class="ContenMen">
-            <img src="${men.img}" alt="">
+            <img class="fotoH" src="${men.img}" alt="">
             <section class="textos">
                 <h3 class="nombre">${men.nombre}</h3>
             <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -557,7 +557,7 @@ cambioMiru.addEventListener('click',function () {
 
             template = `
     <div class="ContenMen">
-            <img src="${men.img}" alt="">
+            <img class="fotoH" src="${men.img}" alt="">
             <section class="textos">
                 <h3 class="nombre">${men.nombre}</h3>
             <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -633,7 +633,7 @@ cambioFerchu.addEventListener('click',function () {
 
             template = `
             <div class="ContenMen">
-                    <img src="${men.img}" alt="">
+                    <img class="fotoH" src="${men.img}" alt="">
                     <section class="textos">
                         <h3 class="nombre">${men.nombre}</h3>
                     <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -722,7 +722,7 @@ cambio.addEventListener('click',function () {
        
         template = `
         <div class="ContenMen">
-                <img src="${men.img}" alt="">
+                <img class="fotoH" src="${men.img}" alt="">
                 <section class="textos">
                     <h3 class="nombre">${men.nombre}</h3>
                 <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -798,7 +798,7 @@ let cuantosM1=[]
 
         template = `
     <div class="ContenMen">
-            <img src="${men.img}" alt="">
+            <img class="fotoH" src="${men.img}" alt="">
             <section class="textos">
                 <h3 class="nombre">${men.nombre}</h3>
             <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
