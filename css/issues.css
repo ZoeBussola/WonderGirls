@@ -32,7 +32,7 @@ main{
 }
 .nombre{
     font-family: var(--titulos);
-    width: 75%;
+    width: 100%;
 }
 .puntajes{
     margin:5px;
