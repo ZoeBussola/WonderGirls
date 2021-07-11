@@ -97,14 +97,14 @@ box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
     }
     .fondoZ{
         width: 98%;
-    
+        align-items: center;
     }
     .fondoF{
         width: 98%;
-      
+        align-items: center;
     }
     .fondoM{
-       
+        align-items: center;
         width: 98%;
     }
 }
