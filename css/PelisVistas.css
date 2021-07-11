@@ -30,20 +30,20 @@ main{
     padding:10px 0 0 0 ;
 }
 .Version2 p{
-    font-family : var(--cards);
-	font-size : 20px;
+    font-family: var(--cards);
+    font-weight: lighter;
+	font-size : 18px;
 	color : #1D1D1B;
-    padding: 0px 0px 0px 10px;
     width: 320px;
-
-   
+    margin-top: 5px;
+    padding: 0 15px;
 }
 .Version2 h3{
 	font-size : 25px;
 	color : #1D1D1B;
     padding: 5px 15px;
     font-family: var(--cards);
-    text-align: center;
+    font-weight: bold;
 }
 
 @media(max-width:1240px){
