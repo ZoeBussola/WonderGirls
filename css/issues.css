@@ -133,19 +133,26 @@ main{
 
 
 @media (max-width:1100px ){
-.main1{
-   
-background-attachment: fixed;
-}
-.main2{
-    background-attachment: fixed;
-}
-.main3{
-    background-attachment: fixed;
-}
-.main4{
-    background-attachment: fixed;
-}
+    .main1{
+        background-position: center top;
+        background-size: 100vw auto;
+        background-repeat:repeat-y
+    }
+    .main2{
+        background-position: center top;
+        background-size: 100vw auto;
+        background-repeat:repeat-y
+    }
+    .main3{
+        background-position: center top;
+        background-size: 100vw auto;
+        background-repeat:repeat-y
+    }
+    .main4{
+        background-position: center top;
+        background-size: 100vw auto;
+        background-repeat:repeat-y
+    }
 img{
     margin: 0;
 }

@@ -632,7 +632,10 @@ cambioFerchu.addEventListener('click',function () {
         mens.forEach(men=>{
 
             template = `
+            <div class="Fijado">
+            <div class="Bienijado">
             <div class="ContenMen">
+            
                     <img class="fotoH" src="${men.img}" alt="">
                     <section class="textos">
                         <h3 class="nombre">${men.nombre}</h3>
@@ -641,6 +644,8 @@ cambioFerchu.addEventListener('click',function () {
                     <span class="puntajes">Puntaje Miruchi: ${men.puntajeM == 0?'-':men.puntajeM} </span>
                     <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
                     </section>
+                    </div>
+                    </div>
                 </div>
                 `
             if (men.puntajeF == 10) {
