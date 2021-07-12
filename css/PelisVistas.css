@@ -3,6 +3,7 @@
 main{
     display: flex;
     justify-content: space-evenly;
+    width: 98%;
 }
 
 .Version2 {
@@ -32,14 +33,14 @@ main{
 .Version2 p{
     font-family: var(--cards);
     font-weight: lighter;
-	font-size : 18px;
+	font-size: 15px;
 	color : #1D1D1B;
     width: 320px;
     margin-top: 5px;
     padding: 0 15px;
 }
 .Version2 h3{
-	font-size : 25px;
+	font-size: 18px;
 	color : #1D1D1B;
     padding: 5px 15px;
     font-family: var(--cards);
