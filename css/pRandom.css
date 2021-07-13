@@ -103,3 +103,36 @@ margin-left: 5rem;
     margin-right: 10px;
 }
 
+@media (max-width:1200px ){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        background: var(--Ccomun);
+        height: fit-content;
+        width: fit-content;
+    }
+    .pelicula{
+        background-color: var(--miru);
+        flex-direction: column;
+        align-items: left;
+        margin-left: 2rem;
+    }
+    .pelicula img{
+        margin-top: 1rem;
+        margin-left:5rem ;
+    }
+    .masInfo {
+        position: absolute;
+        margin-top: 2rem;
+        margin-right: 3rem;
+        align-self: flex-end;
+    }
+    .posicion{
+        text-align: right;
+        margin: 0.5rem;
+    }
+}
