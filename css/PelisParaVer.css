@@ -1,60 +1,105 @@
 @import url(comun.css);
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Sen:wght@400;700;800&display=swap");
 
 main{
-    justify-content: center;
+  background-image: url(img/Fondo.png);
+  background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    justify-content: center; 
     width: 100vw;
     height: 85vh;
 }
 .contenedor{
   font-weight: bolder;
-    margin: 80px;
-    width: 25%;
+  margin: 70px;
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image:url(img/Libreta.png) ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding: 50px 40px 0 40px;
+  border-radius: 30px;
+}
+.pelirandom{
+  background-image:url(/img/Random_1.png) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 20%;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #fcb9b2ca;
-    height: fit-content;
-    padding: 20px 40px;
-    border-radius: 30px;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 25px;
+}
+.Rtextos{
+  align-self: center;
+  font-family: var(--textos);
+  height: fit-content;
+  margin: 0 0 0 10px;
+}
+#acanombre{
+  height: 35%;
+  margin-top: 20px;
+  display: flex;
+}
+.aparecer{
+  background-color:rgba(216, 191, 216, 0.808);
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  align-self: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+}
+.aparecerDos{
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  align-self: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 30px;
+  background-color:var(--miru);
 }
 section {
   font-weight: bolder;
     /* position: relative; */
     width: 100%;
-    margin: 15px 30px;
+    margin: 15px 10px;
+    height: 1rem;
     text-align: center;
+    display: flex
   } 
- @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Sen:wght@400;700;800&display=swap");
+
+
 
  .boton{
-  width: 6rem;
-  height: 6rem;
   background: none;
   border-style: none;
-  margin-right: 2rem;
+  align-self: center;
+  justify-content: start;
 }
-.fa-dice{
-  font-size: 4rem;
-}
-.Rtextos{
-  font-size: 2rem;
-
+.botonimg{
+  width: 9rem;
+  height: 3rem;
+  align-self: start;
 }
 /* Check Vacio */
 input[type="checkbox"] + label:before {
 	content: "";
     font-family: var(--textos);
     font-weight: bolder;
-	width: 26px;
-	height: 26px;
 	float: left;
-	margin: 0.5em 0.5em 0 0;
+	margin: 0.9em 0.5em 0 0;
 	border: 2px solid black;
 	background: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
    
 }
@@ -70,10 +115,10 @@ input[type="checkbox"]:checked + label:after {
     height: 10px;
     border: 4px solid black;
     float: left;
-    margin-left: -2em;
+    margin-left: -1.7em;
     border-right: 0;
     border-top: 0;
-    margin-top: 1em;
+    margin-top: 1.1em;
     transform: rotate(-55deg);
 }
 
@@ -84,7 +129,8 @@ input[type="checkbox"] {
 /* texto antes */
 input[type="checkbox"] + label {
     font-weight: bolder;
-    line-height: 3em;
+    text-align: center;
+    line-height:  80px;
     color: black;
     font-family: var(--titulos);
 }
@@ -99,16 +145,38 @@ input[type="checkbox"]:checked + label {
 .textos{
     font-size: 23px;
 }
-@media (max-width : 1200px){
+@media (max-width : 1300px){
   main{
-    
-  }
-  .contenedor{
-    margin:10px;
-  width: 100%;
-  padding: 0px;
+    padding: 20px 0 0 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+        justify-content: center;
+    }
+.contenedor{
+  margin:0;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 500px;
+  padding: 50px 40px 0 40px;
+}
+.pelirandom{
+  margin: 0;
+  width: 290px;
+  height: 150px;
+}
+input[type="checkbox"] + label {
+  line-height: 80px;
+ 
+}
+.textos{
+  font-size:1.3em;
 }
 section{
-  margin: 10px;
+  margin: 12px;
+  
 }
 }
