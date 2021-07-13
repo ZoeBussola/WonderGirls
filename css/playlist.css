@@ -12,6 +12,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .contenedor{
+	margin: 10px;
     width: 20em;
 background-color: white;
 display: flex;
@@ -177,3 +178,27 @@ section ul{
 	font-family: var(--textos);
 	text-align: center;
 }
+@media (max-width:1200px ){
+	main{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contenedor{
+		width: 80vw;
+		padding: 10px;
+		margin: 20px;
+		height: fit-content;
+	}
+	.contenedor.tipos{
+		min-height: fit-content;
+		padding: 10px;	
+	}
+	.contenedor.playList{
+		min-height: fit-content;
+		padding: 10px;
+	}
+	#playList{
+		margin-left: 1rem;
+	}
+	}
