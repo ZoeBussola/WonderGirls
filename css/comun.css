@@ -204,6 +204,9 @@ nav ul a:hover li  {
         margin-top: 0.8rem;
         width: 10rem;
     }
+    i{
+        color: #321156;
+    }
     #cerrar{
         width: 20px;
         display: block;
