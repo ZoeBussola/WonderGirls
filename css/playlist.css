@@ -1,0 +1,179 @@
+@import url(comun.css);
+main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+body{
+    background-color: var(--miru)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.contenedor{
+    width: 25em;
+background-color: white;
+display: flex;
+justify-items: center;
+flex-direction:column;
+border-radius: 30px;
+height: fit-content;
+padding: 10px;
+}
+.contenedor.tipos{
+		min-height: 550px;
+		padding: 2rem;
+}
+.tipos{
+	width: 15rem;
+	align-items: center;
+	justify-content: center;
+
+}
+.tipos button{
+	background: lightskyblue;
+	border-style: none;
+	border-radius: 30px;
+	width: 15rem;
+	height: 5rem;
+	margin: 5px;
+	font-size: 1.5rem;
+	box-shadow: var(--shadow);
+	font-family: var(--textos);
+	font-weight: bolder;
+	padding:10px;
+}
+.tipos button:hover{
+	box-shadow:none;
+}
+.portada{
+    width: 12rem;
+    border-radius: 30px;
+    align-self: center;
+    margin: 1rem;
+    background-color: rgb(135, 206, 250);
+
+}
+#playList{
+	border-radius: 10px;
+	text-align: left;
+	opacity: 0.8;
+	color:lightskyblue;
+	
+}
+
+ol li{
+	padding: 10px;
+    margin-left: 10px;
+	font-size: 1.5rem;
+}
+ol li:hover, svg:hover {
+	cursor: pointer;
+	color: var(--zochu);
+}
+ol li.active{
+	color:var(--zochu);
+}
+#controls{
+	border-radius: 10px;
+	padding: 10px;
+	opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botones{
+    justify-content: space-around;
+    
+    width: 100%;
+}
+i{
+    color: lightskyblue;
+}
+svg{
+	color: var(--zochu);
+}
+ 
+progress{
+	width: 90%;
+	margin: 10px;
+	opacity: 0.5;
+ align-self: center;
+}
+ 
+.timer{
+	width:50%;
+    font-size: 0.9rem;
+	position: relative;
+	top:-10px;
+	left:1.2rem;
+	text-align:left;
+	float:left;
+	color: var(--zochu);
+}
+.listVol{
+    width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+
+.volumen{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.fa-volume-up{
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+.fa-volume-down{
+    font-size: 1.5rem;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+.play .fas{
+    font-size: 5rem;
+}
+#currentPlay{
+	color: var(--zochu);
+    text-align: center;
+}
+
+.despli{
+    display: block;
+}
+section ul{
+    display: none;
+}
+
+.volumen div{
+    display: none;
+    visibility: hidden;
+}
+
+.volumen .infoVol{
+    display: block;
+    visibility: visible;
+}
+.contenedor.playList{
+	padding: 2rem;
+}
+.playList{
+	min-height: 550px;
+}
+.playicono{
+    width: 50px;
+    margin-left: 10px;
+}
+.topplaylist{
+	display: flex;
+	justify-content:center;
+}
+.topplaylist h3{
+	font-size: 2rem;
+	font-family: var(--textos);
+	text-align: center;
+}
