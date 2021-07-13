@@ -108,14 +108,16 @@ header nav ul li  {
 }
 #despleDos{
     cursor: pointer;
-    padding-top: 20px;
-    border-bottom-right-radius:0 ;
+    padding: 10px;
+    padding-top: 12px;
+    border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 .fa-chevron-down{
     margin-left: 5px;
     transform: rotate(180deg);
     transition:  0.5s;
+    color: var(--zochu);
 }
 #desple:hover .fa-chevron-down{
     margin-left: 5px;

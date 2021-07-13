@@ -12,7 +12,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .contenedor{
-    width: 25em;
+    width: 20em;
 background-color: white;
 display: flex;
 justify-items: center;
@@ -22,7 +22,7 @@ height: fit-content;
 padding: 10px;
 }
 .contenedor.tipos{
-		min-height: 550px;
+	min-height: 450px;
 		padding: 2rem;
 }
 .tipos{
@@ -38,7 +38,7 @@ padding: 10px;
 	width: 15rem;
 	height: 5rem;
 	margin: 5px;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	box-shadow: var(--shadow);
 	font-family: var(--textos);
 	font-weight: bolder;
@@ -66,7 +66,7 @@ padding: 10px;
 ol li{
 	padding: 10px;
     margin-left: 10px;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 ol li:hover, svg:hover {
 	cursor: pointer;
@@ -162,7 +162,7 @@ section ul{
 	padding: 2rem;
 }
 .playList{
-	min-height: 550px;
+	min-height: 450px;
 }
 .playicono{
     width: 50px;
@@ -173,7 +173,7 @@ section ul{
 	justify-content:center;
 }
 .topplaylist h3{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-family: var(--textos);
 	text-align: center;
 }

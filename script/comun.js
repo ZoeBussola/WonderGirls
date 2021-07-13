@@ -40,9 +40,6 @@ header.innerHTML=`
 		<li id="despleDos">Musiquita <i class="fas fa-chevron-down"></i>
         <ul id="despegableDos">     
        <a href="Playlist.html"> <li id="desple1">Playlists </li></a> 
-        <a href=""><li> </li></a> 
-        <a href=""><li> </li></a>
-		<a href=""><li> </li></a>
         </ul>
         </li>
 
