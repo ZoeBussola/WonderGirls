@@ -139,3 +139,13 @@ desple.addEventListener("click",function () {
 desple.addEventListener('mouseleave',function () {
 	desplegable.classList.remove('despegable')
 })
+
+let despleDos =document.querySelector("#despleDos")
+let desplegableDos =document.querySelector("#despegableDos")
+
+despleDos.addEventListener("click",function () {
+	desplegableDos.classList.toggle('despegable')
+})
+despleDos.addEventListener('mouseleave',function () {
+	desplegableDos.classList.remove('despegable')
+})
