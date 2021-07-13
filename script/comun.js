@@ -2,7 +2,7 @@ let header = document.querySelector("header")
 
 header.innerHTML=`
 
-<a href="index.html" id="Home"><img src="/img/Recurso 1.png" alt="" class="logo"></a>
+<a href="index.html" id="Home"><img src="img/Recurso 1.png" alt="" class="logo"></a>
 
 <div class="menu_bar">
     <a href="#" class="bt-menu">
