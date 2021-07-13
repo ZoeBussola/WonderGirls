@@ -2,7 +2,7 @@ let header = document.querySelector("header")
 
 header.innerHTML=`
 
-<a href="index.html" id="Home"><img src="img/Recurso 1.png" alt="" class="logo"></a>
+<a href="index.html" id="Home"><img src="/img/Recurso 1.png" alt="" class="logo"></a>
 
 <div class="menu_bar">
     <a href="#" class="bt-menu">
@@ -16,14 +16,12 @@ header.innerHTML=`
 
         <button id="cerrar" class="cerrar">x</button>
         
-        <a href="Issues.html"><li>Issue</li></a>
+        <a href="/Issues.html"><li>Issue</li></a>
 
         <a href="Frases.html"><li> Frases</li></a> 
 
         <!-- Desplegable -->
         <li id="desple">Pelis <i class="fas fa-chevron-down"></i>
-
-
         <ul id="despegable">     
        <a href="PelisVistas.html"> <li id="desple1" >Pelis Vistas</li></a> 
         <a href="PelisParaVer.html"><li>Pelis Para Ver</li></a> 
@@ -37,6 +35,16 @@ header.innerHTML=`
        <a href="PowersPoint.html"><li>PowersPoints</li></a>
 
         <a href="Libros.html"><li>Libros</li> </a>
+
+		<!-- Desplegable Dos -->
+		<li id="despleDos">Musiquita <i class="fas fa-chevron-down"></i>
+        <ul id="despegableDos">     
+       <a href="Playlist.html"> <li id="desple1">Playlists </li></a> 
+        <a href=""><li> </li></a> 
+        <a href=""><li> </li></a>
+		<a href=""><li> </li></a>
+        </ul>
+        </li>
 
     </ul>
 </nav>

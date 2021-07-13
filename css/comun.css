@@ -4,6 +4,7 @@
 @import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 
 
+
 :root{
     --zochu:#321156;
     --ferchu:#D0EEFF;
@@ -50,8 +51,7 @@ a{
 }
 
 header {
-    width: 20rem;
-    padding: 10px 0 10px 0px;
+    padding: 15px 0 15px 0px;
     background:radial-gradient( var(--Ccomun) 80%,var(--miru));
      box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.42);
     display: flex;
@@ -63,7 +63,7 @@ header .logo{
 }
 header nav {
 	display: flex;
-    margin-left: 10rem;
+    margin-left: 16rem;
    
 }
 
@@ -72,7 +72,7 @@ header nav {
 }
 
 header nav ul {
-    width: 800px;
+    width: 900px;
 	/* overflow:hidden; */
 	list-style:none;
    
@@ -81,7 +81,7 @@ header nav ul {
 header nav ul a li  {
 	float:left;
 	color:var(--zochu);
-	padding: 12px;
+	padding:20px;
 	display:block;
 	text-decoration:none;
     font-family: var(--textos);
@@ -90,23 +90,30 @@ header nav ul a li  {
 header nav ul li  {
     
 	margin-right:10px;
+        padding: 10px;
         list-style-type: none;
         font-family:var(--textos);
         color: var(--zochu);
         font-weight: bolder;
-        font-size: 15px;
+        font-size: 20px;
         -webkit-transition:all 500ms ease;
         -o-transition: all 500ms ease;
         transition:all 50ms ease;
 }
 #desple{
     cursor: pointer;
-    padding: 10px;
-    padding-top: 12px;
+    padding-top: 20px;
+    border-bottom-right-radius:0 ;
+    border-bottom-left-radius: 0;
+}
+#despleDos{
+    cursor: pointer;
+    padding-top: 20px;
     border-bottom-right-radius:0 ;
     border-bottom-left-radius: 0;
 }
 .fa-chevron-down{
+    color: var(--zochu);
     margin-left: 5px;
     transform: rotate(180deg);
     transition:  0.5s;
@@ -116,8 +123,12 @@ header nav ul li  {
     transform: rotate(0deg);
     transition:  0.5s;
 }
+#despleDos:hover .fa-chevron-down{
+    margin-left: 5px;
+    transform: rotate(0deg);
+    transition:  0.5s;
+}
 #desple1{
-    
     border-top-left-radius: 0;
 }
 li:hover{
@@ -157,7 +168,7 @@ nav ul a:hover li  {
     padding:0;
     border-radius:20px;
      flex-direction: column;
-   }
+ }
    .despegable li {
 
     margin: 0px;
@@ -275,7 +286,6 @@ nav ul a:hover li  {
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		box-sizing:border-box;
-        float: right;
 	}
 
 	.menu_bar span {
