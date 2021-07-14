@@ -116,7 +116,7 @@ const Peliculas=[
     },
     {
         titulo:'El Viaje de Chihiro',
-        img:'http://www.kirainet.com/wp-content/uploads/2011/08/chihiro3.jpg',
+        img:'https://www.kirainet.com/wp-content/uploads/2011/08/chihiro3.jpg',
         ratingM:10,
         ratingZ:9,
         ratingF:9,
