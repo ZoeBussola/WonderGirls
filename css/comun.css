@@ -286,7 +286,7 @@ nav ul a:hover li  {
 		display:block;
 		padding:20px;
 		background:var(--Ccomun);
-		color:#D0EEFF;
+		color:var(--zochu);
 		text-decoration:none;
 		font-size:25px;
 		-webkit-box-sizing:border-box;
