@@ -93,17 +93,16 @@ main{
 }
 .main1{
     background-image: url(../img/Issues/ISSUES-01.jpg) ;
-    background-size: 101% 104%;
+    background-size: 101% auto;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center 40%;
 
 }
 .main2{
     background-image: url(../img/Issues/ISSUES-02.jpg) ;
-    background-size: 101% 120%;
+    background-size: 120rem 100rem;
     background-repeat: no-repeat;
-    background-position: center top;
-    
+    background-position: center center;
 }
 .main3{
     background-image: url(../img/Issues/ISSUES-03.jpg) ;
