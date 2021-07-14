@@ -37,7 +37,7 @@ main{
 }
 .pelirandom{
   width: 300px;
-  height: 180px;
+    height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -46,7 +46,7 @@ main{
 }
 .randomimg{
   width: 300px;
-  height: 210px;
+  height: 180px;
   position: absolute;
   z-index: -9;
 }
@@ -138,6 +138,7 @@ input[type="checkbox"]:checked + label:after {
     border-top: 0;
     margin-top: 0.1em;
     transform: rotate(-55deg);
+    z-index: 0;
 }
 
 
@@ -203,7 +204,7 @@ input[type="checkbox"] + label {
 }
 input[type="checkbox"]:checked + label:after {
   margin-left: -2.5em;
-);
+
 }
 .textos{
   font-size: 0.8rem;

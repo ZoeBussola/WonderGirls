@@ -256,6 +256,7 @@ nav ul a:hover li  {
 	}
     #menu{
         align-self: start;
+        z-index: 1000;
     }
     #menu ul li {
         float: none;
