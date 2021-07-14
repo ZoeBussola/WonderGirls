@@ -5,7 +5,11 @@ main{
     justify-content: space-evenly;
     width: 98%;
 }
-
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .Version2 {
     margin-bottom: 25px;
     margin-top: 25px;

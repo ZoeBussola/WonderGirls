@@ -370,7 +370,7 @@ const Peliculas=[
     },
 
 ]
-let main=document.querySelector("main")
+let main=document.querySelector("article")
 
 Peliculas.forEach(pelicula => {
     let rating = (pelicula.ratingZ+pelicula.ratingM+pelicula.ratingF)/3
