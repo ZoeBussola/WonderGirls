@@ -10,13 +10,14 @@ main{
 .fondo{
   position: absolute;
   width: 100%;
+  top: 1px;
   z-index: -10;
 }
 .contenedor{
   font-weight: bolder;
     margin: 20px;
     width: 300px;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -158,7 +159,7 @@ input[type="checkbox"]:checked + label {
     font-weight: bolder;
 }
 .textos{
-    font-size: 130%;
+    font-size: 100%;
   
 }
 @media (max-width : 1300px){
@@ -181,29 +182,29 @@ input[type="checkbox"]:checked + label {
 .contenedor{
   margin:0;
   margin-bottom: 20px;
-  padding: 50px 40px 0 40px;
+  padding: 0;
 }
 .pelirandom{
   margin: 5rem;
   margin: 0;
   padding: 0;
   height: 190px;
+  justify-content: center;
 }
 .randomimg{
-  width: 390px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
 }
 input[type="checkbox"] + label {
-  line-height: 80px;
+  line-height: 60px;
  
 }
 .textos{
   
-  font-size:1.3em;
 }
 section{
-  margin: 1px 15px;
-  margin-top: 24px;
+  margin: 9px 15px;
+  margin-top: 10px;
   
 }
 }
