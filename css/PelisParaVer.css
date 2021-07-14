@@ -189,14 +189,13 @@ input[type="checkbox"]:checked + label {
   padding: 0;
 }
 .pelirandom{
-  margin: 5rem;
-  margin: 0;
+  margin-bottom: 50px;
   padding: 0;
   height: 190px;
   justify-content: center;
 }
 .randomimg{
-  margin: 5rem;
+  
   width: 300px;
   height: 200px;
 }
