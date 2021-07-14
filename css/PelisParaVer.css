@@ -79,7 +79,7 @@ section {
   font-weight: bolder;
     /* position: relative; */
     width: 100%;
-    margin: 25px 10px;
+    margin: 11px 15px;
     height: 1rem;
     text-align: center;
     display: flex
@@ -200,7 +200,8 @@ input[type="checkbox"] + label {
   font-size:1.3em;
 }
 section{
-  margin-top: 25px;
+  margin: 1px 15px;
+  margin-top: 24px;
   
 }
 }
