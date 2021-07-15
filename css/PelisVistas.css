@@ -2,52 +2,38 @@
 
 main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 98%;
 }
 article{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.Version2 {
-    margin-bottom: 25px;
-    margin-top: 25px;
+.card {
+    width: 22vw;
+    height: 55vh;
+    margin-top: 15px;
     background-color: rgba(255, 255, 255, 0.897);
-    padding: 0 0 15px 0;
     box-shadow: 4px 7px 16px 0px rgba(176,159,159,0.75);
 -webkit-box-shadow: 4px 7px 16px 0px rgba(176,159,159,0.75);
 -moz-box-shadow: 4px 7px 16px 0px rgba(176,159,159,0.75);
    
 }
-.Version2Img{
-    width: 300px;
-    height: 280px;
-    padding: 0;
-   
+.cardImg{
+  box-sizing: border-box;
+  width: 100%;
+  height: 70%;
 }
-.Version2Div{
-    margin: 0;
-    width: 300px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    padding:10px 0 0 0 ;
+.cardtextos{
+   margin: 0.5rem;
+   font-family: var(--cards);
 }
-.Version2 p{
-    font-family: var(--cards);
-    font-weight: lighter;
-	font-size: 15px;
-	color : #1D1D1B;
-    width: 320px;
-    margin-top: 5px;
-    padding: 0 15px;
+.card p{
+    margin-bottom: 0.2rem;
 }
-.Version2 h3{
-	font-size: 18px;
-	color : #1D1D1B;
-    padding: 5px 15px;
-    font-family: var(--cards);
+.card h3{
+	margin-bottom: 0.3rem;
     font-weight: bold;
 }
 
@@ -58,21 +44,22 @@ article{
         margin: 0;
         
     }
-    .Version2 {
+    .card {
         width: 320px;
     height: 65vh;
     
     }
-    .Version2 img{
+    .card img{
         width: 320px;
     height: 320px;
     
     }
-    .Version2 h3{
+    .card h3{
         width: 320px;
         padding: 0;
     }
 
-    .Version2 p{
+    .card p{
+        padding-bottom: 20px;
     }
 }
