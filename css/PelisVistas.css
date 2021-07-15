@@ -14,6 +14,7 @@ article{
     width: 20vw;
     height: 55vh;
     margin-top: 15px;
+    padding-bottom: 0.1rem;
     background-color: rgba(255, 255, 255, 0.897);
     box-shadow: 4px 7px 16px 0px rgba(176,159,159,0.75);
 -webkit-box-shadow: 4px 7px 16px 0px rgba(176,159,159,0.75);
@@ -33,6 +34,7 @@ article{
     margin-bottom: 0.2rem;
 }
 .card h3{
+    font-size: 1em;
 	margin-bottom: 0.3rem;
     font-weight: bold;
 }

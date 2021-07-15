@@ -402,7 +402,7 @@ Peliculas.forEach(pelicula => {
                     ${pelicula.titulo}
                 </h3>
                 <p>Rating: ${ratingDecimal}</p>
-                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
+                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥</p>
                 </section>
             </div>
             `
@@ -416,7 +416,7 @@ Peliculas.forEach(pelicula => {
                 ${pelicula.titulo}
             </h3>
             <p>Rating: ${ratingDecimal}</p>
-            <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
+            <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥</p>
             </section>
         </div>
                 `
@@ -430,7 +430,7 @@ Peliculas.forEach(pelicula => {
                     ${pelicula.titulo}
                 </h3>
                 <p>Rating: ${ratingDecimal}</p>
-                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
+                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥</p>
                 </section>
             </div>
             `
@@ -445,7 +445,7 @@ Peliculas.forEach(pelicula => {
              ${pelicula.titulo}
          </h3>
          <p>Rating: ${ratingDecimal}</p>
-         <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
+         <p id="fuegos" class="fuegos">Nivel de Simp: 🔥</p>
          </section>
      </div>
             `
