@@ -370,7 +370,7 @@ const Peliculas=[
     },
 
 ]
-let main=document.querySelector("article")
+let main=document.querySelector("main")
 
 Peliculas.forEach(pelicula => {
     let rating = (pelicula.ratingZ+pelicula.ratingM+pelicula.ratingF)/3
@@ -381,9 +381,9 @@ Peliculas.forEach(pelicula => {
       switch (fuegosDecimal) {
          case '5':
             main.innerHTML+=`
-            <div class="Version2">
-            <img src="${pelicula.img}" alt="" class="Version2Img">
-            <section class="Version2Div">
+            <div class="card">
+            <img src="${pelicula.img}" alt="" class="cardImg">
+            <section class="cardtextos">
             <h3>
                 ${pelicula.titulo}
             </h3>
@@ -395,59 +395,59 @@ Peliculas.forEach(pelicula => {
              break;
              case '4':
                 main.innerHTML+=`
-            <div class="Version2">
-            <img src="${pelicula.img}" alt="" class="Version2Img">
-            <section class="Version2Div">
-            <h3>
-                ${pelicula.titulo}
-            </h3>
-            <p>Rating: ${ratingDecimal}</p>
-            <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥</p>
-            </section>
-        </div>
-            `
-             break;
-             case '3':
-                main.innerHTML+=`
-                <div class="Version2">
-                <img src="${pelicula.img}" alt="" class="Version2Img">
-                <section class="Version2Div">
+                <div class="card">
+                <img src="${pelicula.img}" alt="" class="cardImg">
+                <section class="cardtextos">
                 <h3>
                     ${pelicula.titulo}
                 </h3>
                 <p>Rating: ${ratingDecimal}</p>
-                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥</p>
+                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
                 </section>
             </div>
-                `
+            `
              break;
-             case '2':
+             case '3':
                 main.innerHTML+=`
-            <div class="Version2">
-            <img src="${pelicula.img}" alt="" class="Version2Img">
-            <section class="Version2Div">
+                <div class="card">
+            <img src="${pelicula.img}" alt="" class="cardImg">
+            <section class="cardtextos">
             <h3>
                 ${pelicula.titulo}
             </h3>
             <p>Rating: ${ratingDecimal}</p>
-            <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥</p>
+            <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
             </section>
         </div>
+                `
+             break;
+             case '2':
+                main.innerHTML+=`
+                <div class="card">
+                <img src="${pelicula.img}" alt="" class="cardImg">
+                <section class="cardtextos">
+                <h3>
+                    ${pelicula.titulo}
+                </h3>
+                <p>Rating: ${ratingDecimal}</p>
+                <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
+                </section>
+            </div>
             `
              break;
     
          default :
          main.innerHTML+=`
-            <div class="Version2">
-            <img src="${pelicula.img}" alt="" class="Version2Img">
-            <section class="Version2Div">
-            <h3>
-                ${pelicula.titulo}
-            </h3>
-            <p>Rating: ${ratingDecimal}</p>
-            <p id="fuegos" class="fuegos">Nivel de Simp: 🔥</p>
-            </section>
-        </div>
+         <div class="card">
+         <img src="${pelicula.img}" alt="" class="cardImg">
+         <section class="cardtextos">
+         <h3>
+             ${pelicula.titulo}
+         </h3>
+         <p>Rating: ${ratingDecimal}</p>
+         <p id="fuegos" class="fuegos">Nivel de Simp: 🔥🔥🔥🔥🔥</p>
+         </section>
+     </div>
             `
              break;
      }

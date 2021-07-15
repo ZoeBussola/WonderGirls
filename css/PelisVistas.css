@@ -11,7 +11,7 @@ article{
     justify-content: space-evenly;
 }
 .card {
-    width: 22vw;
+    width: 20vw;
     height: 55vh;
     margin-top: 15px;
     background-color: rgba(255, 255, 255, 0.897);
