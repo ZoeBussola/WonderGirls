@@ -30,7 +30,7 @@ header.innerHTML=`
         </ul>
         </li>
 
-       <a href=""> <li>Tesis</li></a>
+		<a href="Tesis.html"> <li>Tesis</li></a>
            
        <a href="PowersPoint.html"><li>PowersPoints</li></a>
 
