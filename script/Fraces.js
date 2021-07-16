@@ -104,7 +104,21 @@ const Frases =[
         autor:'Miru',
         estitica:'Miru',
     },
-
+    {
+        frace:'Si nos secuestran guárdense en el culo una foto de Dolly Parton',
+        autor:'honestamente no hace falta poner quien es',
+        estitica:'Ferraro',
+    },
+    {
+        frace:'Ferrari mata genocidio',
+        autor:'Miru',
+        estitica:'Miru',
+    },
+    {
+        frace:'Tengo solo una pochola brillante, nada picante',
+        autor:'Ferchumaster',
+        estitica:'Ferraro',
+    },
 ]
 
 

@@ -7,6 +7,7 @@ let mens=[
         puntajeF:9,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/aquarius.png',
     },
     {
         nombre:'Howl',
@@ -16,6 +17,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/aquarius.png',
     }, 
     {
         nombre:'Peter Pevensie',
@@ -24,6 +26,8 @@ let mens=[
         puntajeF:7,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
+       
     }, 
     {
         nombre:'Thomas Brodie Sangster',
@@ -32,6 +36,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Euntae',
@@ -40,6 +45,7 @@ let mens=[
         puntajeF:10,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Blanco.png',
     }, 
     {
         nombre:'Jamie',
@@ -48,6 +54,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Jackson',
@@ -56,15 +63,17 @@ let mens=[
         puntajeF:9,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/aries.png',
     }, 
     {
         nombre:'Darcy',
-        //img:'/img/ezgif.com-gif-maker.gif',
+        //img:'img/ezgif.com-gif-maker.gif',
         aclaracion:'',
         img:'https://i.gifer.com/Gz0S.gif',
         puntajeF:8,
         puntajeZ:10,
         puntajeM:10,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Thomas Shelby',
@@ -73,6 +82,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/capricornio.png',
     }, 
     {
         nombre:'Inumaki',
@@ -82,6 +92,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:8,
         puntajeM:8,
+        signo:'img/Signos/scorpio.png',
     }, 
     {
         nombre:'Yuuji',
@@ -90,6 +101,7 @@ let mens=[
         puntajeF:9,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/pisces.png',
     }, 
     {
         nombre:'Chat Noir',
@@ -98,6 +110,7 @@ let mens=[
         puntajeF:9,
         puntajeZ:9,
         puntajeM:0,
+        signo:'img/Signos/Geminis.png',
     }, 
     {
         nombre:'Luka',
@@ -106,15 +119,17 @@ let mens=[
         puntajeF:10,
         puntajeZ:10,
         puntajeM:0,
+        signo:'img/Signos/pisces.png',
     }, 
     {
         nombre:'Usui',
         //img:'https://pm1.narvii.com/6594/3602f7573957d253d906f4b413fb3d377a3cf7f3_hq.jpg',
         aclaracion:'',
-        img:'http://pa1.narvii.com/6155/81a1a6ebe039b342eb0f333515b83207299ec28f_00.gif',
+        img:'https://pa1.narvii.com/6155/81a1a6ebe039b342eb0f333515b83207299ec28f_00.gif',
         puntajeF:10,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Kael',
@@ -123,14 +138,16 @@ let mens=[
         puntajeF:10,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Blanco.png',
     }, 
     {
         nombre:'Remington',
         aclaracion:'Libro del boxeador',
-        img:'http://1.bp.blogspot.com/-xzgQufrmXI8/U_oDyCg6dRI/AAAAAAAAApc/ecLoDZ7QCE4/s1600/cvr9781442368743_9781442368743_hr.jpg',
+        img:'https://1.bp.blogspot.com/-xzgQufrmXI8/U_oDyCg6dRI/AAAAAAAAApc/ecLoDZ7QCE4/s1600/cvr9781442368743_9781442368743_hr.jpg',
         puntajeF:10,
         puntajeZ:9,
         puntajeM:0,
+        signo:'img/Blanco.png',
     }, 
     {
         nombre:'Peter Pan',
@@ -139,6 +156,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:9,
         puntajeM:8,
+        signo:'img/Signos/sagittarius.png',
     }, 
     {
         nombre:'Robin Hood zorro',
@@ -147,6 +165,7 @@ let mens=[
         puntajeF:6,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/Virgo.png',
     }, 
     {
         nombre:'Hopper bichos',
@@ -155,6 +174,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/capricornio.png',
     }, 
     {
         nombre:'El Pez de Nemo',
@@ -163,6 +183,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:6,
         puntajeM:0,
+        signo:'img/Signos/Virgo.png',
     }, 
     {
         nombre:'Sokka',
@@ -172,6 +193,7 @@ let mens=[
         puntajeF:10,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/scorpio.png',
     }, 
     {
         nombre:'Maneskin',
@@ -180,6 +202,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:8,
         puntajeM:8,
+        signo:'img/Signos/capricornio.png',
     }, 
     {
         nombre:'Dylan Obrien',
@@ -188,6 +211,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/Virgo.png',
     }, 
     {
         nombre:'Levi',
@@ -196,6 +220,7 @@ let mens=[
         puntajeF:9,
         puntajeZ:8,
         puntajeM:9,
+        signo:'img/Signos/capricornio.png',
     }, 
     {
         nombre:'Eren',
@@ -205,14 +230,16 @@ let mens=[
         puntajeF:9,
         puntajeZ:9,
         puntajeM:0,
+        signo:'img/Signos/aries.png',
     }, 
     {
         nombre:'Jean',
         aclaracion:'',
-        img:'http://pa1.narvii.com/6483/663f01f25f87ae9415142e7b5e66bfdde7481f59_00.gif',
+        img:'https://pa1.narvii.com/6483/663f01f25f87ae9415142e7b5e66bfdde7481f59_00.gif',
         puntajeF:10,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/aries.png',
     }, 
     {
         nombre:'Connie',
@@ -221,6 +248,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/aries.png',
     }, 
     {
         nombre:'Armin',
@@ -230,6 +258,7 @@ let mens=[
         puntajeF:10,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/Virgo.png',
     }, 
     {
         nombre:'Patrick de dirty dancing',
@@ -238,6 +267,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:9,
         puntajeM:8,
+        signo:'img/Signos/leo.png',
     }, 
     {
         nombre:'Karube',
@@ -246,6 +276,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/aries.png',
     }, 
     {
         nombre:'El pelado tatuado de alice in borderland',
@@ -254,6 +285,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/aquarius.png',
     }, 
     {
         nombre:'El papá de bambi',
@@ -262,14 +294,16 @@ let mens=[
         puntajeF:0,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Toji ',
         aclaracion:'El Papá de Megumi',
-        img:'http://pm1.narvii.com/7910/d053f0d184ede1c592ba6239413104e7cd8528e3r1-736-642v2_00.jpg',
+        img:'https://pm1.narvii.com/7910/d053f0d184ede1c592ba6239413104e7cd8528e3r1-736-642v2_00.jpg',
         puntajeF:10,
         puntajeZ:9,
         puntajeM:0,
+        signo:'img/Signos/capricornio.png',
     }, 
     {
         nombre:'Kovu',
@@ -278,22 +312,25 @@ let mens=[
         puntajeF:9,
         puntajeZ:9,
         puntajeM:0,
+        signo:'img/Signos/Libra.png',
     }, 
     {
         nombre:'Todoroki',
         aclaracion:'',
-        img:'http://pa1.narvii.com/6921/f432e0394ffb556d9a86ee4d5153dcc30a8bd5bcr1-500-515_00.gif',
+        img:'https://pa1.narvii.com/6921/f432e0394ffb556d9a86ee4d5153dcc30a8bd5bcr1-500-515_00.gif',
         puntajeF:8,
         puntajeZ:10,
         puntajeM:0,
+        signo:'img/Signos/scorpio.png',
     }, 
     {
         nombre:'Bakugo',
         aclaracion:'',
-        img:'http://pm1.narvii.com/7693/bf8cf11bfb89c20672badc24bfdde17ef0292e8dr1-564-554v2_uhq.jpg',
+        img:'https://pm1.narvii.com/7693/bf8cf11bfb89c20672badc24bfdde17ef0292e8dr1-564-554v2_uhq.jpg',
         puntajeF:9,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Gojo',
@@ -303,6 +340,7 @@ let mens=[
         puntajeF:9,
         puntajeZ:9,
         puntajeM:9,
+        signo:'img/Signos/sagittarius.png',
     }, 
     {
         nombre:'Tom Holland',
@@ -311,6 +349,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/Geminis.png',
     }, 
     {
         nombre:'Zuko',
@@ -319,6 +358,7 @@ let mens=[
         puntajeF:8,
         puntajeZ:8,
         puntajeM:7,
+        signo:'img/Signos/aries.png',
     }, 
     {
         nombre:'Jamie Campbell Bowel',
@@ -327,6 +367,7 @@ let mens=[
         puntajeF:0,
         puntajeZ:0,
         puntajeM:10,
+        signo:'img/Signos/sagittarius.png',
     }, 
     {
         nombre:'Aaron Taylor Johnson',
@@ -335,6 +376,7 @@ let mens=[
         puntajeF:0,
         puntajeZ:0,
         puntajeM:8,
+        signo:'img/Signos/Geminis.png',
     },
     {
         nombre:'Logan Lerman',
@@ -343,6 +385,7 @@ let mens=[
         puntajeF:0,
         puntajeZ:0,
         puntajeM:7,
+        signo:'img/Signos/capricornio.png',
     }, 
     {
         nombre:'Caspian',
@@ -351,6 +394,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:8,
         puntajeM:6,
+        signo:'img/Signos/aries.png',
     },
     {
         nombre:'Rowan',
@@ -359,14 +403,16 @@ let mens=[
         puntajeF:0,
         puntajeZ:10,
         puntajeM:0,
+        signo:'img/Signos/scorpio.png',
     }, 
     {
         nombre:'Rhysand',
         aclaracion:'Del libro ACOTAR',
-        img:'http://pm1.narvii.com/6509/10a347fe7f1b013972622c324bb313cec472646e_00.jpg',
+        img:'https://pm1.narvii.com/6509/10a347fe7f1b013972622c324bb313cec472646e_00.jpg',
         puntajeF:0,
         puntajeZ:10,
         puntajeM:0,
+        signo:'img/Signos/Libra.png',
     },
     {
         nombre:'Henry Cavill',
@@ -375,6 +421,7 @@ let mens=[
         puntajeF:0,
         puntajeZ:9,
         puntajeM:0,
+        signo:'img/Signos/taurus.png',
     }, 
     {
         nombre:'Ian Somerhalder',
@@ -383,6 +430,7 @@ let mens=[
         puntajeF:7,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/sagittarius.png',
     },
     {
         nombre:'Aizawa Sensei',
@@ -391,6 +439,7 @@ let mens=[
         puntajeF:0,
         puntajeZ:8,
         puntajeM:0,
+        signo:'img/Signos/aries.png',
     },
     {
         nombre:'Barbarians',
@@ -399,6 +448,7 @@ let mens=[
         puntajeF:9,
         puntajeZ:9,
         puntajeM:9,
+        signo:'img/Blanco.png',
     },
     {
         nombre:'Manivela',
@@ -407,6 +457,7 @@ let mens=[
         puntajeF:6,
         puntajeZ:0,
         puntajeM:0,
+        signo:'img/Signos/sagittarius.png',
     },
 ]
 
@@ -426,7 +477,7 @@ mens.forEach(men=>{
 
   template = `
  <div class="ContenMen">
-         <img class="fotoH" src="${men.img}" alt="">
+         <img src="${men.img}" class="fotoH" alt="">
          <section class="textos">
              <h3 class="nombre">${men.nombre}</h3>
          <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -434,6 +485,7 @@ mens.forEach(men=>{
          <span class="puntajes">Puntaje Miruchi: ${men.puntajeM == 0?'-':men.puntajeM} </span>
          <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
          </section>
+         <img src="${men.signo}" alt="" srcset="" class="signo">
      </div>
      `
     let puntajes =[men.puntajeZ,men.puntajeM,men.puntajeF]
@@ -483,7 +535,7 @@ cambioZoe.addEventListener('click',function () {
 mens.forEach(men=>{
             template = `
     <div class="ContenMen">
-            <img class="fotoH" src="${men.img}" alt="">
+            <img src="${men.img}" class="fotoH" alt="">
             <section class="textos">
                 <h3 class="nombre">${men.nombre}</h3>
             <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -491,6 +543,7 @@ mens.forEach(men=>{
             <span class="puntajes">Puntaje Miruchi: ${men.puntajeM == 0?'-':men.puntajeM} </span>
             <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
             </section>
+            <img src="${men.signo}" alt="" srcset="" class="signo">
         </div>
         `
 
@@ -527,7 +580,7 @@ mens.forEach(men=>{
     if (cuantosM4Z.length < 6 ) {
     mainP4.classList.add("ajusteAbajo")
     } 
-    
+    console.log(cuantosM2Z)
 })
 
 
@@ -557,7 +610,7 @@ cambioMiru.addEventListener('click',function () {
 
             template = `
     <div class="ContenMen">
-            <img class="fotoH" src="${men.img}" alt="">
+            <img src="${men.img}" class="fotoH" alt="">
             <section class="textos">
                 <h3 class="nombre">${men.nombre}</h3>
             <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -565,6 +618,7 @@ cambioMiru.addEventListener('click',function () {
             <span class="puntajes">Puntaje Miruchi: ${men.puntajeM == 0?'-':men.puntajeM} </span>
             <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
             </section>
+            <img src="${men.signo}" alt="" srcset="" class="signo">
         </div>
         `
             if (men.puntajeM == 10) {
@@ -632,11 +686,8 @@ cambioFerchu.addEventListener('click',function () {
         mens.forEach(men=>{
 
             template = `
-            <div class="Fijado">
-            <div class="Bienijado">
             <div class="ContenMen">
-            
-                    <img class="fotoH" src="${men.img}" alt="">
+                    <img src="${men.img}" class="fotoH" alt="">
                     <section class="textos">
                         <h3 class="nombre">${men.nombre}</h3>
                     <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -644,8 +695,7 @@ cambioFerchu.addEventListener('click',function () {
                     <span class="puntajes">Puntaje Miruchi: ${men.puntajeM == 0?'-':men.puntajeM} </span>
                     <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
                     </section>
-                    </div>
-                    </div>
+                    <img src="${men.signo}" alt="" srcset="" class="signo">
                 </div>
                 `
             if (men.puntajeF == 10) {
@@ -727,7 +777,7 @@ cambio.addEventListener('click',function () {
        
         template = `
         <div class="ContenMen">
-                <img class="fotoH" src="${men.img}" alt="">
+                <img src="${men.img}" class="fotoH" alt="">
                 <section class="textos">
                     <h3 class="nombre">${men.nombre}</h3>
                 <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -736,6 +786,7 @@ cambio.addEventListener('click',function () {
                 <span class="puntajes">Promedio: ${promedioFinal} </span>
                 <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
                 </section>
+                <img src="${men.signo}" alt="" srcset="" class="signo">
             </div>
             `
          if (promedioFinal == 10) {
@@ -803,7 +854,7 @@ let cuantosM1=[]
 
         template = `
     <div class="ContenMen">
-            <img class="fotoH" src="${men.img}" alt="">
+            <img src="${men.img}" class="fotoH" alt="">
             <section class="textos">
                 <h3 class="nombre">${men.nombre}</h3>
             <span class="puntajes">Puntaje Ferchu: ${men.puntajeF == 0?'-':men.puntajeF} </span>
@@ -811,6 +862,7 @@ let cuantosM1=[]
             <span class="puntajes">Puntaje Miruchi: ${men.puntajeM == 0?'-':men.puntajeM} </span>
             <span class="puntajes">Aclaracion: "${men.aclaracion != ''?men.aclaracion:'-'}" </span>
             </section>
+            <img src="${men.signo}" alt="" srcset="" class="signo">
         </div>
         `
         let puntajes =[men.puntajeZ,men.puntajeM,men.puntajeF]
