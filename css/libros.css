@@ -72,14 +72,32 @@ Section {
 }
 
 @media (min-width:200px) and (max-width:1200px ) {
+    .contenedorimg{
+        box-sizing: border-box;
+        width: 150%;
+        height: 70%;
+        position: absolute;
+        top:2vh;
+        z-index: -9;
+        left: -5.5rem;
+    }
+    .contentextos{
+        width: 40%;
+        right: 2rem;
+    }
     .CantidadText{
-        width: 100PX;
-        font-size: 15px;
+        font-size: 10px;
     }
     .numero{
-        font-size: 18px;
+        font-size: 11px;
     }
-    #totales{
-        font-size: 30px;
-    }
+      section{
+         margin: 25px 10px;
+     }
+      .cantTotal{
+         margin-top: 3rem;
+     }
+      #totales{
+          font-size: 15px;
+      }
 }
