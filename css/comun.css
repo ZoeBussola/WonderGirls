@@ -303,19 +303,19 @@ nav ul a:hover li  {
 
 
  .Subir{
-	padding:1rem;
-	background-color: rgba(243, 237, 237, 0.678);
-	font-size:20px;
-	color:black;
-    border-radius:100% ;
-	position: fixed;
-    width: 70px;
-    height: 70px;
+	padding: 0.8rem;
+    background-color: rgba(243, 237, 237, 0.678);
+    font-size: 20px;
+    color: black;
+    border-radius: 100%;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
     border-style: none;
     box-shadow: var(--shadow);
     transition: box-shadow 0.5s;
-	bottom:20px;
-	right:20px;
+    bottom: 20px;
+    right: 20px;
     cursor: pointer;
 }
 .Subir:hover{

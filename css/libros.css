@@ -92,10 +92,10 @@ Section {
         font-size: 11px;
     }
       section{
-         margin: 25px 10px;
+         margin: 15px 10px;
      }
       .cantTotal{
-         margin-top: 3rem;
+         margin-top: 2rem;
      }
       #totales{
           font-size: 15px;
