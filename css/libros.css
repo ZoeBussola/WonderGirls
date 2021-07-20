@@ -74,10 +74,12 @@ Section {
 @media (min-width:200px) and (max-width:1200px ) {
     .Contenedor {
         overflow: hidden;
-        width: 100%;
-        height: 100vh;
-        font-weight: bolder;
-        display: flex;
+    position: absolute;
+    width: 100%;
+    top: 7rem;
+    height: 100vh;
+    font-weight: bolder;
+    display: flex;
     }
     .contenedorimg{
         box-sizing: border-box;
@@ -89,8 +91,9 @@ Section {
     z-index: -9;
     }
     .contentextos{
+        top: 5vh;
         width: 40%;
-        right: 1.5rem;
+        right: 2.5rem;
     }
     .CantidadText{
         font-size: 10px;
