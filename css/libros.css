@@ -82,7 +82,7 @@ Section {
     .contenedorimg{
         box-sizing: border-box;
     width: 160%;
-    margin-top: -7rem;
+    margin-top: 1rem;
     height: 70%;
     margin-left: -6.5rem;
     position:relative;
