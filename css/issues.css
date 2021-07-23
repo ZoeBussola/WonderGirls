@@ -197,8 +197,10 @@ img{
     width: 90%;
     flex-direction: column;
     justify-content: center;
+    height: 20rem;
 }
 .nombre{
+    padding: 0;
     text-align: center;
     width: 100%;
 }
@@ -207,7 +209,7 @@ img{
     display: flex;
     flex-direction: column;
     margin: 10px 10px 10px 10px;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 .conteinbotones{

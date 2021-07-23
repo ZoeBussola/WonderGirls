@@ -1,3 +1,7 @@
+let body=document.querySelector("body")
+body.classList.add("body")
+
+
 let header = document.querySelector("header")
 
 header.innerHTML=`
