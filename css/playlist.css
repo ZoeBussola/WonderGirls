@@ -97,12 +97,62 @@ svg{
 	color: var(--zochu);
 }
  
-progress{
-	width: 90%;
-	margin: 10px;
-	opacity: 0.5;
- align-self: center;
-}
+
+.progreso[type='range'] {
+	margin-bottom: 15px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+  }
+.progreso[type='range']:focus {
+	outline: none;
+  }
+  
+  .progreso[type='range'],
+  .progreso[type='range']::-webkit-slider-runnable-track,
+  .progreso[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+  }
+  
+  .progreso[type=range]::-webkit-slider-thumb {
+	background-color:pink;
+	width: 15px;
+	height: 15px;
+	/* border: 3px solid var(--miru); */
+	border-radius: 50%;
+	margin-top: -6px;
+  }
+  
+  .progreso[type=range]::-ms-thumb {
+	background-color:pink;
+	width: 15px;
+	height: 15px;
+	/* border: 3px solid var(--miru); */
+	border-radius: 50%;
+	margin-top: -6px;
+  }
+  .progreso[type=range]::-webkit-slider-runnable-track {
+	background-color: pink;
+	height: 4px;
+  }
+  .progreso[type=”range”]::-ms-track{
+	background-color: pink;
+	height: 4px;
+  }
+  .progreso[type=range]:focus::-webkit-slider-runnable-track {
+	outline: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
  
 .timer{
 	width:50%;
@@ -155,6 +205,63 @@ section ul{
     display: none;
     visibility: hidden;
 }
+
+
+
+
+input[type='range'] {
+	padding-bottom: 8px;
+	padding-left: 10px;
+  }
+  
+  input[type='range']:focus {
+	outline: none;
+  }
+  
+  input[type='range'],
+  input[type='range']::-webkit-slider-runnable-track,
+  input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+	background-color:lightskyblue;
+	width: 20px;
+	height: 20px;
+	/* border: 3px solid var(--miru); */
+	border-radius: 50%;
+	margin-top: -9px;
+  }
+  
+  input[type=range]::-moz-range-thumb {
+	background-color:lightskyblue;
+	width: 15px;
+	height: 15px;
+	border: 3px solid lightskyblue;
+	border-radius: 50%;
+  }
+  
+  input[type=range]::-ms-thumb {
+	background-color: #777;
+	width: 20px;
+	height: 20px;
+	border: 3px solid #333;
+	border-radius: 50%;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track {
+	background-color: lightskyblue;
+	height: 4px;
+  }
+  
+  input[type=range]:focus::-webkit-slider-runnable-track {
+	outline: none;
+  }
+
+
+
+
+
 
 .volumen .infoVol{
     display: block;

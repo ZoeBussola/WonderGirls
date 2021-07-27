@@ -69,7 +69,33 @@ width: 100%;
 text-align: justify;
 }
 
+.descrip{
+    height: 80%;
+    overflow: scroll;
+}
+.descrip::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+.descrip::-webkit-scrollbar-thumb {
+    background: var(--miru);
+    border-radius: 4px;
+    /* border: 1px solid var(--zochu) ; */
+}
 
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.descrip::-webkit-scrollbar-thumb:hover {
+    background:#321156a1 ;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.descrip::-webkit-scrollbar-thumb:active {
+    background-color:var(--zochu) ;
+}
+.descrip::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
 
 
 
