@@ -81,17 +81,17 @@ text-align: justify;
     position: absolute;
     z-index: -10;
     box-sizing: border-box;
-    width: 40%;
+    width: 45%;
     height: 75%;
 }
 .tesis{
-    width: 80vh;
+    width: 90vh;
     display: flex;
 }
 .Foto{
     margin-top: 3rem;
     margin-left: 3rem;
-    width:12rem;
+    width:11rem;
 }
 .pequenaInfo{
     margin-left: 3rem;
@@ -118,6 +118,7 @@ text-align: justify;
     justify-content: space-between;
 }
 .infoGrande h2{
+    width: 110%;
     margin-bottom: 5px;
 }
 .infoGrande h3{
