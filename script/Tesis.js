@@ -35,6 +35,18 @@ const tesise=[
         ultimaEdicion:"13/04/2022",
         id:3,
     },
+    {
+        titulo:'Jesus: El nacimiento de un influencer',
+        sbtitulo:"",
+        img:'https://img.memecdn.com/jesus-christ-that-is-the-most-holy-selfie-ever-taken_fb_3034213.jpg',
+        descripcion:'Espero ideas...',
+        idea:"Valentina Ferraro, Zoe Bussola, Miranda Rodriguez",
+        Autora:"Valentina Ferraro, Zoe Bussola, Miranda Rodriguez",
+        Edicion:"Valentina Ferraro, Zoe Bussola, Miranda Rodriguez",
+        fechaDeEmision:"12/08/2021",
+        ultimaEdicion:"13/04/2022",
+        id:4,
+    },
 
 ]
 
@@ -138,6 +150,34 @@ let main =document.querySelector("main")
     </section>
     </div>`
                     break;
+        case "4":
+        main.innerHTML=``
+        body.classList.toggle("clasebody")
+        main.innerHTML=` 
+        <div class="tesis">
+         <img src="/img/diseñosmiru/FondoTeoria.png" class="tesisFondo" alt="">
+         <section class="contenido">
+            <img src="${tesise[3].img}" class="Foto" alt="">
+            <div class="pequenaInfo">
+            <span>${tesise[3].titulo}</span>
+            <span>Idea:${tesise[3].idea}</span>
+            <span>Autora:${tesise[3].Autora}</span>
+            <span>Edicion:${tesise[3].Edicion}</span>
+            <span>Fecha De Emision:${tesise[3].fechaDeEmision}</span>
+            <span>Ultima Edicion:${tesise[3].ultimaEdicion}</span>
+            </div>
+           </section>
+           <section class="infoGrande">
+            <div class="contenido">
+              <h2>${tesise[3].titulo}</h2>
+               <h3>${tesise[3].sbtitulo}</h3>
+               <p>${tesise[3].descripcion}</p>
+               </div>
+                                  
+            <a class="flecha" href="/Tesis.html"><i class="fas fa-arrow-circle-left"></i></a>
+              </section>
+             </div>`
+             break;
       
           default:
               break;
