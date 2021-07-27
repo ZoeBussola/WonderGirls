@@ -2,7 +2,7 @@ const tesise=[
     {
         titulo:'Dolly Parton Multiverse',
         sbtitulo:"Los principios del DPM",
-        img:'img/diseñosmiru/Recurso 5.png',
+        img:'img/diseñoMiru/Recurso 5.png',
         descripcion:'Espero ideas...',
         idea:"Valentina Ferraro, Zoe Bussola, Miranda Rodriguez",
         Autora:"Valentina Ferraro",
@@ -43,7 +43,7 @@ const tesise=[
   tesise.forEach(tesis=>{
       cajaCarpetas.innerHTML +=`
       <div class="carpetaGeneral" id="${tesis.id}">
-      <img src="img/diseñosmiru/CarpetaTeoria.png"  class="carpeta" alt="">
+      <img src="img/diseñoMiru/CarpetaTeoria.png"  class="carpeta" alt="">
       <span>${tesis.titulo}</span>
   </div>
                   `
@@ -60,7 +60,7 @@ let main =document.querySelector("main")
               main.innerHTML=``
             body.classList.toggle("clasebody")
             main.innerHTML=` <div class="tesis">
-        <img src="img/diseñosmiru/FondoTeoria.png" class="tesisFondo" alt="">
+        <img src="img/diseñoMiru/FondoTeoria.png" class="tesisFondo" alt="">
         <section class="contenido">
             <img src="${tesise[0].img}" class="Foto" alt="">
             <div class="pequenaInfo">
@@ -88,7 +88,7 @@ let main =document.querySelector("main")
             main.innerHTML=``
             body.classList.toggle("clasebody")
             main.innerHTML=` <div class="tesis">
-        <img src="img/diseñosmiru/FondoTeoria.png" class="tesisFondo" alt="">
+        <img src="img/diseñoMiru/FondoTeoria.png" class="tesisFondo" alt="">
         <section class="contenido">
         <img src="${tesise[1].img}" class="Foto" alt="">
             <div class="pequenaInfo">
@@ -115,7 +115,7 @@ let main =document.querySelector("main")
             main.innerHTML=``
             body.classList.toggle("clasebody")
             main.innerHTML=` <div class="tesis">
-        <img src="img/diseñosmiru/FondoTeoria.png" class="tesisFondo" alt="">
+        <img src="img/diseñoMiru/FondoTeoria.png" class="tesisFondo" alt="">
         <section class="contenido">
         <img src="${tesise[2].img}" class="Foto" alt="">
             <div class="pequenaInfo">
