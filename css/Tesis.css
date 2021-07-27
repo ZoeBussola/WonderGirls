@@ -34,7 +34,7 @@ main{
     cursor: pointer;
 }
 .carpetaGeneral{
-    width: 250px;
+    width: 10rem;
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +45,7 @@ span{
     font-family: 'Cousine', monospace;
     color: #0077B6;
     font-weight: bold;
-    width: 50%;
+    width: 80%;
 }
 .contenedor{
     margin: 1rem;
