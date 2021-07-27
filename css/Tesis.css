@@ -41,10 +41,10 @@ main{
 .teoria{
     background-color: #F6B7B2;
 }
-.titulo{
+.nombres{
     font-family: 'Cousine', monospace;
     color: #0077B6;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     width: 80%;
 }
@@ -158,8 +158,12 @@ text-align: justify;
     .carpeta{
         width: 5rem;
     }
-    span{
-        width: 85%;
+    .nombres{
+        font-family: 'Cousine', monospace;
+        color: #0077B6;
+        font-size: 15px;
+        font-weight: bold;
+        width: 80%;
     }
     .tesis {
         width: 80vh;
