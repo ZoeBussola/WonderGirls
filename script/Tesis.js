@@ -44,7 +44,7 @@ const tesise=[
       cajaCarpetas.innerHTML +=`
       <div class="carpetaGeneral" id="${tesis.id}">
       <img src="img/diseñoMiru/CarpetaTeoria.png"  class="carpeta" alt="">
-      <span>${tesis.titulo}</span>
+      <span class="nombres">${tesis.titulo}</span>
   </div>
                   `
   })
