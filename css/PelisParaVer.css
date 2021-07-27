@@ -32,8 +32,8 @@ main{
   z-index: -9;
 }
 #textos{
-  margin-top: 4rem;
-    margin-left: 1rem;
+  margin-top: 3.8rem;
+    /* margin-left: 1rem; */
 }
 .pelirandom{
   width: 300px;
@@ -81,8 +81,8 @@ main{
 section {
   font-weight: bolder;
     /* position: relative; */
-    width: 75%;
-    margin: 5px 15px;
+    width: 100%;
+    margin: 10px 1px;
     height: 1.5rem;
     text-align: center;
     display: flex
