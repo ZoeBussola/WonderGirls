@@ -68,10 +68,13 @@ width: 100%;
     font-weight: bolder;
 text-align: justify;
 }
-
+.contenido{
+    height: 50vh;
+}
 .descrip{
-    height: 80%;
+    height: 90%;
     overflow: scroll;
+    font-size: 15px;
 }
 .descrip::-webkit-scrollbar {
     width: 10px;     /* Tamaño del scroll en vertical */
