@@ -209,13 +209,13 @@ text-align: justify;
     }
     .tesisFondo {
         width: 90%;
-        height: 122vh;
+        height: 120vh;
     }
     p{
         min-height: 7rem;
     }
     .infoGrande{
-        margin-top: 0;
+        margin-top: 1rem;
         margin-left: -1.5rem;
         height: fit-content;
     }
