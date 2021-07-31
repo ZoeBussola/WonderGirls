@@ -1,10 +1,14 @@
 @import url(comun.css);
  @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap'); 
  @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700"); 
-main{
+
+ main{
   overflow: hidden;
 }
- 
+ p{
+   text-align: center;
+   font-size: 15px;
+ }
 #toggleContainer label { 
   text-align: center;
   width: 70px;
@@ -687,7 +691,7 @@ margin: 5px;
 .Asthetic{
   display: flex;
   flex-direction: column;
-  width: 99vw;
+  width: 98vw;
   justify-content: center;
   padding: 0.5rem 0px;
   padding-left: 7px;
@@ -697,7 +701,7 @@ margin: 5px;
   width: 99vw;
 }
 .infoAesti{
-  padding: 2rem;
+  padding: 2vh;
   display: flex;
   justify-content: flex-end;
 }
@@ -718,31 +722,32 @@ margin: 5px;
   justify-self: center;
 }
 
-.fotoUnion{
+.fotoUnion {
   position: absolute;
-  margin-top: -7rem;
+  margin-top: -2rem;
   left: 2rem;
-  width: 20vw;
+  width: 15vw;
   transform: rotate(350deg);
   background-color: white;
   padding: 0.5rem;
 }
-.fotonFondoDere{
-  position: absolute;
-  right: 30px; 
-  margin-top: 18rem;
-  transform: rotate(10deg);
-  background-color: white;
-  padding: 0.5rem;
-}
-.fotoArribaDere {
-  width: 7vw;
+.fotonFondoDere {
+  width: 12vw;
   position: absolute;
   right: 30px;
-  margin-top: -18rem;
-  transform: rotate(355deg);
+  margin-top: 14rem;
+  transform: rotate(10deg);
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.3rem;
+}
+.fotoArribaDere {
+  width: 7.5vw;
+  position: absolute;
+  right: 30px;
+  margin-top: -15rem;
+  transform: rotate(351deg);
+  background-color: white;
+  padding: 0.3rem;
 }
 
 
@@ -840,10 +845,10 @@ flex-wrap: wrap;
 width: 50vw;
 height: 80vh;
 }
-.imgPortal{
-width:22vw;
-height: 40vh;
-margin: 5px;
+.imgPortal {
+  width: 20vw;
+  height: 39vh;
+  margin: 5px;
 }
 
 
@@ -1104,13 +1109,19 @@ outline: none;
 
 
 @media (min-width:200px) and (max-width:1200px ) {
+  i{
+    color: white;
+  }
+  p {
+    text-align: center;
+  }
   .Asthetic {
     padding: 5px;
     width: 96vw;
     margin: 0;
   }
   .infoAesti{
-  height: 70vh;
+  height: 65vh;
   width: 99vw;
   display: flex;
   flex-direction: column;
@@ -1119,6 +1130,7 @@ outline: none;
   padding: 0;
 }
 .titulosAesti{
+  text-align: center;
   margin: 0;
   font-size: 50px;
 }
@@ -1159,6 +1171,7 @@ padding-bottom: 30vh;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  padding-bottom: 45vh;
 }
 .portadaAnimal{
   width: 98vw;
@@ -1211,14 +1224,14 @@ margin-left: -15vw;
 }
 
 .carousel .nav-links {
-  width: 38vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin: 0;
+  margin-top: 5rem;
+  margin-left: 8em;
   padding: 0;
-  margin-right: 7vw;
   list-style-type: none;
 }
 .carousel .nav-links .nav-link{
@@ -1242,32 +1255,30 @@ margin-left: -15vw;
 .cajaBlanca{
   background-color: transparent;
   width: 99vw;
-  height: 30vh;
+  height: 45vh;
   position: relative;
   z-index: 1;
 }
-.cajavioleta{
+.cajavioleta {
   display: block;
   background-color: var(--Ccomun);
   position: absolute;
   top: 10.5rem;
   z-index: -10;
-  margin-left: 2vw;
-  width: 150vw;
-  height:50vh;
+  margin-left: -15vw;
+  width: 200vw;
+  height: 50vh;
   transform: rotate(350deg);
 }
-.infoInCastle{
-  z-index: 1;
- border: var(--zochu) 5px solid;
- width: 90vw;
- height: 25vh;
- padding: 0;
- margin: 0px;
- margin-left: 2.5vw;
- display: flex;
- flex-direction: column;
- align-items: center;
+.infoInCastle {
+  border: var(--zochu) 5px solid;
+  width: 30vw;
+  height: max-content;
+  padding: 20px;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .infoInCastle p{
   width: 50vw;
@@ -1284,13 +1295,12 @@ margin-left: -15vw;
   margin-right: 10px;
 }
 .EspeCo{
-  margin-left: 0;
-  width: 90vw;
-  display: flex;
-  flex-direction: column;
+  margin-left: 10rem;
 }
 .cotenImgVerIC{
-  display: flex;
+  width: 60vw;
+    display: flex;
+}
 }
 .EspeCo .imgenesCloumna{
   display: flex;
@@ -1307,26 +1317,24 @@ margin-left: -15vw;
   min-height: 100vh;
   height: max-content;
   display: flex;
-  padding-top: 10vw;
+  padding-top: 5vw;
   padding-bottom: 5rem;
   justify-content: center;
   overflow: hidden;
 }
-.insideCastleCont{
+.insideCastleCont {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 99vw;
-  padding-top: 20px;
-  margin-top: 3rem;
+  padding: 0px 5px;
+  margin-top: 2rem;
 }
-.imagenesInCastle{
-  display: flex;
-  justify-self: center;
-  width: 98vw;
-  height: fit-content;
-  margin-right: 0;
-  padding: 5px 0;
+.imagenesInCastle {
+    display: flex;
+    width: 40rem;
+    height: fit-content;
+    margin-right: 20px;
 }
 .imgVer{
   box-sizing: border-box;
@@ -1417,13 +1425,13 @@ margin:  0;
 #navLeft{
   z-index: 10;
   position: absolute;
-  margin-top: -55vh;
+  margin-bottom: 55vh;
   justify-self: flex-start;
 }
 #navRight{
   z-index: 10;
   position: absolute;
-  margin-top: -55vh;
+  margin-bottom: 55vh;
 }
 .navBtns {
   width: 80px;
