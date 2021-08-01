@@ -1293,17 +1293,15 @@ margin-left: -15vw;
   height: 50vh;
   transform: rotate(350deg);
 }
-.infoInCastle{
-  z-index: 1;
- border: var(--zochu) 5px solid;
- width: 90vw;
- height: 25vh;
- padding: 0;
- margin: 0px;
- margin-left: 2.5vw;
- display: flex;
- flex-direction: column;
- align-items: center;
+.infoInCastle {
+  border: var(--zochu) 5px solid;
+  width: 90vw;
+  height: max-content;
+  padding: 20px;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .infoInCastle p{
   width: 50vw;
@@ -1312,6 +1310,7 @@ margin-left: -15vw;
   position: relative;
   display: flex;
   justify-content: center;
+  margin-left: 18vw;
   z-index: 2;
 }
 .imgIntroInCastle{
@@ -1348,13 +1347,14 @@ margin-left: -15vw;
   justify-content: center;
   overflow: hidden;
 }
+
 .insideCastleCont{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 99vw;
   padding-top: 20px;
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 .imagenesInCastle{
   display: flex;
