@@ -1194,7 +1194,7 @@ padding-bottom: 30vh;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  padding-bottom: 45vh;
+  padding-bottom: 4vh;
 }
 .portadaAnimal{
   width: 98vw;
@@ -1253,7 +1253,7 @@ margin-left: -15vw;
   align-items: flex-start;
   margin: 0;
   margin-top: 5rem;
-  margin-left: 8em;
+  margin-right: 7vw;
   padding: 0 0 0 6em;
   list-style-type: none;
 }
@@ -1295,7 +1295,7 @@ margin-left: -15vw;
 }
 .infoInCastle {
   border: var(--zochu) 5px solid;
-  width: 90vw;
+  width: 80vw;
   height: max-content;
   padding: 20px;
   margin: 2vh;
@@ -1310,7 +1310,7 @@ margin-left: -15vw;
   position: relative;
   display: flex;
   justify-content: center;
-  margin-left: 18vw;
+  margin-left: 2vw;
   z-index: 2;
 }
 .imgIntroInCastle{
@@ -1453,13 +1453,13 @@ margin:  0;
 #navLeft{
   z-index: 10;
   position: absolute;
-  margin-bottom: 55vh;
+  top: -12vh;
   justify-self: flex-start;
 }
 #navRight{
   z-index: 10;
   position: absolute;
-  margin-bottom: 55vh;
+  top: -12vh;
 }
 .navBtns {
   width: 80px;
