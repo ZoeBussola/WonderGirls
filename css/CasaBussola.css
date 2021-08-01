@@ -9,6 +9,518 @@
    text-align: center;
    font-size: 15px;
  }
+
+
+
+ .Asthetic{
+  display: flex;
+  flex-direction: column;
+  width: 98vw;
+  justify-content: center;
+  padding: 0.5rem 0px;
+  padding-left: 7px;
+  overflow: hidden;
+}
+.FondoAesti{
+  width: 99vw;
+}
+.infoAesti{
+  padding: 2vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.infoAesti p{
+  width: 40vw;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+
+.titulosAesti{
+  margin: 0rem;
+  margin-bottom: 1rem;
+  margin-right: 7rem;
+  font-family: 'MonteCarlo', cursive;
+  color: var(--zochu);
+  text-align: center;
+  font-size: 5rem;
+  justify-self: center;
+}
+
+.fotoUnion {
+  position: absolute;
+  margin-top: -2rem;
+  left: 2rem;
+  width: 15vw;
+  transform: rotate(350deg);
+  background-color: white;
+  padding: 0.5rem;
+}
+.fotonFondoDere {
+  width: 12vw;
+  position: absolute;
+  right: 30px;
+  margin-top: 14rem;
+  transform: rotate(10deg);
+  background-color: white;
+  padding: 0.3rem;
+}
+.fotoArribaDere {
+  width: 7.5vw;
+  position: absolute;
+  right: 30px;
+  margin-top: -15rem;
+  transform: rotate(351deg);
+  background-color: white;
+  padding: 0.3rem;
+}
+
+
+
+
+
+
+.Portales{
+  background-color: white;
+  height: 105vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.InfoPortal{
+display: flex;
+align-self: center;
+flex-direction: column;
+}
+.InfoPortal p{
+  width: 30vw;
+  font-size: 15px;
+font-family: 'roboto';
+}
+.tituloPortal{
+  margin: 0rem;
+  font-family: 'MonteCarlo', cursive;
+  color: var(--zochu);
+  text-align: center;
+  font-size: 5rem;
+  justify-self: center; 
+}
+.imgsPortals{
+display: flex;
+flex-wrap: wrap;
+width: 50vw;
+height: 80vh;
+}
+.imgPortal {
+  width: 20vw;
+  height: 39vh;
+  margin: 5px;
+}
+
+
+
+
+
+.animals{
+  background:linear-gradient(111deg, #5e3888 0%, var(--zochu) 52%, #5e3888 100%);
+  height: 180vh;
+  display: flex;
+  padding: 2rem 0;
+  padding-top: 6rem;
+  justify-content: center;
+}
+.portadaAnimals{
+  width: 99vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 0rem;
+  margin-bottom: 47vh;
+  height: fit-content;
+}
+.portadaAnimal{
+  width: 70vw;
+  height: 65vh;
+}
+.tituloAnimals{
+  margin: 0rem;
+  margin-bottom: 1rem;
+  font-family: 'MonteCarlo', cursive;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+.infoAmials{
+  width: 20vw;
+  height: 50vh;
+}
+.infoAmials p{
+  color: white;
+  font-family: 'roboto';
+  font-size: 15px;
+  width: 22vw;
+}
+.sectionCarrousel{
+  margin-top: -11rem;
+}
+.SubtitutoluAnimals{
+  margin: 0rem;
+  margin-bottom: 1rem;
+  font-family: 'MonteCarlo', cursive;
+  color: white;
+  font-size: 4rem;
+  position: absolute;
+  right: 5rem;
+}
+.carousel {
+  position: relative;
+  display: flex;
+  margin-top: 5rem;
+}
+.carousel .slides {
+  position: relative;
+  top: -4em;
+  left: 5em;
+}
+.carousel .slides img {
+  position: absolute;
+  width: 30vw;
+  height: 80vh;
+  opacity: 0;
+  z-index: 9999;
+}
+.carousel .slides img.active {
+  opacity: 1;
+}
+.carousel .overlays {
+  position: relative;
+  width: 36em;
+  height: 18em;
+}
+.carousel .overlays .bar {
+  position: absolute;
+  top: -73px;
+  left: 30px;
+  width: 80%;
+  height: 82vh;
+  background: var(--bar-color);
+  transform-origin: left;
+}
+.carousel .nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  margin-top: 5rem;
+  margin-left: 0;
+  padding: 0 0 0 6em;
+  list-style-type: none;
+}
+.carousel .nav-links .nav-link {
+  font-size: 2rem;
+  font-family: Lora, serif;
+  line-height: 2;
+  padding: 0 5vw;
+  text-decoration: none;
+  color: var(--Ccomun);
+  transition: 0.3s;
+}
+.carousel .nav-links li:hover{
+  background-color: rgba(255, 255, 255, 0.397);
+}
+.carousel .nav-links .nav-link:hover {
+  color: var(--Ccomun);
+ 
+}
+.carousel .nav-links .nav-link.active {
+  color: rgba(255, 255, 255, 0.87);
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+.magia{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+padding: 1rem;
+padding-top: 5rem;
+}
+.columnaIz{
+padding-top: 1rem;
+}
+.douImgIz{
+  display: flex;
+}
+.imgMagVer{
+  width: 15vw;
+  height: 60vh;
+  margin-top: -1rem;
+  border-radius: 50px;
+}
+.prime{
+  
+margin-top: 4rem;
+  margin-left: 10px;
+}
+.columnaMe{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 33vw;
+}
+.tituloMagia{
+  margin: 0rem;
+  font-family: 'MonteCarlo', cursive;
+  color: var(--zochu);
+  text-align: center;
+  font-size: 5rem;
+  justify-self: center; 
+}
+.columnaMe p{
+width: 30vw;
+font-size: 15px;
+font-family: 'roboto';
+}
+.columnaDe{
+  width: 30vw;
+padding-top: 1rem;
+}
+.douImgDe{
+display: flex;
+}
+.primo{
+margin-top: 4rem;
+margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+.tituloCastle{
+  margin: 0rem;
+  margin-bottom: 1rem;
+  font-family: 'MonteCarlo', cursive;
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+.castle{
+  background:linear-gradient(111deg, #5e3888 0%, var(--zochu) 52%, #5e3888 100%);
+  padding:3rem 1rem;
+  padding-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.infoCastle{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.infoCastle p{
+  width: 40%;
+  color: white;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+.contFotos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.casImgVer{
+  width: 17vw;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.casImgVer:hover{
+  transform: scale(1.05);
+  transition:transform 1s ;
+}
+.casImgCua{
+  width: 25vw;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.casImgCua:hover{
+  transform: scale(1.05);
+  transition:transform 1s ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tituloInCastle{
+  margin: 0rem;
+  margin-bottom: 1rem;
+  font-family: 'MonteCarlo', cursive;
+  color: var(--zochu);
+  text-align: center;
+  font-size: 50px;
+}
+.introInCastle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98vw;
+  padding-bottom: 5vh;
+}
+.cajaBlanca{
+  width: 99vw;
+  height: 35vh;
+  position: relative;
+  z-index: 1;
+}
+.cajavioleta {
+  display: block;
+  background-color: var(--Ccomun);
+  position: absolute;
+  top: 10.5rem;
+  z-index: -10;
+  margin-left: -15vw;
+  width: 200vw;
+  height: 50vh;
+  transform: rotate(350deg);
+}
+.infoInCastle {
+  border: var(--zochu) 5px solid;
+  width: 30vw;
+  height: max-content;
+  padding: 20px;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoInCastle p{
+  width: 30vw;
+}
+.cajaImagIC{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.imgIntroInCastle{
+  width: 30vw;
+  height: 60vh;
+  margin-right: 10px;
+}
+.EspeCo{
+     margin-left: 10rem;
+}
+.cotenImgVerIC{
+  width: 60vw;
+    display: flex;
+}
+
+.EspeCo .imgenesCloumna {
+  display: flex;
+  flex-direction: column;
+}
+.unoIC{
+  margin-top: 60px;
+}
+.dosIC{
+  margin-top: 30px;
+}
+.insideCastle{
+  background-color: white;
+  min-height: 100vh;
+  height: max-content;
+  display: flex;
+  padding-top: 5vw;
+  padding-bottom: 5rem;
+  justify-content: center;
+  overflow: hidden;
+}
+.insideCastleCont {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  width: 100vw;
+  margin-top: 2rem;
+  margin-left: 10px;
+}
+.imagenesInCastle {
+  display: flex;
+  margin-right: 5px;
+}
+.imgVer {
+  box-sizing: border-box;
+  width: 19vw;
+  height: 80vh;
+  margin: 5px;
+}
+.espe{
+
+}
+.imgHor {
+  box-sizing: border-box;
+  width: 29vw;
+  height: 25vh;
+  margin: 5px 0;
+}
+.imgHorEspe {
+  width: 30vw;
+  margin: 2px;
+  height: 34.6vh;
+  /* margin-bottom: 20px; */
+}
+
+.imgCua {
+    box-sizing: border-box;
+    width: 29vw;
+    height: 54vh;
+    margin: 5px;
+}
+.imgenesCloumna {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+.imgVerespe {
+  width: 25vw;
+  height: 70vh;
+  margin: 2px;
+}
+
+.cajavioleta{
+  display: block;
+  width: 99vw;
+  margin: 0;
+  transform: rotate(0deg);
+  top: 0;
+  height: 35vh;
+}
+
+
+
+
+
+
+
+
+
 #toggleContainer label { 
   text-align: center;
   width: 70px;
@@ -246,19 +758,74 @@ font-weight: bold;
  
  
 
+.uniformes{
+  background-color: var(--Ccomun);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  height: 100vh;
+  padding-top: 1rem;
+}
+.tituloUniform{
+  margin: 0rem;
+  margin-left: 5rem;
+  font-family: 'MonteCarlo', cursive;
+  color: var(--zochu);
+  font-size: 5rem;
+}
 
-
-
-
-
-
-
-
-
+.mainContenidoUniform{
+  display: flex;
+justify-content: space-around;
+} 
+.contenImagenesUniformeGeneral {
+  background-color: white;
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+}
+.contenFotosCuadradas{
+  display: flex;
+  flex-direction: column;
  
+}
+.fotoCuadrada {
+  width: 10rem;
+  height: 11rem;
+  margin: 10px;
+}
+.fotoRectangu {
+  margin: 10px;
+  width: 12rem;
+  height: 23rem;
+}
+
+.fotosUniform{
+  display: flex;
+} 
+.tituloContentImagenes{
+ text-align: center;
+ font-family: 'roboto';
+ color: var(--zochu);
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.contenFotosRctangulares{
+  display: flex;
+} 
+
+
+
+
+
+
+
+
  .tituloComida{
   margin: 0rem;
-  margin-bottom: 3rem;
   margin-left: 5rem;
   font-family: 'MonteCarlo', cursive;
   color: var(--zochu);
@@ -278,7 +845,6 @@ height: 100vh;
   display: flex;
   justify-content: space-around;
 } 
-
 
 .comida{
 width: 20rem;
@@ -306,577 +872,6 @@ z-index: 10;
 
 
  
-
-
-
-
-
-
-.uniformes{
-  background-color: var(--Ccomun);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 3rem;
-  height: 100vh;
-  padding-top: 1rem;
-}
-.tituloUniform{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  margin-left: 5rem;
-  font-family: 'MonteCarlo', cursive;
-  color: var(--zochu);
-  font-size: 5rem;
-}
-
-.mainContenidoUniform{
-  display: flex;
-justify-content: space-around;
-} 
-.contenImagenesUniformeGeneral{
-  background-color: white;
-  margin: 10px;
-display: flex;
-flex-direction: column;
-padding: 20px;
-}
-.contenFotosCuadradas{
-  display: flex;
-  flex-direction: column;
- 
-}
-.fotoCuadrada{
-width: 11rem;
-height: 11rem;
-margin: 10px;
-}
-.fotoRectangu{
-  margin: 10px;
-  width: 13rem;
-  height:23rem ;
-}
-
-.fotosUniform{
-  display: flex;
-} 
-.tituloContentImagenes{
- text-align: center;
- font-family: 'roboto';
- color: var(--zochu);
-  font-size: 20px;
-  letter-spacing: 5px;
-}
-
-.contenFotosRctangulares{
-  display: flex;
-} 
-
-
-
-
-
-
-.tituloInCastle{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  font-family: 'MonteCarlo', cursive;
-  color: var(--zochu);
-  text-align: center;
-  font-size: 50px;
-}
-.introInCastle{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.cajaBlanca{
-  background-color: transparent;
-  width: 99vw;
-  height: 45vh;
-  position: relative;
-  z-index: 1;
-}
-.cajavioleta {
-  display: block;
-  background-color: var(--Ccomun);
-  position: absolute;
-  top: 10.5rem;
-  z-index: -10;
-  margin-left: -15vw;
-  width: 200vw;
-  height: 50vh;
-  transform: rotate(350deg);
-}
-.infoInCastle {
-  border: var(--zochu) 5px solid;
-  width: 30vw;
-  height: max-content;
-  padding: 20px;
-  margin: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.infoInCastle p{
-  width: 50vw;
-}
-.cajaImagIC{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  z-index: 2;
-}
-.imgIntroInCastle{
-  width: 30vw;
-  height: 35vh;
-  margin-right: 10px;
-}
-.EspeCo{
-     margin-left: 10rem;
-}
-.cotenImgVerIC{
-  width: 60vw;
-    display: flex;
-}
-
-.EspeCo .imgenesCloumna{
-  display: flex;
-  flex-direction: row;
-}
-.unoIC{
-  margin-top: 60px;
-}
-.dosIC{
-  margin-top: 30px;
-}
-.insideCastle{
-  background-color: white;
-  min-height: 100vh;
-  height: max-content;
-  display: flex;
-  padding-top: 5vw;
-  padding-bottom: 5rem;
-  justify-content: center;
-  overflow: hidden;
-}
-.insideCastleCont {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 99vw;
-  padding: 0px 5px;
-  margin-top: 2rem;
-}
-.imagenesInCastle {
-    display: flex;
-    width: 40rem;
-    height: fit-content;
-    margin-right: 20px;
-}
-.imgVer{
-  box-sizing: border-box;
-width: 48vw;
-height: 40vh;
-margin: 5px;
-}
-.espe{
-margin: 0;
-}
-.imgHor{
-  box-sizing: border-box;
-  width: 48vw;
-height: 15vh;
-margin: 5px 0;
-}
-.imgHorEspe{
-  width: 48vw;
-  margin: 2px;
-  height:15vh;
-  margin-bottom: 20px;
-}
-.imgCua{
-  box-sizing: border-box;
-width: 48vw;
-height: 24vh;
-margin:  0;
-}
-.imgenesCloumna{
-  width: 50vw;
-  margin-left: 0;
-  margin-right: 0;
-  display: flex;
-  flex-direction: column;
-} 
-.imgVerespe{
-  width: 48vw;
-  height: 40vh;
-  margin: 2px;
-}
-
-.cajavioleta{
-  display: none;
-}
-
-
-
-
-
-
-
-
-
-.tituloCastle{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  font-family: 'MonteCarlo', cursive;
-  color: white;
-  text-align: center;
-  font-size: 5rem;
-}
-.castle{
-  background:linear-gradient(111deg, #5e3888 0%, var(--zochu) 52%, #5e3888 100%);
-  padding:3rem 1rem;
-  padding-top: 0rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.infoCastle{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.infoCastle p{
-  width: 40%;
-  color: white;
-  font-family: 'roboto';
-  font-size: 20px;
-}
-.contFotos{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.casImgVer{
-  width: 17vw;
-  margin-top: 1rem;
-  border-radius: 10px;
-}
-.casImgVer:hover{
-  transform: scale(1.05);
-  transition:transform 1s ;
-}
-.casImgCua{
-  width: 25vw;
-  margin-top: 1rem;
-  border-radius: 10px;
-}
-.casImgCua:hover{
-  transform: scale(1.05);
-  transition:transform 1s ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.animals{
-  background:linear-gradient(111deg, #5e3888 0%, var(--zochu) 52%, #5e3888 100%);
-  height: 180vh;
-  display: flex;
-  padding: 2rem 0;
-  padding-top: 6rem;
-  justify-content: center;
-}
-.portadaAnimals{
-  display: flex;
-  margin-left: 0rem;
-  height: fit-content;
-}
-.portadaAnimal{
-  width: 75vw;
-  height: 70vh;
-}
-.tituloAnimals{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  font-family: 'MonteCarlo', cursive;
-  color: white;
-  text-align: center;
-  font-size: 5rem;
-}
-.infoAmials{
-  width: 20vw;
-  height: 50vh;
-}
-.infoAmials p{
-  color: white;
-  font-family: 'roboto';
-  font-size: 20px;
-}
-.sectionCarrousel{
-  margin-top: -11rem;
-}
-.SubtitutoluAnimals{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  font-family: 'MonteCarlo', cursive;
-  color: white;
-  font-size: 4rem;
-  position: absolute;
-  right: 10rem;
-}
-.carousel {
-  position: relative;
-  display: flex;
-  margin-top: 5rem;
-}
-.carousel .slides {
-  position: relative;
-  top: -4em;
-  left: 5em;
-}
-.carousel .slides img {
-  position: absolute;
-  width: 30vw;
-  height: 80vh;
-  opacity: 0;
-  z-index: 9999;
-}
-.carousel .slides img.active {
-  opacity: 1;
-}
-.carousel .overlays {
-  position: relative;
-  width: 36em;
-  height: 18em;
-}
-.carousel .overlays .bar {
-  position: absolute;
-  top: -73px;
-  left: 30px;
-  width: 80%;
-  height: 82vh;
-  background: var(--bar-color);
-  transform-origin: left;
-}
-.carousel .nav-links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 0;
-  margin-top: 5rem;
-  margin-left: 15em;
-  padding: 0 0 0 6em;
-  list-style-type: none;
-}
-.carousel .nav-links .nav-link {
-  font-size: 2rem;
-  font-family: Lora, serif;
-  line-height: 2;
-  padding: 0 5vw;
-  text-decoration: none;
-  color: var(--Ccomun);
-  transition: 0.3s;
-}
-.carousel .nav-links li:hover{
-  background-color: rgba(255, 255, 255, 0.397);
-}
-.carousel .nav-links .nav-link:hover {
-  color: var(--Ccomun);
- 
-}
-.carousel .nav-links .nav-link.active {
-  color: rgba(255, 255, 255, 0.87);
-  pointer-events: none;
-}
-
-
-
-
-
-
-
-
-
-.Asthetic{
-  display: flex;
-  flex-direction: column;
-  width: 98vw;
-  justify-content: center;
-  padding: 0.5rem 0px;
-  padding-left: 7px;
-  overflow: hidden;
-}
-.FondoAesti{
-  width: 99vw;
-}
-.infoAesti{
-  padding: 2vh;
-  display: flex;
-  justify-content: flex-end;
-}
-.infoAesti p{
-  width: 40vw;
-  font-size: 20px;
-  font-family: 'roboto';
-}
-
-.titulosAesti{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  margin-right: 7rem;
-  font-family: 'MonteCarlo', cursive;
-  color: var(--zochu);
-  text-align: center;
-  font-size: 5rem;
-  justify-self: center;
-}
-
-.fotoUnion {
-  position: absolute;
-  margin-top: -2rem;
-  left: 2rem;
-  width: 15vw;
-  transform: rotate(350deg);
-  background-color: white;
-  padding: 0.5rem;
-}
-.fotonFondoDere {
-  width: 12vw;
-  position: absolute;
-  right: 30px;
-  margin-top: 14rem;
-  transform: rotate(10deg);
-  background-color: white;
-  padding: 0.3rem;
-}
-.fotoArribaDere {
-  width: 7.5vw;
-  position: absolute;
-  right: 30px;
-  margin-top: -15rem;
-  transform: rotate(351deg);
-  background-color: white;
-  padding: 0.3rem;
-}
-
-
-
-
-.magia{
-  background-color: white;
-  display: flex;
-  justify-content: space-around;
-padding: 1rem;
-padding-top: 5rem;
-}
-.columnaIz{
-padding-top: 1rem;
-}
-.douImgIz{
-  display: flex;
-}
-.imgMagVer{
-  width: 15vw;
-  height: 60vh;
-  margin-top: -1rem;
-  border-radius: 50px;
-}
-.prime{
-  
-margin-top: 4rem;
-  margin-left: 10px;
-}
-.columnaMe{
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 33vw;
-}
-.tituloMagia{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  margin-right: 7rem;
-  font-family: 'MonteCarlo', cursive;
-  color: var(--zochu);
-  text-align: center;
-  font-size: 5rem;
-  justify-self: center; 
-}
-.columnaMe p{
-width: 30vw;
-font-size: 20px;
-font-family: 'roboto';
-}
-.columnaDe{
-  width: 30vw;
-padding-top: 1rem;
-}
-.douImgDe{
-display: flex;
-}
-.primo{
-margin-top: 4rem;
-margin-right: 10px;
-}
-
-
-
-.Portales{
-  background-color: white;
-  height: 105vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.InfoPortal{
-display: flex;
-align-self: center;
-flex-direction: column;
-}
-.InfoPortal p{
-  width: 30vw;
-  font-size: 20px;
-font-family: 'roboto';
-}
-.tituloPortal{
-  margin: 0rem;
-  margin-bottom: 1rem;
-  margin-right: 7rem;
-  font-family: 'MonteCarlo', cursive;
-  color: var(--zochu);
-  text-align: center;
-  font-size: 5rem;
-  justify-self: center; 
-}
-.imgsPortals{
-display: flex;
-flex-wrap: wrap;
-width: 50vw;
-height: 80vh;
-}
-.imgPortal {
-  width: 20vw;
-  height: 39vh;
-  margin: 5px;
-}
-
-
-
-
 
 
 
@@ -1194,6 +1189,7 @@ padding-bottom: 30vh;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  margin: 0;
   padding-bottom: 4vh;
 }
 .portadaAnimal{
@@ -1207,6 +1203,7 @@ padding-bottom: 30vh;
   font-size: 50px;
 }
 .infoAmials p{
+  width: 99vw;
 font-size: 15px;
 }
 .sectionCarrousel{
@@ -1622,6 +1619,7 @@ margin-right: 1px;
 .contenImagenesUniformeGeneral{
 align-items: center;
 align-content: center;
+margin: 20px 10px;
 }
 .mainContenidoUniform{
   display: block;
@@ -1630,8 +1628,8 @@ align-content: center;
   display: block;
 } 
 .contenFotosRctangulares{
-  display: block;
-  margin: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
 } 
 
 
