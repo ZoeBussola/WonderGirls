@@ -377,55 +377,72 @@ margin: 10px;
 
 
 
-
-
-
 .tituloInCastle{
   margin: 0rem;
   margin-bottom: 1rem;
   font-family: 'MonteCarlo', cursive;
   color: var(--zochu);
   text-align: center;
-  font-size: 5rem;
+  font-size: 50px;
 }
 .introInCastle{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 70vh;
 }
 .cajaBlanca{
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--Ccomun);
-  width: 98vw;
-  height: 40vh;
+  background-color: transparent;
+  width: 99vw;
+  height: 45vh;
+  position: relative;
+  z-index: 1;
 }
-.infoInCastle{
- border: var(--zochu) 5px solid;
- width: 30vw;
- height: max-content;
- padding: 20px;
- margin: 2rem;
- display: flex;
- flex-direction: column;
- align-items: center;
+.cajavioleta {
+  display: block;
+  background-color: var(--Ccomun);
+  position: absolute;
+  top: 10.5rem;
+  z-index: -10;
+  margin-left: -15vw;
+  width: 200vw;
+  height: 50vh;
+  transform: rotate(350deg);
+}
+.infoInCastle {
+  border: var(--zochu) 5px solid;
+  width: 30vw;
+  height: max-content;
+  padding: 20px;
+  margin: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .infoInCastle p{
-  width: 20vw;
+  width: 50vw;
 }
 .cajaImagIC{
-  height: 70vh;
-  position: absolute;
-  right: 30px;
+  position: relative;
   display: flex;
+  justify-content: center;
+  z-index: 2;
 }
 .imgIntroInCastle{
-  width: 19vw;
-  height: 60vh;
+  width: 30vw;
+  height: 35vh;
   margin-right: 10px;
 }
 .EspeCo{
-  margin-left: -20rem;
+     margin-left: 10rem;
+}
+.cotenImgVerIC{
+  width: 60vw;
+    display: flex;
+}
+
+.EspeCo .imgenesCloumna{
+  display: flex;
+  flex-direction: row;
 }
 .unoIC{
   margin-top: 60px;
@@ -438,59 +455,65 @@ margin: 10px;
   min-height: 100vh;
   height: max-content;
   display: flex;
-  padding-top: 8rem;
+  padding-top: 5vw;
   padding-bottom: 5rem;
   justify-content: center;
+  overflow: hidden;
 }
-.insideCastleCont{
+.insideCastleCont {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 99vw;
-  padding-top: 20px;
-  margin-top: 3rem;
+  padding: 0px 5px;
+  margin-top: 2rem;
 }
-.imagenesInCastle{
-  display: flex;
-  width: 50rem;
-  height: fit-content;
-  margin-right: 20px;
+.imagenesInCastle {
+    display: flex;
+    width: 40rem;
+    height: fit-content;
+    margin-right: 20px;
 }
 .imgVer{
   box-sizing: border-box;
-width: 40%;
-height: 80vh;
+width: 48vw;
+height: 40vh;
 margin: 5px;
 }
-.imgVerespe{
- box-sizing: border-box;
-width: 40%;
-height: 72vh;
-margin: 5px;
+.espe{
+margin: 0;
 }
 .imgHor{
   box-sizing: border-box;
-  width: 28vw;
-height: 30vh;
-margin: 5px;
+  width: 48vw;
+height: 15vh;
+margin: 5px 0;
 }
 .imgHorEspe{
-  height: 35vh;
+  width: 48vw;
+  margin: 2px;
+  height:15vh;
   margin-bottom: 20px;
 }
 .imgCua{
   box-sizing: border-box;
-width: 28vw;
-height: 49vh;
-margin: 5px;
+width: 48vw;
+height: 24vh;
+margin:  0;
 }
 .imgenesCloumna{
-  width: 30rem;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 50vw;
+  margin-left: 0;
+  margin-right: 0;
   display: flex;
   flex-direction: column;
+} 
+.imgVerespe{
+  width: 48vw;
+  height: 40vh;
+  margin: 2px;
 }
+
 .cajavioleta{
   display: none;
 }
@@ -1231,7 +1254,7 @@ margin-left: -15vw;
   margin: 0;
   margin-top: 5rem;
   margin-left: 8em;
-  padding: 0;
+  padding: 0 0 0 6em;
   list-style-type: none;
 }
 .carousel .nav-links .nav-link{
@@ -1255,7 +1278,7 @@ margin-left: -15vw;
 .cajaBlanca{
   background-color: transparent;
   width: 99vw;
-  height: 45vh;
+  height: 30vh;
   position: relative;
   z-index: 1;
 }
@@ -1270,15 +1293,17 @@ margin-left: -15vw;
   height: 50vh;
   transform: rotate(350deg);
 }
-.infoInCastle {
-  border: var(--zochu) 5px solid;
-  width: 30vw;
-  height: max-content;
-  padding: 20px;
-  margin: 2vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.infoInCastle{
+  z-index: 1;
+ border: var(--zochu) 5px solid;
+ width: 90vw;
+ height: 25vh;
+ padding: 0;
+ margin: 0px;
+ margin-left: 2.5vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 .infoInCastle p{
   width: 50vw;
@@ -1295,12 +1320,13 @@ margin-left: -15vw;
   margin-right: 10px;
 }
 .EspeCo{
-  margin-left: 10rem;
+  margin-left: 0;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
 }
 .cotenImgVerIC{
-  width: 60vw;
-    display: flex;
-}
+  display: flex;
 }
 .EspeCo .imgenesCloumna{
   display: flex;
@@ -1317,24 +1343,26 @@ margin-left: -15vw;
   min-height: 100vh;
   height: max-content;
   display: flex;
-  padding-top: 5vw;
+  padding-top: 10vw;
   padding-bottom: 5rem;
   justify-content: center;
   overflow: hidden;
 }
-.insideCastleCont {
+.insideCastleCont{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   width: 99vw;
-  padding: 0px 5px;
-  margin-top: 2rem;
+  padding-top: 20px;
+  margin-top: 3rem;
 }
-.imagenesInCastle {
-    display: flex;
-    width: 40rem;
-    height: fit-content;
-    margin-right: 20px;
+.imagenesInCastle{
+  display: flex;
+  justify-self: center;
+  width: 98vw;
+  height: fit-content;
+  margin-right: 0;
+  padding: 5px 0;
 }
 .imgVer{
   box-sizing: border-box;
