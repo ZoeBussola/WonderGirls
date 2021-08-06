@@ -45,7 +45,6 @@ main{
 a{
     font-size: 20px;
     color: var(--zochu);
-    /* color: black; */
     text-decoration: none;
 }
 
@@ -54,8 +53,6 @@ header {
     background:radial-gradient( var(--Ccomun) 80%,var(--miru));
      box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.42);
     display: flex;
-    justify-content: space-between;
-     width: 100vw;
 }
 header .logo{
     width: 12vw;
@@ -63,7 +60,7 @@ header .logo{
 }
 header nav {
 	display: flex;
-    margin-right: 10vw;
+    margin-left: 15vw;
    
 }
 
