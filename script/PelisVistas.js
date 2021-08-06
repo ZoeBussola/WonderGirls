@@ -1,7 +1,7 @@
 const Peliculas=[
 {
     titulo:'Luca',
-    img:'/img/lecciones-de-amistad-que-aprendimos-de-luca.png',
+    img:'img/lecciones-de-amistad-que-aprendimos-de-luca.png',
     ratingM:9,
     ratingZ:8,
     ratingF:9,
@@ -13,7 +13,7 @@ const Peliculas=[
 
 {
     titulo:'AVATAR',
-    img:'/img/avatar-1-filmloverss.jpg',
+    img:'img/avatar-1-filmloverss.jpg',
     ratingM:8,
     ratingZ:10,
     ratingF:9,
@@ -106,7 +106,7 @@ const Peliculas=[
 },
 {
     titulo:'Wolf Children',
-    img:'/img/wolf-children.jpg',
+    img:'img/wolf-children.jpg',
     ratingM:6,
     ratingZ:9,
     ratingF:6,
@@ -179,7 +179,7 @@ const Peliculas=[
 },
 {
     titulo:'Yuri on Ice',
-    img:'/img/issues/yuri-on-ice-la-serie-anime-sera-proyectada-en-cinepolis-01.jpg',
+    img:'img/issues/yuri-on-ice-la-serie-anime-sera-proyectada-en-cinepolis-01.jpg',
     ratingM:9,
     ratingZ:9,
     ratingF:9,
