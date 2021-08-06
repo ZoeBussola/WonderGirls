@@ -179,7 +179,7 @@ const Peliculas=[
 },
 {
     titulo:'Yuri on Ice',
-    img:'img/issues/yuri-on-ice-la-serie-anime-sera-proyectada-en-cinepolis-01.jpg',
+    img:'img/yuri-on-ice-la-serie-anime-sera-proyectada-en-cinepolis-01.jpg',
     ratingM:9,
     ratingZ:9,
     ratingF:9,
