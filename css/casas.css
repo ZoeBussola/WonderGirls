@@ -1,7 +1,6 @@
 @import url(comun.css);
 main{
-    /* justify-content: space-around; */
-    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 body{
     background-color: black;
@@ -13,7 +12,7 @@ body{
     border: 1px solid black;
     justify-content: center;
     width: 71vh;
-    height: 85.6vh;
+    height: 84vh;
     margin: 0px;
     
 }
@@ -41,14 +40,13 @@ body{
 }
 
 .cajaCasa{
-     margin: 15px;
+    margin: 15px;
     border-radius: 30px;
     box-shadow: none;
-    width: 22rem;
-    height: 32rem;
+    width: 25vw;
+    height: 80vh;
     border-radius: 30px;
     transition: box-shadow 1s;
-
 }
 .portal:hover .cajaCasa{
     
