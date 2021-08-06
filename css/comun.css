@@ -33,6 +33,7 @@ main{
     position: fixed;
     height: fit-content;
     z-index: 10000;
+    width: 100vw;
 }
 .header2 h1{
     line-height: 50px;
