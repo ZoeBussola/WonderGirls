@@ -1,82 +1,209 @@
 @import url(comun.css);
-
+@font-face {
+    font-family: ProximaNova;
+    src: url('/img/twiter/ProximaNova.ttc')
+}
+body{
+    background-color: #63D5D4;
+}
 main{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 0 50px;
-    justify-content: center;
+    overflow: hidden;
 }
-.ferraro{
-    background-color:var(--ferchu);
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+
+#main1{
+    height: 100vh;
 }
-.miru{
-    background-color:var(--miru);
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+.card{
+    width: 25vw;
+    height: 60vh;
+   margin-top: 5vh;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    opacity: 100%;
+    cursor: pointer;
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.1);
 }
-.todas{
-    background:linear-gradient(30deg, var(--miru),var(--zochu) ,var(--ferchu));
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+.oscurecer{
+    opacity: 50%;
 }
-.zochu{
-    background-color:var(--zochu);
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-    color: lightgray;
+.fondoPerfil{
+border-top-left-radius:20px ;
+border-top-right-radius:20px ;
+overflow: hidden;
+width: 30vw;
+height: 20vh;
 }
-.MiruyFerchu{
-    background:linear-gradient(30deg, var(--miru),var(--ferchu) );
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+.imgFondo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    width: 25vw;
+    margin-top: -50vh;
+    z-index: 0;
 }
-.ZochuYMiru{
-    background:linear-gradient(30deg, var(--miru),var(--zochu) );
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+.imgPerfil{
+    width: 7vw;
+   margin-top:-6vh ;
+   margin-left: 1vw;
+   z-index: 10;
+
 }
-.FerchuyZochu{
-    background:linear-gradient(30deg, var(--zochu),var(--ferchu) );
-    padding: 15px 30px;
-    margin: 15px 30px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.42);
+
+.botonEditarPerfil{
+    background: none;
+    border-style: none;
+    border:2px solid lightseagreen;
+    padding: 0.3vw;
+    border-radius: 20px;
+    width: 6vw;
+    margin-top: 1.5vh;
+    height: 5vh;
+    color: lightseagreen;
+    margin-left: 9vw;
+    
 }
-.fracetexto{
-    background-color: rgba(255, 255, 255, 0.253);
-    padding: 10px 20px;
+.secinfo{
+     background-color: white;
+     padding-bottom: 1vw;
+     display: flex;
+     flex-direction: column;
+     border-bottom-left-radius:20px ;
+     border-bottom-right-radius:20px ;
+}
+.cajaDeBt{
+    display: flex;
+}
+.infoPerfil{
+    margin: 0vw 1.5vw;
+}
+.infoPerfil h3{
+    font-size: 27px;
+    font-family: ProximaNova;
+}
+.infoPerfil small{
+    font-size: 20px;
+    font-family: ProximaNova;
+    color: gray;
+}
+.infoPerfil p{
+    font-family: ProximaNova;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 100%;
+    height: 14vh;
+    margin-top: 0.7vh;
+}
+.infoPequenia{
+    margin: 0.5vw 1.5vw;
+    color: gray;
+    
+    font-family: ProximaNova;
     display: flex;
     flex-direction: column;
-    font-family: var(--textos);
 }
-.autortexto{
-    font-family:var(--textos);
+.infoPequenia span{
+    font-size: 18px;
+}
+.imgIcono{
+    margin-bottom: -0.5vh;
+    margin-left: 0.5vw;
+    width: 1.2vw;
+}
+.seguidores{
+    margin-top: 1vh;
+}
+.seguidores i{
+   
+    font-style:normal;
+    font-weight: bold;
     color: black;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: right;
-    justify-content: right;
 }
-.zochuspan{
-    font-family:var(--textos);
-    color: lightgray;
-    font-weight: bolder;
-    font-style: italic;
-    text-align: right;
-    justify-content: right;
+.secondIcono{
+    margin-left: 0.5vw;
 }
 
-.fondobody{
-    background-image: url(../img/simon-berger-twukN12EN7c-unsplash.jpg) ;
-    background-size: 101% 104%;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
 
+#main2{
+    min-height: 100vh;
+    display: flex;
+}
+.tweetsGenerales{
+    font-family:ProximaNova;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    margin: 15px;
+    margin-left: 5vw;
+    border-radius: 10px;
+    border:1px solid white;
+    display: none;
+}
+.twit{
+    margin: 1vw;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    width: 25vw;
+    height: fit-content;
+}
+.twit img{
+    width: 6vw;
+    height: 6vw;
+}
+.sectionInfo{
+    margin-left: 0.5vw;
+    width: 28vw;
+}
+.titulo{
+    width: 18vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.titulo i{
+    color: gray;
+    font-weight: normal;
+    font-size: 25px;
+}
+.tituloNombre{
+    width: 28vw;
+    display: flex;
+    font-family: ProximaNova;
+}
+.tituloNombre h2{
+    font-size: 25px;
+}
+.tituloNombre small{
+    margin-left: 0.5vw;
+font-size: 25px;
+color: gray;
+}
+.twit p{
+    min-height: 4vh;
+    width: 18vw;
+    font-size: 22px;
+    font-family: ProximaNova;
+}
+.cajaIconos{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -2vw;
+    margin-top: 2vh;
+}
+.cajaIconos i{
+    color: gray;
+    font-size: 20px;
+}
+.spanNumero{
+    color: gray;
+    font-size: 20px;
+    margin-left: 0.2vw;
+    font-family: ProximaNova;
+    font-weight: normal;
+}
