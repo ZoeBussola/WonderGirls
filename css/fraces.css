@@ -1,7 +1,7 @@
 @import url(comun.css);
 @font-face {
     font-family: ProximaNova;
-    src: url('/img/twiter/ProximaNova.ttc')
+    src: url('img/twiter/ProximaNova.ttc')
 }
 body{
     background-color: #63D5D4;
