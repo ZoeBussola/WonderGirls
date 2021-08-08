@@ -270,7 +270,6 @@ Frases.forEach(frase=>{
 let btnGeneral = document.querySelector(".tweetsGenerales")
 let perfiles=document.querySelectorAll('.card')
 let bodyfr =document.querySelector("body")
-console.log(perfiles);
 
 perfiles[0].addEventListener('click',function () {
     bodyfr.style.backgroundColor ='#D0EEFF'
