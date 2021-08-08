@@ -39,6 +39,10 @@ main{
     cursor: pointer;
     box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.1);
 }
+.card:hover{
+    transform: scale(1.5);
+    transition: transform 1s;
+}
 .oscurecer{
     opacity: 50%;
 }
@@ -168,6 +172,10 @@ height: 20vh;
     width: 25vw;
     height: fit-content;
 }
+.twit:hover{
+    transform: scale(1.5);
+    transition: transform 1s;
+}
 .twit img{
     width: 6vw;
     height: 6vw;
@@ -194,11 +202,11 @@ height: 20vh;
     font-family: 'Hind Siliguri', sans-serif;
 }
 .tituloNombre h2{
-    font-size: 22px;
+    font-size: 20px;
 }
 .tituloNombre small{
     margin-left: 0.5vw;
-font-size: 22px;
+font-size:20px;
 color: gray;
 }
 .twit p{
