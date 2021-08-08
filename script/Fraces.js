@@ -135,7 +135,7 @@ const chicas=[
         seguidores:"420",
     },
     {
-        imgFondo:"img/333.jpeg",
+        imgFondo:"img/twiter/333.jpeg",
         imgPerfil:"img/twiter/Icono Zochu.png",
         nombre:"Zochu",
         arroba:"Alexandria",
