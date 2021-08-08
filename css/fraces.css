@@ -1,6 +1,6 @@
 @import url(comun.css);
 @font-face {
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
     src: url('img/twiter/txt/ProximaNova-Bold-03.otf'),
      url('img/twiter/txt/ProximaNova-BoldIt-04.otf'),
      url('img/twiter/txt/ProximaNova-Extrabld-05.otf'),
@@ -94,15 +94,15 @@ height: 20vh;
 }
 .infoPerfil h3{
     font-size: 27px;
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
 }
 .infoPerfil small{
     font-size: 20px;
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
     color: gray;
 }
 .infoPerfil p{
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
     box-sizing: border-box;
     font-size: 20px;
     width: 100%;
@@ -113,7 +113,7 @@ height: 20vh;
     margin: 0.5vw 1.5vw;
     color: gray;
     
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
     display: flex;
     flex-direction: column;
 }
@@ -144,7 +144,7 @@ height: 20vh;
     display: flex;
 }
 .tweetsGenerales{
-    font-family:ProximaNova;
+    font-family:"ProximaNova";
     padding: 10px;
     height: fit-content;
     width: fit-content;
@@ -186,7 +186,7 @@ height: 20vh;
 .tituloNombre{
     width: 28vw;
     display: flex;
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
 }
 .tituloNombre h2{
     font-size: 25px;
@@ -200,7 +200,7 @@ color: gray;
     min-height: 4vh;
     width: 18vw;
     font-size: 22px;
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
 }
 .cajaIconos{
     display: flex;
@@ -216,6 +216,6 @@ color: gray;
     color: gray;
     font-size: 20px;
     margin-left: 0.2vw;
-    font-family: ProximaNova;
+    font-family: "ProximaNova";
     font-weight: normal;
 }
