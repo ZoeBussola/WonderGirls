@@ -30,7 +30,7 @@ main{
 }
 .card{
     width: 25vw;
-    height: 60vh;
+    height: 62vh;
    margin-top: 5vh;
     border-radius: 20px;
     background-color: white;
@@ -93,12 +93,12 @@ height: 20vh;
     margin: 0vw 1.5vw;
 }
 .infoPerfil h3{
-    font-size: 27px;
+    font-size: 25px;
     /* font-family: "ProximaNova"; */
     font-family: 'Hind Siliguri', sans-serif;
 }
 .infoPerfil small{
-    font-size: 20px;
+    font-size: 18px;
     /* font-family: "ProximaNova"; */
     font-family: 'Hind Siliguri', sans-serif;
     color: gray;
@@ -107,7 +107,7 @@ height: 20vh;
     /* font-family: "ProximaNova"; */
     font-family: 'Hind Siliguri', sans-serif;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     height: 14vh;
     margin-top: 0.7vh;
@@ -122,7 +122,7 @@ height: 20vh;
     flex-direction: column;
 }
 .infoPequenia span{
-    font-size: 18px;
+    font-size: 16px;
 }
 .imgIcono{
     margin-bottom: -0.5vh;
@@ -194,17 +194,17 @@ height: 20vh;
     font-family: 'Hind Siliguri', sans-serif;
 }
 .tituloNombre h2{
-    font-size: 25px;
+    font-size: 22px;
 }
 .tituloNombre small{
     margin-left: 0.5vw;
-font-size: 25px;
+font-size: 22px;
 color: gray;
 }
 .twit p{
     min-height: 4vh;
     width: 18vw;
-    font-size: 22px;
+    font-size: 18px;
     /* font-family: "ProximaNova"; */
     font-family: 'Hind Siliguri', sans-serif;
 }
@@ -216,11 +216,11 @@ color: gray;
 }
 .cajaIconos i{
     color: gray;
-    font-size: 20px;
+    font-size: 16px;
 }
 .spanNumero{
     color: gray;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 0.2vw;
     /* font-family: "ProximaNova"; */
     font-family: 'Hind Siliguri', sans-serif;
