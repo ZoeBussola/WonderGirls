@@ -1,7 +1,19 @@
 @import url(comun.css);
 @font-face {
     font-family: ProximaNova;
-    src: url('img/twiter/ProximaNova-Regular-01.otf')
+    src: url('img/twiter/ProximaNova-Bold-03.otf'),
+     url('img/twiter/ProximaNova-BoldIt-04.otf'),
+     url('img/twiter/ProximaNova-Extrabld-05.otf'),
+     url('img/twiter/ProximaNova-ExtrabldIt-06.otf'),
+     url('img/twiter/ProximaNova-Light-09.otf'),
+     url('img/twiter/ProximaNova-LightIt-10.otf'),
+     url('img/twiter/ProximaNova-Medium-07.otf'),
+     url('img/twiter/ProximaNova-MediumIt-08.otf'),
+     url('img/twiter/ProximaNova-Regular-01.otf'),
+     url('img/twiter/ProximaNova-RegularIt-02.otf'),
+     url('img/twiter/ProximaNova-Semibold-11.otf'),
+     url('img/twiter/ProximaNova-SemiboldIt-12.otf'),
+    
 }
 body{
     background-color: #63D5D4;
