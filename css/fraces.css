@@ -40,7 +40,7 @@ main{
     box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.1);
 }
 .card:hover{
-    transform: scale(1.5);
+    transform: scale(1.05);
     transition: transform 1s;
 }
 .oscurecer{
@@ -173,7 +173,7 @@ height: 20vh;
     height: fit-content;
 }
 .twit:hover{
-    transform: scale(1.5);
+    transform: scale(1.05);
     transition: transform 1s;
 }
 .twit img{
