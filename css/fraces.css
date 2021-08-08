@@ -1,10 +1,20 @@
 @import url(comun.css);
 @font-face {
     font-family: "ProximaNova";
-    src: 
-     url("./img/twiter/txt/ProximaNova-Regular-01.otf");
+    src: url('/img/twiter/txt/ProximaNova-BoldIt-04.otf'),
+     url('/img/twiter/txt/ProximaNova-Extrabld-05.otf'),
+     url('/img/twiter/txt/ProximaNova-ExtrabldIt-06.otf'),
+     url('/img/twiter/txt/ProximaNova-Light-09.otf'),
+     url('/img/twiter/txt/ProximaNova-LightIt-10.otf'),
+     url('/img/twiter/txt/ProximaNova-Medium-07.otf'),
+     url('/img/twiter/txt/ProximaNova-MediumIt-08.otf'),
+     url('/img/twiter/txt/ProximaNova-Regular-01.otf'),
+     url('/img/twiter/txt/ProximaNova-RegularIt-02.otf'),
+     url('/img/twiter/txt/ProximaNova-Semibold-11.otf'),
+     url('/img/twiter/txt/ProximaNova-SemiboldIt-12.otf'),
     
 }
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
 body{
     background-color: #63D5D4;
 }
@@ -84,15 +94,18 @@ height: 20vh;
 }
 .infoPerfil h3{
     font-size: 27px;
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .infoPerfil small{
     font-size: 20px;
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
     color: gray;
 }
 .infoPerfil p{
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
     box-sizing: border-box;
     font-size: 20px;
     width: 100%;
@@ -103,7 +116,8 @@ height: 20vh;
     margin: 0.5vw 1.5vw;
     color: gray;
     
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -176,7 +190,8 @@ height: 20vh;
 .tituloNombre{
     width: 28vw;
     display: flex;
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .tituloNombre h2{
     font-size: 25px;
@@ -190,7 +205,8 @@ color: gray;
     min-height: 4vh;
     width: 18vw;
     font-size: 22px;
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .cajaIconos{
     display: flex;
@@ -206,6 +222,7 @@ color: gray;
     color: gray;
     font-size: 20px;
     margin-left: 0.2vw;
-    font-family: "ProximaNova";
+    /* font-family: "ProximaNova"; */
+    font-family: 'Hind Siliguri', sans-serif;
     font-weight: normal;
 }
