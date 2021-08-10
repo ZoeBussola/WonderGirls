@@ -14,64 +14,64 @@
 
 
 <main>
+		
 	<div class="contenedor tipos">
-		<button id="primero"> Señora de las cuatro decadas</button>
-		<button id="segundos">Noches Latinas de Pasión y Lujuria</button>
-	</div>
+        <button class="opcPlaylist selecionado" id="primero"> Señora de las cuatro decadas</button>
+        <button class="opcPlaylist" id="segundos">Noches Latinas de Pasión y Lujuria</button>
+      </div> 
+    
+      <div class="contenedor reproduc">
+    
+        <img src="https://pbs.twimg.com/media/DXf9w_vWsAEduM1.jpg" class="portada" alt="">
+      <audio id="player" ontimeupdate="updateProgress();">
+      <source id="source">Audio no soportado</audio>	
+        
+      
+      <div id="controls">
+          <input type="range" id="progress"  value="0" max="100" class="progreso"> 
+          <br>
+          <section class="mostrarTiempo">
+          <div class="timer" id="timer">
+          &nbsp;
+            </div>
+            <div class="timer" id="timer2">
+              &nbsp;
+                </div>
+          </section>
+        <span id="currentPlay"></span><br>
+      
+      <div class="botones">
+        <i class="far fa-heart"></i>
+        <section class="play" >
+        <i class="fas fa-backward" onclick="prevMusic();" id="anterior"></i>
+        <i class="fas fa-play" onclick="togglePlay();" id="iconPlay"></i> 
+        <i class="fas fa-forward" onclick="nextMusic();"></i>
+        <br>
+         </section >
 
-	<div class="contenedor">
-
-		<img src="img/Blanco.png" class="portada" alt="">
-	<audio id="player" ontimeupdate="updateProgress();">
-	<source id="source">Audio no soportado</audio>	
-		
-	
-	<div id="controls">
-		<input type="range" id="progress"  value="0" max="100" class="progreso"> 
-		  <div class="timer" id="timer">
-			&nbsp;
-				</div>
-		<span id="currentPlay"></span><br>
-	
-	<div class="botones">
-		<section class="listVol">
-		
-	
-		<div class="volumen" > 
-			<i class="fas fa-volume-up" id="despleVol"></i>
-				<div id="este" class="">
-					<i class="fas fa-volume-down"></i>
-					<input type="range" name="volumen" id="volumen" min="0" max="1" step="0.01" value="0.50" class="volumeninput"> 
-				</div>
-		</div>
-		</section>
-	   
-	
-		
-		<section class="play" >
-		<i class="fas fa-step-backward" onclick="prevMusic();" id="anterior"></i>
-		<i class="fas fa-play-circle" onclick="togglePlay();" id="iconPlay"></i> 
-		<i class="fas fa-step-forward" onclick="nextMusic();"></i>
-		<br>
-		 </section >
-		
-	   </div>
-	</div>
-	</div>
-
-<div class="contenedor playList">
-	
-	<img class="playicono" id="desplegarLista" src="img/pngtree-playlist-icon-image_1128352.png" alt="">
-	<section class="topplaylist">	<h3>Señora de las cuatro decadas</h3></section>
-		<ul id="lista" class="">
-			
-			 <div class="playlist" id="playList"></div>
-		</ul>
-</div>
-	
-	
-	
-
+         <div class="volumen" > 
+          <i class="fas fa-volume-up" id="despleVol"></i>
+            <div id="este" class="contVol">
+            <input type="range" name="volumen" id="volumen" min="0" max="1" step="0.01" value="0.50" class="volumeninput"> 
+            </div>
+        </div>
+         </div>
+      </div>
+      </div>
+  
+  
+    <div class=" playList">
+      
+      <i class="fas fa-bars" id="btnOcultPlay"></i>
+      <div class="contentPlaylist" >
+        <i class="fas fa-angle-double-right" id="flechasCerrar"></i>
+      <section class="topplaylist">	<h3>Señora de las cuatro decadas</h3></section>
+        <ul id="lista" class="">
+           <div class="playlist" id="playList"></div>
+        </ul>
+  </div>
+    </div>
+    
 
 </main>
     
