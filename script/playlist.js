@@ -180,7 +180,7 @@ let canciones = [
    //Funcion para cargar las canciones en el reproductor
    function loadMusic(ruta){
      var source = document.getElementById('source')
-     var folder ="/musica";//Carpeta donde tenemos almancenada la musica
+     var folder ="musica";//Carpeta donde tenemos almancenada la musica
      source.src= folder+"/"+ruta
      var index= indiceActual[0]= canciones.indexOf(ruta)
      removeActive()
