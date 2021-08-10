@@ -26,7 +26,7 @@ let canciones = [
   listadoMusica.onclick = (e) =>{
     const itemClick = e.target
     removeActive()
-    itemClick.classList.add("active");
+    itemClick.classList.add("activado");
     reproduccionActual(itemClick.innerText)
     loadMusic(itemClick.innerText)
     player.play()
@@ -76,7 +76,7 @@ let canciones = [
     }
     removeActive()
     var item=document.getElementById(siguiente)
-    item.classList.add("active");
+    item.classList.add("activado");
     loadMusic(canciones[siguiente]);
     player.play()
     indiceActual[0]= siguiente
@@ -94,7 +94,7 @@ let canciones = [
     }
     removeActive()
     var item=document.getElementById(anterior)
-    item.classList.add("active");
+    item.classList.add("activado");
     loadMusic(canciones[anterior]);
     player.play()
     indiceActual[0]= anterior
@@ -103,9 +103,9 @@ let canciones = [
   }
   //Funcion para remover todas las clases css activas
   function removeActive(){
-    var elems = document.querySelectorAll(".active");
+    var elems = document.querySelectorAll(".activado");
       [].forEach.call(elems, function(el) {
-        el.classList.remove("active");
+        el.classList.remove("activado");
       });
       return elems
   }
@@ -121,7 +121,7 @@ let canciones = [
     var index= indiceActual[0]= canciones.indexOf(ruta)
     removeActive()
     var item=document.getElementById(index)
-    item.classList.add("active");
+    item.classList.add("activado");
     reproduccionActual(ruta.replace(".mp3",""))
     player.load()
   }

@@ -759,7 +759,7 @@ let canciones = [
              }
              return listado
              }
-            imgportada.setAttribute("src","https://pbs.twimg.com/media/DXf9w_vWsAEduM1.jpg")
+            imgportada.setAttribute("src","https://asset1.zankyou.com/images/mag-card-c/4ce/3eb5/878/623/-/es/wp-content/uploads/2017/04/shutterstock_3513804801.jpg")
              botonPrime.classList.toggle("selecionado")
              botonSecu.classList.remove("selecionado")
              listadoMusica.innerHTML=``

@@ -924,7 +924,7 @@ ol li:hover, svg:hover {
 cursor: pointer;
 color: white;
 }
-ol li.active{
+ol li.activado{
 color:white;
 }
 #controls{
