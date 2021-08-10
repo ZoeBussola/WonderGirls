@@ -946,7 +946,10 @@ opacity: 0.8;
 svg{
 color: white;
 }
-
+.progreso{
+  width: 100%;
+  padding: 0;
+}
 .progreso[type='range'] {
 margin-bottom: 15px;
 padding-left: 10px;
@@ -990,15 +993,15 @@ height: 4px;
 outline: none;
 }
 
-.timer{
-width:50%;
-  font-size: 0.9rem;
-position: relative;
-top:-10px;
-left:1.2rem;
-text-align:left;
-float:left;
-color: white;
+.timer {
+  width: 80%;
+  font-size: 0.75rem;
+  position: relative;
+  top: -10px;
+  left: 1.5rem;
+  text-align: left;
+  float: left;
+  color: white;
 }
 .listVol{
   width: 100%;
@@ -1011,10 +1014,11 @@ justify-content: flex-end;
   flex-direction: row-reverse;
   justify-content: space-evenly;
 }
-.fa-volume-up{
+.fa-volume-up {
   color: white;
-  font-size: 1.5rem;
-  padding-left: 15px;
+  font-size: 1.2rem;
+  padding-left: 5px;
+  margin-top: 0.3vh;
 }
 .fa-volume-down{
   font-size: 1.5rem;
@@ -1025,7 +1029,7 @@ justify-content: flex-end;
   justify-content: center;
 }
 .play .fas{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 #currentPlay{
 color: white;
@@ -1037,11 +1041,12 @@ section ul{
 }
 
 .volumeninput{
+width: 5vw;
 
 }
 
 input[type='range'] {
-padding-left: 10px;
+padding-left: 5px;
 }
 
 input[type='range']:focus {
@@ -1057,8 +1062,8 @@ background-color: #32115600;
 
 input[type=range]::-webkit-slider-thumb {
 background-color:rgb(255, 255, 255);
-width: 20px;
-height: 20px;
+width: 10px;
+height: 10px;
 /* border: 3px solid var(--miru); */
 border-radius: 50%;
 margin-top: -9px;
@@ -1095,20 +1100,20 @@ outline: none;
 
 
 .aparecerMusica{
-  padding:1rem;
-	background-color:#3211568e;
-	font-size:20px;
-	color:white;
-    border-radius:100% ;
-	position: fixed;
-    width: 70px;
-    height: 70px;
-    border-style: none;
-    box-shadow: var(--shadow);
-    transition: box-shadow 0.5s;
-	bottom:20px;
-	right:10px;
-    cursor: pointer;
+  padding: 0.5rem;
+  background-color: #3211568e;
+  font-size: 20px;
+  color: white;
+  border-radius: 100%;
+  position: fixed;
+  width: 4vw;
+  height: 4vw;
+  border-style: none;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.5s;
+  bottom: 20px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .aparecerMusica:hover{
@@ -1720,7 +1725,7 @@ margin: 20px 10px;
     position: fixed;
     bottom:20px;
     right:10px;
-    width: 15em;
+    width: 10vw;
   background-color:#3211568e;
   display: flex;
   justify-items: center;
