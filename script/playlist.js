@@ -845,7 +845,7 @@ let canciones = [
                }
                return listado
              }
-             imgportada.setAttribute("src","https://eldiariodefinanzas.com/wp-content/uploads/2020/08/fiestas-virtuales-zoom.jpg")
+             imgportada.setAttribute("src","https://www.elindependiente.com/wp-content/uploads/2020/06/201610214879b419a62977ea10ec89129e6487b1.jpg")
              botonPrime.classList.remove("selecionado")
              botonSecu.classList.add("selecionado")
              listadoMusica.innerHTML=``

@@ -7,7 +7,7 @@ main{
   padding-top: 5px;
  width: 100vw;
  overflow: hidden;
-  height: 85vh;
+  height: 83vh;
   
 }
 body{
@@ -92,13 +92,14 @@ color:lightskyblue;
 
 }
 
-ol li{
-list-style: none;
-padding: 5px;
-  margin-left: 10px;
-font-size: 1.1rem;
-font-family: 'Poppins', sans-serif;
-color:#8383b6;
+ol li {
+    list-style: none;
+    padding: 3px;
+    margin: 2px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    color: #8383b6;
 }
 ol li:hover, svg:hover {
 cursor: pointer;
@@ -125,12 +126,12 @@ opacity: 0.8;
 .botones{
   display: flex;
   align-items: center;
-  padding-left: 2vw;
+  padding-left: 5vw;
   width: 65%;
 }
 .fa-heart{
   color: var(--Ccomun);
-font-size: 2.5rem;
+font-size: 2rem;
 margin-right: 0.5rem;
 }
 svg{
@@ -223,7 +224,7 @@ justify-content: flex-end;
   display: flex;
   justify-content: space-evenly;
   height: fit-content;
-  padding: 10px;
+  padding: 5px;
   border-radius: 20px;
 }
 .fa-volume-up{
@@ -237,13 +238,14 @@ justify-content: flex-end;
   justify-content: center;
 }
 .play .fas{
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 1vw;
   color: var(--Ccomun);
 }
 #currentPlay{
 color:white;
   text-align: center;
+  font-size: 13px;
   font-family: 'Poppins';
 }
 
@@ -257,7 +259,7 @@ section ul{
 .volumen div{
 }
 .volumeninput{
-margin-top: 1.5vh;
+margin-top: 2vh;
 }
 .cambioVol{
   background-color: var(--Ccomun);
@@ -387,7 +389,7 @@ width: 25vw;
   height: 65vh;
 }
 .topplaylist h3{
-font-size: 1.7rem;
+font-size: 1.4rem;
 color: var(--Ccomun);
 font-weight: bold;
 margin-left: 1vw;
