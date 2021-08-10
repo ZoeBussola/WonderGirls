@@ -126,7 +126,7 @@ opacity: 0.8;
 .botones{
   display: flex;
   align-items: center;
-  padding-left: 5vw;
+  padding-left: 3.5vw;
   width: 65%;
 }
 .fa-heart{
