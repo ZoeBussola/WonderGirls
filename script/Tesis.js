@@ -72,7 +72,7 @@ let main =document.querySelector("main")
               main.innerHTML=``
             body.classList.toggle("clasebody")
             main.innerHTML=` <div class="tesis">
-        <img src="img/diseñoMiru/FondoTeoria.png" class="tesisFondo" alt="">
+        <img src="img/diseñosmiru/Fondo resized.png" class="tesisFondo" alt="">
         <section class="contenido">
             <img src="${tesise[0].img}" class="Foto" alt="">
             <div class="pequenaInfo">
@@ -100,7 +100,7 @@ let main =document.querySelector("main")
             main.innerHTML=``
             body.classList.toggle("clasebody")
             main.innerHTML=` <div class="tesis">
-        <img src="img/diseñoMiru/FondoTeoria.png" class="tesisFondo" alt="">
+        <img src="img/diseñosmiru/Fondo resized.png" class="tesisFondo" alt="">
         <section class="contenido">
         <img src="${tesise[1].img}" class="Foto" alt="">
             <div class="pequenaInfo">
@@ -127,7 +127,7 @@ let main =document.querySelector("main")
             main.innerHTML=``
             body.classList.toggle("clasebody")
             main.innerHTML=` <div class="tesis">
-        <img src="img/diseñoMiru/FondoTeoria.png" class="tesisFondo" alt="">
+        <img src="img/diseñosmiru/Fondo resized.png" class="tesisFondo" alt="">
         <section class="contenido">
         <img src="${tesise[2].img}" class="Foto" alt="">
             <div class="pequenaInfo">
@@ -155,7 +155,7 @@ let main =document.querySelector("main")
         body.classList.toggle("clasebody")
         main.innerHTML=` 
         <div class="tesis">
-         <img src="/img/diseñosmiru/FondoTeoria.png" class="tesisFondo" alt="">
+         <img src="img/diseñosmiru/Fondo resized.png" class="tesisFondo" alt="">
          <section class="contenido">
             <img src="${tesise[3].img}" class="Foto" alt="">
             <div class="pequenaInfo">

@@ -75,6 +75,7 @@ text-align: justify;
     height: 90%;
     overflow: scroll;
     font-size: 15px;
+    width: 100%;
 }
 .descrip::-webkit-scrollbar {
     width: 10px;     /* Tamaño del scroll en vertical */
@@ -115,7 +116,7 @@ text-align: justify;
     height: 75%;
 }
 .tesis{
-    width: 90vh;
+    width: 99vh;
     display: flex;
 }
 .Foto{
