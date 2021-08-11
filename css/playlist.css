@@ -133,6 +133,7 @@ opacity: 0.8;
 .fa-heart{
   color: var(--Ccomun);
 font-size: 2rem;
+padding: 2px;
 margin-right: 0.5rem;
 }
 svg{
