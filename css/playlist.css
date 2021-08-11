@@ -448,6 +448,12 @@ main{
 justify-content: space-around;
   height: 10vh;
 }
+.fa-heart{
+  color: var(--Ccomun);
+font-size: 2.5rem;
+padding: 9px;
+margin-right: 0;
+}
 .contVol{
   margin-bottom: 10vw;
 }
