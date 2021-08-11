@@ -30,7 +30,7 @@ body{
 }
 .escudo{
     margin-top: 120px;
-    margin-left: 35px;
+    margin-left: 30px;
     width: 20rem;
     height: 20rem;
     position: absolute;
@@ -78,16 +78,9 @@ box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
     .cajaCasa{
         width: 92vw;
     }
-    .fondoZ{
-        width: 98%;
-        align-items: center;
-    }
-    .fondoF{
-        width: 98%;
-        align-items: center;
-    }
-    .fondoM{
-        align-items: center;
-        width: 98%;
+    .fondo{
+      
+        justify-content: flex-start;
+        
     }
 }
