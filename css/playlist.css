@@ -443,7 +443,7 @@ main{
     align-items: center;
     padding-left: 0vw;
     width:80%;
-
+justify-content: space-around;
   height: 10vh;
 }
 .contVol{
