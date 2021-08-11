@@ -1062,12 +1062,10 @@ background-color: #32115600;
 
 #volumen[type=range]::-webkit-slider-thumb {
 background-color:rgb(255, 255, 255);
-margin-top: 15px;
 width: 10px;
 height: 10px;
-/* border: 3px solid var(--miru); */
 border-radius: 50%;
-margin-top: -9px;
+margin-top: -7px;
 }
 
 #volumen[type=range]::-moz-range-thumb {
