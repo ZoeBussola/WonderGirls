@@ -464,7 +464,7 @@ let canciones = [
    
    despleVolumen.addEventListener("click",function () {
      desplegableVolumen.classList.toggle('infoVol')
-     cajaVolumen.classList.toggle("cambioVol")
+     cajaVolumen.classList.toggle("cambioVolDos")
      despleVolumen.classList.toggle("cambioVol")
    })
    
