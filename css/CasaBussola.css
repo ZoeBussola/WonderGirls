@@ -1062,7 +1062,7 @@ background-color: #32115600;
 
 #volumen[type=range]::-webkit-slider-thumb {
 background-color:rgb(255, 255, 255);
-margin-top: 5px;
+margin-top: 15px;
 width: 10px;
 height: 10px;
 /* border: 3px solid var(--miru); */
@@ -1356,11 +1356,12 @@ margin-left: -15vw;
 }
 
 .insideCastleCont{
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 99vw;
-  padding: 20px;
+  padding: 10px;
   margin-top: 8rem;
 }
 .imagenesInCastle{
@@ -1739,7 +1740,7 @@ margin: 20px 10px;
     position: fixed;
     bottom:20px;
     right:10px;
-    width: 140vw;
+    width: 40vw;
   background-color:#3211568e;
   display: flex;
   justify-items: center;
