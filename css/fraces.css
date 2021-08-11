@@ -234,3 +234,86 @@ color: gray;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: normal;
 }
+
+
+
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:1200px ) {
+    #main1 {
+        height: max-content;
+        width: 99vw;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5vh;
+    }
+.card{
+    width: 80vw;
+}
+.fondoPerfil {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    width: 80vw;
+    height: 20vh;
+}
+.imgFondo{
+    width: 80vw;
+    margin: 0;
+    margin-top: -20vh;
+}
+.imgPerfil {
+    width: 30vw;
+}
+.botonEditarPerfil {
+    background: none;
+    border-style: none;
+    border: 2px solid lightseagreen;
+    padding: 0.3vw;
+    border-radius: 20px;
+    width: 30vw;
+    margin-top: 1.5vh;
+    height: 5vh;
+    color: lightseagreen;
+    margin-left: 16vw;
+}
+.infoPerfil {
+    margin: 0vw 3vw;
+}
+.infoPerfil p {
+    font-size: 22px;
+}
+.infoPequenia {
+    margin: 0.5vw 3vw;
+}
+main{
+    padding: 0;
+    padding-bottom: 20px;
+}
+.twit{
+    width: 80vw;
+}
+.twit img{
+    width: 20vw;
+    height: 20vw;
+}
+.titulo {
+    width: 60vw;
+}
+.twit p {
+    width: 60vw;
+}
+.cajaIconos {
+   width: 60vw;
+}
+
+
+
+
+}
