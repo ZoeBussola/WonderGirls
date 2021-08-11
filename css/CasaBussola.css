@@ -998,7 +998,7 @@ outline: none;
   font-size: 0.75rem;
   position: relative;
   top: -10px;
-  left: 1.5rem;
+  left: 5rem;
   text-align: left;
   float: left;
   color: white;
@@ -1729,6 +1729,9 @@ margin: 20px 10px;
   z-index: 500;
   width: 12vw;
   height: 12vw;
+}
+.timer {
+  left: 2rem;
 }
 .progreso[type='range'] {
   margin-bottom: 15px;
