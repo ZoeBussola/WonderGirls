@@ -266,7 +266,9 @@ margin-top: 2vh;
   background-color: var(--Ccomun);
   color: var(--zochu);
 }
-
+.cambioVolDos{
+  background-color: var(--Ccomun);
+}
 
 
 
