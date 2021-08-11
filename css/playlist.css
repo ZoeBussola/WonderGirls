@@ -404,17 +404,25 @@ font-family: 'Poppins', sans-serif;
 
 
 
+
 @media (max-width:1200px ){
+  .fas.fa-bars {
+    color: var(--zochu);
+    font-size: 40px;
+    margin: 0;
+    display: block;
+    position: relative;
+  }
 main{
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  height: max-content;
 }
 .contenedor{
-  width: 80vw;
+  width: 95vw;
   padding: 10px;
-  margin: 20px;
   height: fit-content;
+  margin: 0;
 }
 .contenedor.tipos{
   min-height: fit-content;
@@ -424,7 +432,59 @@ main{
   min-height: fit-content;
   padding: 10px;
 }
+.portada{
+  width: 70vw;
+}
+.play {
+  margin: 2vw;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    padding-left: 0vw;
+    width:80%;
+
+  height: 10vh;
+}
+.contVol{
+  margin-bottom: 10vw;
+}
+.cambioVolDos{
+  margin-bottom: 15vh;
+  background-color: var(--Ccomun);
+}
+.volumen {
+  padding: 5px;
+  width: 10vw;
+  flex-direction: column-reverse;
+}
+.volumeninput {
+  margin-top: 8vh;
+  margin-left: -6vw;
+  width: 10vh;
+  transform: rotate(270deg);
+}
+.mostrarTiempo{
+  width: 80%;
+}
+#progress {
+  width: 70vw;
+}
 #playList{
-  margin-left: 1rem;
+  margin-left: 0rem;
+}
+.fa-angle-double-right {
+  display: none;
+}
+.topplaylist{
+width: 95vw;
+}
+.playList {
+  margin-top: 10vh;
+  width: 95vw;
+  height: 83vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1vh;
 }
 }
