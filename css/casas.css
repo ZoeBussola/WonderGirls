@@ -104,8 +104,8 @@ body{
     align-items: center;
 }
 .escudo{
-    width:25rem;
-    height: 25rem;
+    width: 25vw;
+    height: 50vh;
     filter:none;
     visibility: hidden;
   opacity: 0;
@@ -148,19 +148,19 @@ body{
     }
    .portal{
        width: 80vw;
-       height: 60vh;
+       height: 70vh;
    }
    .PZo{
        width: 80vw;
-       height: 60vh;
+       height: 70vh;
    }
    .PFer{
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
     background-size: 125%;
 }
 .PMir{
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
 }
 }
