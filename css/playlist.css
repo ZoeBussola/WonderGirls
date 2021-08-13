@@ -106,11 +106,12 @@ ol li:hover, svg:hover {
 cursor: pointer;
 background-color: var(--Ccomun);
 color: var(--zochu);
+border-radius: 10px;
 }
 ol li.active{
   color: var(--zochu);
   background-color: var(--Ccomun);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 ol li span{
 display: none;
