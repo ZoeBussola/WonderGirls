@@ -1,8 +1,10 @@
 @import url(comun.css);
+body{
+
+}
 main{
-    justify-content: space-around;
-    overflow:hidden;
-    width: 100vw;
+     justify-content: space-around; 
+    flex-wrap: nowrap;
 }
 body{
     background-color: black;
@@ -10,38 +12,15 @@ body{
 .fondo{
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    border-radius: 5px;
     display: flex;
-    border: 1px solid black;
     justify-content: center;
     width: 71vh;
-    height: 84vh;
+    height: 85.5vh;
     margin: 0px;
-    
+    align-items: center;
 }
-.Zo{
-    background-image: url(../img/773a056129c6b4d0f026cdb25423e74f.jpg);
-   
-}
-.Fer{
-    background-image: url(../img/FondoFer.png);
-   
-}
-.Miru{
-    background-image: url(../img/FondoMiru.jpeg);
-}
-.escudo{
-    margin-top: 120px;
-    margin-left: 30px;
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
-   
-}
-
-.cajaCasa{
+.portal{
     margin: 15px;
     border-radius: 30px;
     box-shadow: none;
@@ -49,21 +28,105 @@ body{
     height: 80vh;
     border-radius: 30px;
     transition: box-shadow 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.portal:hover .cajaCasa{
-    
-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
--webkit-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
--moz-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
+.portal:hover{
+    box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
+    -moz-box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
     transition: box-shadow 0.8s;
-   transform: scale(1.05);
-   transition: transform 0.8s;
-   filter: blur(2px); 
-   z-index: 10;
+    transform: scale(1.04);
+    transition: transform 0.8s;
+    z-index: 10;
 }
+.portal:hover .PZo{
+    filter: blur(2px);
+}
+.Zo{
+    background-image: url(img/773a056129c6b4d0f026cdb25423e74f.jpg);
+}
+.PZo{
+    background-image: url(img/5e46359e6b522c431ac082ca532aba93.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: none;
+    width: 25vw;
+    height: 80vh;
+    border-radius: 30px;
+    transition: box-shadow 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Fer{
+    background-image: url(img/FondoFer.png);
+}
+.PFer{
+    background-image: url(img/PortalFer.png);
+    background-size: 115%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: none;
+    width: 25vw;
+    height: 80vh;
+    border-radius: 30px;
+    transition: box-shadow 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Miru{
+    background-image: url(img/FondoMiru.jpeg);
+}
+.PMir{
+    background-image: url(img/PortalMiru.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    margin: 15px;
+    border-radius: 30px;
+    box-shadow: none;
+    width: 25vw;
+    height: 80vh;
+    border-radius: 30px;
+    transition: box-shadow 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.escudo{
+    width:25rem;
+    height: 25rem;
+    filter:none;
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.8s linear;
+   
+}
+
+.cajaCasa{
+     margin: 15px;
+    border-radius: 30px;
+    box-shadow: none;
+    width: 25rem;
+    height: 40rem;
+    border-radius: 30px;
+    transition: box-shadow 1s;
+}
+
 .portal:hover .escudo{
     z-index: 1000;
     visibility: visible;
+    filter: blur(0px);
   opacity: 1;
 } 
 .CasaFondo{
@@ -74,14 +137,30 @@ box-shadow: 3px 11px 48px 21px rgba(0,0,0,0.61);
     main{
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
-    }
-    .cajaCasa{
-        width: 92vw;
+        overflow: hidden;
     }
     .fondo{
-      
-        justify-content: flex-start;
-        
+
     }
+    .escudo{
+        width: 75vw;
+        height: 35vh;
+    }
+   .portal{
+       width: 80vw;
+       height: 60vh;
+   }
+   .PZo{
+       width: 80vw;
+       height: 60vh;
+   }
+   .PFer{
+    width: 80vw;
+    height: 60vh;
+    background-size: 125%;
+}
+.PMir{
+    width: 80vw;
+    height: 60vh;
+}
 }
