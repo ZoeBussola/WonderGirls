@@ -587,6 +587,7 @@ let canciones = [
        "DisneE/Circle Of Life - The Lion King.mp3", 
        "DisneE/Dig a Little Deeper - The Princess and the Frog.mp3", 
        "DisneE/Down in New Orleans - Princess and the Frog.mp3", 
+       "DisneE/Esta Noche Es Para Amar - El Rey Leon.mp3", 
        "DisneE/Evermore - Beauty and the Beast.mp3", 
        "DisneE/Feed The Birds - Mary Poppins.mp3", 
        "DisneE/Friends On The Other Side - Princess and the Frog.mp3", 
