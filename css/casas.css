@@ -151,15 +151,18 @@ body{
        height: 70vh;
    }
    .PZo{
+    background-size: 110% 100%;
        width: 80vw;
        height: 70vh;
    }
    .PFer{
+    background-size: 110% 100%;
     width: 80vw;
     height: 70vh;
     background-size: 125%;
 }
 .PMir{
+    background-size: 110% 100%;
     width: 80vw;
     height: 70vh;
 }
