@@ -310,9 +310,13 @@ let canciones = [
      return listado
      }
     imgportada.setAttribute("src","https://pbs.twimg.com/media/DXf9w_vWsAEduM1.jpg")
-    botonPrime.classList.remove("selecionado")
-    botonSecu.classList.add("selecionado")
+
+    botonPrime.classList.add("selecionado")
+    botonSecu.classList.remove("selecionado")
     botonTer.classList.remove("selecionado")
+    botonCuar.classList.remove("selecionado")
+
+
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
      titulo.innerText="Señora de las cuatro decadas"
@@ -397,9 +401,12 @@ let canciones = [
        return listado
      }
      imgportada.setAttribute("src","https://asset1.zankyou.com/images/mag-card-c/4ce/3eb5/878/623/-/es/wp-content/uploads/2017/04/shutterstock_3513804801.jpg")
+
      botonPrime.classList.remove("selecionado")
      botonSecu.classList.add("selecionado")
      botonTer.classList.remove("selecionado")
+     botonCuar.classList.remove("selecionado")
+
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
      titulo.innerText="Noches Latinas de Pasión y Lujuria"
@@ -413,6 +420,7 @@ let canciones = [
       "Disney/Algo Ahi - La Bella y La Bestia.mp3", 
       "Disney/Algun dia Mi Principe Vendra - Blancanieves.mp3", 
       "Disney/Amor Inmortal - Caballeros Del Zodiaco.mp3", 
+      "Disney/Augusto Gloop - Willy Wonka.mp3", 
       "Disney/Baile hula hula - El Rey Leon.mp3", 
       "Disney/Bárbaros - Pocahontas.mp3", 
       "Disney/Bella y Bestia Son - La Bella y la Bestia.mp3", 
@@ -425,6 +433,7 @@ let canciones = [
       "Disney/Canto Al Amor - Bambi.mp3", 
       "Disney/Carnada - Rey Leon.mp3", 
       "Disney/Cenicienta fue la chica de aquel Waltz -Cenicienta lll .mp3", 
+      "Disney/Chim Chimenea - Mary Poppins.mp3", 
       "Disney/Ciclo Sin Fin - El Rey León.mp3", 
       "Disney/Colores En El Viento - Pocahontas.mp3", 
       "Disney/Como El Ritmo Del Tambor - Pocahontas.mp3", 
@@ -482,6 +491,7 @@ let canciones = [
       "Disney/Mi cancion - Rey Leon ll.mp3", 
       "Disney/Mi chica es la razón - Mulan.mp3", 
       "Disney/Mi Vida Empieza Asi - Enredados.mp3", 
+      "Disney/Miguel TV - Willy Wonka.mp3", 
       "Disney/Mundo Perfecto - Las locuras del emperador.mp3", 
       "Disney/Nacio Un Campeon - Hercules.mp3", 
       "Disney/No hablaré de mi Amor - Hercules.mp3", 
@@ -516,8 +526,10 @@ let canciones = [
       "Disney/Un Mundo Ideal - Aladdín.mp3", 
       "Disney/Upendi - Rey Leon ll.mp3", 
       "Disney/Veo en Tí la Luz - Enredados.mp3", 
+      "Disney/Veruca Salt - Willy Wonka.mp3", 
       "Disney/Vida hay - Bambi ll.mp3", 
       "Disney/Viento y Cielo Alcanzar - Valiente.mp3", 
+      "Disney/Violeta - Willy Wonka.mp3", 
       "Disney/We're in Harmony - The Fox and the Hound 2.mp3", 
       "Disney/With A Few Good Friends - Carly Simon .mp3", 
       "Disney/Yo quiero más que soñar - La Cenicienta lll.mp3", 
@@ -542,13 +554,129 @@ let canciones = [
        return listado
      }
      imgportada.setAttribute("src","https://m.n.com.do/wp-content/uploads/2019/12/disney-logo.0.jpg")
+
      botonPrime.classList.remove("selecionado")
      botonSecu.classList.remove("selecionado")
      botonTer.classList.add("selecionado")
+     botonCuar.classList.remove("selecionado")
+
+
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
      titulo.innerText="Disney Latino"
    })
+
+   let  botonCuar =document.querySelector('#cuarto')
+   botonCuar.addEventListener("click",function () {
+     canciones =[];
+     canciones.push(
+       "A Cover Is Not the Book - Mary Poppins.mp3", 
+       "DisneE/A Dream Is A Wish Your Heart Makes - Cinderella.mp3", 
+       "DisneE/A Girl Worth Fighting For - Mulan.mp3", 
+       "DisneE/A Spoonful of Sugar - Mary Poppins .mp3", 
+       "DisneE/A star is born - Hercules.mp3", 
+       "DisneE/Almost There - The Princess and the Frog.mp3", 
+       "DisneE/An Unusual Prince Once Upon a Dream - Sleeping Beauty.mp3", 
+       "DisneE/Arabian Nights - Aladdin.mp3", 
+       "DisneE/Be Our Guest - Beauty and the Beast.mp3", 
+       "DisneE/Bella Notte - Lady and the Tramp.mp3", 
+       "DisneE/Belle - Beauty and the Beast.mp3", 
+       "DisneE/Belle Little Town - Beauty and the Beast.mp3", 
+       "DisneE/Breaking Free - High School Musical.mp3", 
+       "DisneE/Bring Honor To Us All - Mulan.mp3", 
+       "DisneE/Circle Of Life - The Lion King.mp3", 
+       "DisneE/Dig a Little Deeper - The Princess and the Frog.mp3", 
+       "DisneE/Down in New Orleans - Princess and the Frog.mp3", 
+       "DisneE/Evermore - Beauty and the Beast.mp3", 
+       "DisneE/Feed The Birds - Mary Poppins.mp3", 
+       "DisneE/Friends On The Other Side - Princess and the Frog.mp3", 
+       "DisneE/Gaston - Beauty and the Beast.mp3", 
+       "DisneE/Go the Distance - Hercules.mp3", 
+       "DisneE/God Help The Outcasts - The hunchback Of Notre Dame.mp3", 
+       "DisneE/Good Company - Oliver And Company.mp3", 
+       "DisneE/Hakuna Matata - The Lion King.mp3", 
+       "DisneE/Hawaiian Roller Coaster Ride - Lilo  Stitchmp3.mp3", 
+       "DisneE/He Lives In You - The Lion King ll.mp3", 
+       "DisneE/He Mele No Lilo - Lilo & Stitch.mp3", 
+       "DisneE/Hero - Starstruck.mp3", 
+       "DisneE/Holding Out For a Hero - Shrek ll.mp3", 
+       "DisneE/I Am Moana - Moana.mp3", 
+       "DisneE/I Have Got A Dream - Tangled.mp3", 
+       "DisneE/I Just Can't Wait to Be King - The Lion King.mp3", 
+       "DisneE/I Put A Spell On You - Abracadabra.mp3", 
+       "DisneE/I See The Light - Tangle.mp3", 
+       "DisneE/I Wont Say Im In Love - Hercules.mp3", 
+       "DisneE/I'll Make A Man Out Of You - Mulan.mp3", 
+       "DisneE/I'm Almost There Sing A Long - Princess and the Frog.mp3", 
+       "DisneE/In a World Of My Own - AliceIn Wonderland.mp3", 
+       "DisneE/Into The Open Air - Brave.mp3", 
+       "DisneE/Know Who You Are - Moana.mp3", 
+       "DisneE/Les Poissons - The Little Mermaid.mp3", 
+       "DisneE/Love Will Find A Way - The Lion King ll.mp3", 
+       "DisneE/Ma Belle Evangeline - Princess and the Frog.mp3", 
+       "DisneE/Magic - Selena Gomez.mp3", 
+       "DisneE/Oh I Just Cant Wait To Be King - The Lion King.mp3", 
+       "DisneE/On my Way - Brother Bear.mp3", 
+       "DisneE/Part of Your World - The Little Mermaid.mp3", 
+       "DisneE/Push It To The Limit - Corbin Bleu.mp3", 
+       "DisneE/Remember Me - Coco.mp3", 
+       "DisneE/Right Here Right Now - High-School-Musical lll.mp3", 
+       "DisneE/Scales and Arpeggios - The Aristocats.mp3", 
+       "DisneE/Single - Beauty and the Beast.mp3", 
+       "DisneE/Something About The Sunshine - Starstruck.mp3", 
+       "DisneE/Son Of Man - Tarzan.mp3", 
+       "DisneE/Start Of Something New - High School Musical.mp3", 
+       "DisneE/Steady As The Beating Drum - Pocahontas.mp3", 
+       "DisneE/Strangers Like Me - Tarzan.mp3", 
+       "DisneE/Strangers Like Me ll - Tarzan.mp3", 
+       "DisneE/Streets Of Gold - Oliver And Company.mp3", 
+       "DisneE/The Climb - Miley Cyrus.mp3", 
+       "DisneE/The hunchback Of Notre Dame Hellfire English (Disney).mp3", 
+       "DisneE/The Lion King 2  We Are One English.mp3", 
+       "DisneE/This is Halloween - The Nightmare Before Christmas).mp3", 
+       "DisneE/This is Halloween.mp3", 
+       "DisneE/Touch The Sky - Brave.mp3", 
+       "DisneE/Under the Sea - The Little Mermaid.mp3", 
+       "DisneE/When We re Human - Princess and the Frog.mp3", 
+       "DisneE/When Will My Life Begin - Tangled.mp3", 
+       "DisneE/When You Wish Upon a Star - Pinocchio.mp3", 
+       "DisneE/Why Should I Worry - Oliver And Company.mp3", 
+       "DisneE/Will the Sun Ever Shine Again - Home on the Range.mp3", 
+       "DisneE/You'll be in my heart - Tarzan.mp3", 
+       "DisneE/You've Got a Friend in Me - Toy Story.mp3", 
+       "DisneE/Zero to Hero - Hercules.mp3" 
+      )
+     function listar(){
+       const listado = document.createElement('ol')
+       listado.setAttribute("id", 'listadoMusica')
+       for (let i = 0; i<canciones.length; i++){
+           const item = document.createElement('li')
+           const span =document.createElement('span')
+     
+           span.appendChild(document.createTextNode(canciones[i])) 
+           item.appendChild(document.createTextNode(((canciones[i]).slice(7,100).replace(".mp3","")))) 
+     
+           item.appendChild(span)
+           item.setAttribute("id", canciones.indexOf(canciones[i]))
+           span.setAttribute("id", canciones.indexOf(canciones[i]))
+     
+           listado.appendChild(item)
+       }
+       return listado
+     }
+     imgportada.setAttribute("src","https://m.n.com.do/wp-content/uploads/2019/12/disney-logo.0.jpg")
+
+     botonPrime.classList.remove("selecionado")
+     botonSecu.classList.remove("selecionado")
+     botonTer.classList.remove("selecionado")
+     botonCuar.classList.add("selecionado")
+     
+     listadoMusica.innerHTML=``
+     listadoMusica.appendChild(listar())
+     titulo.innerText="Disney English"
+   })
+
+
 
 
 
