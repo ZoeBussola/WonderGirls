@@ -64,7 +64,7 @@ justify-self: center;
   justify-self: center;
   margin: 1rem;
   margin-top: 12vh;
-  background-color: rgb(135, 206, 250);
+  background-color: var(--Ccomun);
 
 }
 .playList{
