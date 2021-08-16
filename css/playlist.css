@@ -373,7 +373,7 @@ outline: none;
 }
 .topplaylist{
 display: flex;
-justify-content:center;
+justify-content:flex-start;
 width: 25vw;
 }
 .fas.fa-bars{
