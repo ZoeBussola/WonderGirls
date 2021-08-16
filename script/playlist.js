@@ -621,7 +621,7 @@ let canciones = [
        "DisneE/Part of Your World - The Little Mermaid.mp3", 
        "DisneE/Push It To The Limit - Corbin Bleu.mp3", 
        "DisneE/Remember Me - Coco.mp3", 
-       "DisneE/Right Here Right Now - High-School-Musical lll.mp3", 
+       "DisneE/Right Here Right Now - High School Musical lll.mp3", 
        "DisneE/Scales and Arpeggios - The Aristocats.mp3", 
        "DisneE/Single - Beauty and the Beast.mp3", 
        "DisneE/Something About The Sunshine - Starstruck.mp3", 
