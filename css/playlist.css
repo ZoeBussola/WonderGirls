@@ -410,7 +410,7 @@ font-family: 'Poppins', sans-serif;
 
 
 
-@media (max-width:1200px ){
+@media (max-width:700px ){
   .fas.fa-bars {
     color: var(--zochu);
     font-size: 40px;
@@ -419,6 +419,8 @@ font-family: 'Poppins', sans-serif;
     position: relative;
   }
 main{
+  width: 99vw;
+  height: 82vh;
   flex-direction: column;
   justify-content: center;
   height: max-content;
