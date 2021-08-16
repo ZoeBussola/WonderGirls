@@ -315,6 +315,7 @@ let canciones = [
     botonSecu.classList.remove("selecionado")
     botonTer.classList.remove("selecionado")
     botonCuar.classList.remove("selecionado")
+    botonQuinto.classList.remove("selecionado")
 
 
      listadoMusica.innerHTML=``
@@ -406,6 +407,7 @@ let canciones = [
      botonSecu.classList.add("selecionado")
      botonTer.classList.remove("selecionado")
      botonCuar.classList.remove("selecionado")
+     botonQuinto.classList.remove("selecionado")
 
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
@@ -560,6 +562,7 @@ let canciones = [
      botonSecu.classList.remove("selecionado")
      botonTer.classList.add("selecionado")
      botonCuar.classList.remove("selecionado")
+     botonQuinto.classList.remove("selecionado")
 
 
      listadoMusica.innerHTML=``
@@ -670,13 +673,72 @@ let canciones = [
      botonSecu.classList.remove("selecionado")
      botonTer.classList.remove("selecionado")
      botonCuar.classList.add("selecionado")
+     botonQuinto.classList.remove("selecionado")
      
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
      titulo.innerText="Disney English"
    })
 
+   let  botonQuinto =document.querySelector('#quinto')
+   botonQuinto.addEventListener("click",function () {
+     canciones =[];
+     canciones.push(
+      "Openig/Yarichin Bclub.mp3", 
+      "Openig/Aishiteruze Baby.mp3", 
+      "Openig/Angel Beats.mp3", 
+      "Openig/AnoHana - Ending.mp3", 
+      "Openig/Anohana.mp3", 
+      "Openig/Ao Haru Ride.mp3", 
+      "Openig/Bakemonogatari.mp3", 
+      "Openig/Beastars.mp3", 
+      "Openig/Brothers Conflict - Ending.mp3", 
+      "Openig/Brothers Conflict.mp3", 
+      "Openig/Clannad After Story.mp3", 
+      "Openig/Death Parade.mp3", 
+      "Openig/Demon Slayer.mp3", 
+      "Openig/Evangelion.mp3", 
+      "Openig/Fullmetal Alchemist Brotherhood.mp3", 
+      "Openig/Haikyu!!.mp3", 
+      "Openig/Himouto! Umaru-chan.mp3", 
+      "Openig/Kaichou Wa Maid Sama.mp3", 
+      "Openig/Kamisama Hajimemashita.mp3", 
+      "Openig/Ouran High School Host Club.mp3", 
+      "Openig/Prison School.mp3", 
+      "Openig/Sukitte II Na Yo.mp3", 
+      "Openig/Sword Art Online.mp3", 
+      "Openig/Wotaku ni Koi wa Muzukashii.mp3" 
+      )
+     function listar(){
+       const listado = document.createElement('ol')
+       listado.setAttribute("id", 'listadoMusica')
+       for (let i = 0; i<canciones.length; i++){
+           const item = document.createElement('li')
+           const span =document.createElement('span')
+     
+           span.appendChild(document.createTextNode(canciones[i])) 
+           item.appendChild(document.createTextNode(((canciones[i]).slice(7,100).replace(".mp3","")))) 
+     
+           item.appendChild(span)
+           item.setAttribute("id", canciones.indexOf(canciones[i]))
+           span.setAttribute("id", canciones.indexOf(canciones[i]))
+     
+           listado.appendChild(item)
+       }
+       return listado
+     }
+     imgportada.setAttribute("src","https://i.pinimg.com/originals/71/3c/9e/713c9ef81541e3e43161fccd480aba64.png")
 
+     botonPrime.classList.remove("selecionado")
+     botonSecu.classList.remove("selecionado")
+     botonTer.classList.remove("selecionado")
+     botonCuar.classList.remove("selecionado")
+     botonQuinto.classList.add("selecionado")
+
+     listadoMusica.innerHTML=``
+     listadoMusica.appendChild(listar())
+     titulo.innerText="Openings"
+   })
 
 
 
