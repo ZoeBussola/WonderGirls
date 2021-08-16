@@ -1,6 +1,5 @@
 @import url(comun.css);
 body{
-overflow: hidden;
 }
 main{
      justify-content: space-around; 
@@ -141,7 +140,7 @@ body{
         overflow: hidden;
     }
     .fondo{
-
+        width: 100vw;
     }
     .escudo{
         width: 75vw;
