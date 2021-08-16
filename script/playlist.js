@@ -415,7 +415,7 @@ let canciones = [
    botonTer.addEventListener("click",function () {
      canciones =[];
      canciones.push(
-      "¿Brillará El Sol Otra Vez - Vacas Vaqueras.mp3", 
+      "Disney/¿Brillará El Sol Otra Vez - Vacas Vaqueras.mp3", 
       "Disney/¿Y si hacemos un muñeco - Frozen.mp3", 
       "Disney/Algo Ahi - La Bella y La Bestia.mp3", 
       "Disney/Algun dia Mi Principe Vendra - Blancanieves.mp3", 
