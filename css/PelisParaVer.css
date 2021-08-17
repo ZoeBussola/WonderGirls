@@ -56,6 +56,7 @@ main{
   height: fit-content;
   margin: 0 0 0 10px;
   font-size: 1.2rem;
+  padding: 10px;
 }
 #acanombre{
   height: 25%;
@@ -166,7 +167,7 @@ input[type="checkbox"]:checked + label {
     font-size: 100%;
   
 }
-@media (max-width : 1300px){
+@media (max-width : 700px){
   main{
     padding: 20px 0 0 0;
     width: auto;
@@ -194,6 +195,10 @@ input[type="checkbox"]:checked + label {
   height: 190px;
   justify-content: center;
 }
+#textos {
+  margin-top: 3.9rem;
+  margin-left: 10vw;
+}
 .randomimg{
   margin: 0;
   width: 300px;
@@ -210,7 +215,7 @@ input[type="checkbox"]:checked + label:after {
   font-size: 0.8rem;
 }
 section{
-  margin: 5.5px 15px;
+  margin: 9.5px 0px;
   
 }
 }
