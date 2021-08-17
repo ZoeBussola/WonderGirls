@@ -600,7 +600,7 @@ let canciones = [
       "DisneE/God Help The Outcasts - The hunchback Of Notre Dame.mp3", 
       "DisneE/Good Company - Oliver And Company.mp3", 
       "DisneE/Hakuna Matata - The Lion King.mp3", 
-      "DisneE/Hawaiian Roller Coaster Ride - Lilo  Stitch.mp3", 
+      "DisneE/Hawaiian Roller Coaster Ride - Lilo Stitch.mp3", 
       "DisneE/He Lives In You - The Lion King ll.mp3", 
       "DisneE/He Mele No Lilo - Lilo & Stitch.mp3", 
       "DisneE/Hellfire - The hunchback Of Notre Dame.mp3", 
