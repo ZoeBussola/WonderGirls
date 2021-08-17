@@ -277,7 +277,6 @@ section ul{
 margin-top: 2vh;
 }
 .cambioVol{
-  background-color: var(--Ccomun);
   color: var(--zochu);
 }
 .cambioVolDos{
