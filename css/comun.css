@@ -54,6 +54,7 @@ header {
     background:radial-gradient( var(--Ccomun) 80%,var(--miru));
      box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.42);
     display: flex;
+    height: 70px
 }
 header .logo{
     width: 12vw;
@@ -281,7 +282,7 @@ nav ul a:hover li  {
 
 	.menu_bar .bt-menu {
 		display:block;
-		padding:20px;
+		padding:10px;
 		background:var(--Ccomun);
 		color:var(--zochu);
 		text-decoration:none;
