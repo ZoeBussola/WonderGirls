@@ -62,7 +62,7 @@ height: 20vh;
     z-index: 0;
 }
 .imgPerfil{
-    width: 15vw;
+    width: 7vw;
    margin-top:-6vh ;
    margin-left: 1vw;
    z-index: 10;
@@ -269,7 +269,7 @@ color: gray;
     margin-top: -20vh;
 }
 .imgPerfil {
-    width: 30vw;
+    width: 15vw;
 }
 .botonEditarPerfil {
     background: none;
