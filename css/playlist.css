@@ -55,6 +55,7 @@ color: var(--Ccomun);
 }
 .reproduc{
 width: 35vw;
+align-items: center;
 justify-self: center;
 }
 .portada{
