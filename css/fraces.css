@@ -30,7 +30,7 @@ main{
 }
 .card{
     width: 25vw;
-    height: 62vh;
+    height: fit-content;
    margin-top: 5vh;
     border-radius: 20px;
     background-color: white;
@@ -62,7 +62,7 @@ height: 20vh;
     z-index: 0;
 }
 .imgPerfil{
-    width: 7vw;
+    width: 15vw;
    margin-top:-6vh ;
    margin-left: 1vw;
    z-index: 10;
