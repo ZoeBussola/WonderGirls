@@ -227,12 +227,13 @@ display: flex;
 justify-content: flex-end;
 }
 
-.volumen{
+.volumen {
   display: flex;
   justify-content: space-evenly;
   height: fit-content;
   padding: 5px;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .fa-volume-up{
   color: var(--Ccomun);
@@ -263,7 +264,14 @@ section ul{
   display: none;
 }
 
-.volumen div{
+.volumen div {
+  position: absolute;
+  background-color: var(--Ccomun);
+  padding: 6.8px;
+  margin-left: 190px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: -5px;
 }
 .volumeninput{
 margin-top: 2vh;
