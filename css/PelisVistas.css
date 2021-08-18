@@ -4,6 +4,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 2vh;
 }
 article{
     display: flex;
@@ -33,7 +34,8 @@ article{
 }
 .card p{
     margin-bottom: 0.2rem;
-    font-size: 1.2vw;
+    box-sizing: border-box;
+    font-size: 100%;
 }
 .card h3{
     font-size: 1em;
@@ -50,7 +52,7 @@ article{
     }
     .card {
         width: 320px;
-    height: 65vh;
+    height: 68vh;
     
     }
     .card img{
