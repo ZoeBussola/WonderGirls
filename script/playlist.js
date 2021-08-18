@@ -556,7 +556,7 @@ let canciones = [
        }
        return listado
      }
-     imgportada.setAttribute("src","https://m.n.com.do/wp-content/uploads/2019/12/disney-logo.0.jpg")
+     imgportada.setAttribute("src","img/DisneyEspa.jpeg")
 
      botonPrime.classList.remove("selecionado")
      botonSecu.classList.remove("selecionado")
@@ -667,7 +667,7 @@ let canciones = [
        }
        return listado
      }
-     imgportada.setAttribute("src","https://m.n.com.do/wp-content/uploads/2019/12/disney-logo.0.jpg")
+     imgportada.setAttribute("src","img/DisneyIng.jpeg")
 
      botonPrime.classList.remove("selecionado")
      botonSecu.classList.remove("selecionado")
