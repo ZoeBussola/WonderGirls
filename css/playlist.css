@@ -498,7 +498,7 @@ margin-right: 0;
 .infoVol {
   display: block;
   color: var(--Ccomun);
-  width: 10vw;
+  width: 8.8vw;
 }
 .cambioVolDos{
   margin-bottom: 0;
@@ -507,14 +507,16 @@ margin-right: 0;
 .volumen {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-
+border-top-left-radius: 0;
 }
 .volumen div {
   margin-top: 0;
-  margin-left: -5px;
+  margin-left: 0;
+  border-bottom-right-radius: 0;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  margin-bottom: 180px;
+  margin-top: -140px;
+  height: 16vh;
 }
 .volumeninput {
   margin-top: 6vh;
