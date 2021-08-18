@@ -420,6 +420,29 @@ font-family: 'Poppins', sans-serif;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:700px ){
   .fas.fa-bars {
     color: var(--zochu);
@@ -478,18 +501,26 @@ margin-right: 0;
   width: 10vw;
 }
 .cambioVolDos{
-  margin-bottom: 15vh;
+  margin-bottom: 0;
   background-color: var(--Ccomun);
 }
 .volumen {
-  padding: 5px;
-  width: 10vw;
-  flex-direction: column-reverse;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.volumen div {
+  margin-top: 0;
+  margin-left: -5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 180px;
 }
 .volumeninput {
-  margin-top: 8vh;
-  margin-left: -6vw;
-  width: 10vh;
+  margin-top: 6vh;
+  margin-left: -11vw;
+  width: 30vw;
+  height: 5vh;
   transform: rotate(270deg);
 }
 .mostrarTiempo{
