@@ -13,6 +13,7 @@ article{
 .card {
     width: 20vw;
     height: fit-content;
+    min-height: 58vh;
     margin-top: 15px;
     padding-bottom: 0.1rem;
     background-color: rgba(255, 255, 255, 0.897);
@@ -24,7 +25,7 @@ article{
 .cardImg{
   box-sizing: border-box;
   width: 100%;
-  height: 70%;
+  height: 40vh;
 }
 .cardtextos{
    margin: 0.5rem;
@@ -32,6 +33,7 @@ article{
 }
 .card p{
     margin-bottom: 0.2rem;
+    font-size: 1.2vw;
 }
 .card h3{
     font-size: 1em;
