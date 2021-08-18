@@ -87,7 +87,7 @@ let mens=[
         //img:'img/ezgif.com-gif-maker.gif',
         aclaracion:'',
         img:'https://i.gifer.com/Gz0S.gif',
-        puntajeF:8,
+        puntajeF:9,
         puntajeZ:10,
         puntajeM:10,
         signo:'img/Signos/taurus.png',
