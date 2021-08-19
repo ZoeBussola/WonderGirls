@@ -380,7 +380,13 @@ outline: none;
 .playlist::-webkit-scrollbar-button {
  display: none;
 }
+.playlist::-webkit-scrollbar-button:end {
+  display: block;
+}
 
+.playlist::-webkit-scrollbar-button:start {
+  display: none;
+}
 .playicono{
   width: 50px;
   margin-left: 10px;
