@@ -468,6 +468,10 @@ main{
   min-height: fit-content;
   padding: 10px;	
 }
+#currentPlay{
+ width: 50vw;
+  }
+  
 .contenedor.playList{
   min-height: fit-content;
   padding: 10px;
@@ -477,6 +481,10 @@ main{
 }
 .play {
   margin: 2vw;
+}
+.play .fas {
+  font-size: 3rem;
+  margin: 1.5vw;
 }
 .botones{
     display: flex;
@@ -526,7 +534,7 @@ border-top-left-radius: 0;
   transform: rotate(270deg);
 }
 .mostrarTiempo{
-  width: 80%;
+  width: 70vw;
 }
 #progress {
   width: 70vw;
