@@ -378,10 +378,10 @@ outline: none;
   border-radius: 4px;
 }
 .playlist::-webkit-scrollbar-button {
- display: none;
+ display: block;
 }
 .playlist::-webkit-scrollbar-button:end {
-  display: block;
+  display: none;
 }
 
 .playlist::-webkit-scrollbar-button:start {
