@@ -50,7 +50,6 @@ body{
     background-size: 110% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    margin: 15px;
     border-radius: 30px;
     box-shadow: none;
     width: 25vw;
@@ -70,7 +69,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    margin: 15px;
     border-radius: 30px;
     box-shadow: none;
     width: 25vw;
@@ -90,7 +88,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    margin: 15px;
     border-radius: 30px;
     box-shadow: none;
     width: 25vw;
