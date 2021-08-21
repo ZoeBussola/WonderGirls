@@ -5,9 +5,11 @@ main{
      justify-content: space-around; 
     flex-wrap: nowrap;
     overflow: hidden;
+    height: 90vh;
 }
 body{
     background-color: black;
+    height: 100vh;
 }
 .fondo{
     background-repeat: no-repeat;
@@ -16,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     width: 71vh;
-    height: 84vh;
+    height: 90vh;
     margin: 0px;
     align-items: center;
 }

@@ -59,6 +59,7 @@ header {
 }
 header .logo{
     width: 12vw;
+    height: 8vh;
     margin-left: 5vw;
 }
 header nav {

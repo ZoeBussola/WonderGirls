@@ -7,11 +7,12 @@ main{
   padding-top: 5px;
  width: 100vw;
  overflow: hidden;
-  height: 83vh;
+  height: 89vh;
   
 }
 body{
-  background-color: var(--zochu)
+  background-color: var(--zochu);
+  overflow:hidden;
 }
 
 
@@ -27,7 +28,7 @@ body{
   background-color: var(--Ccomun);
 width:25vw;
 margin: 0;
-height: 85vh;
+/* height: 85vh; */
 padding: 0;
 align-items: center;
 justify-content: center;
@@ -59,7 +60,7 @@ align-items: center;
 justify-self: center;
 }
 .portada{
-  width: 20vw;
+  width: 25vw;
   height: 40vh;
   align-self: center;
   justify-self: center;
@@ -70,7 +71,7 @@ justify-self: center;
 }
 .playList{
   width: 30vw;
-  height: 83vh;
+  /* height: 83vh; */
   margin-right: -1vw;
   display: flex;
   justify-content: flex-end;
