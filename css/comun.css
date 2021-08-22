@@ -152,6 +152,7 @@ nav ul a:hover li  {
 }
 #menu{
     align-self: center;
+    z-index: 100;
 }
 #menu ul li {
     position:relative;
