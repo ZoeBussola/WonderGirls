@@ -316,6 +316,8 @@ let canciones = [
     botonTer.classList.remove("selecionado")
     botonCuar.classList.remove("selecionado")
     botonQuinto.classList.remove("selecionado")
+    botonSexto.classList.remove("selecionado")
+
 
 
      listadoMusica.innerHTML=``
@@ -408,6 +410,8 @@ let canciones = [
      botonTer.classList.remove("selecionado")
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.remove("selecionado")
+     botonSexto.classList.remove("selecionado")
+
 
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
@@ -563,6 +567,8 @@ let canciones = [
      botonTer.classList.add("selecionado")
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.remove("selecionado")
+     botonSexto.classList.remove("selecionado")
+
 
 
      listadoMusica.innerHTML=``
@@ -674,6 +680,8 @@ let canciones = [
      botonTer.classList.remove("selecionado")
      botonCuar.classList.add("selecionado")
      botonQuinto.classList.remove("selecionado")
+     botonSexto.classList.remove("selecionado")
+
      
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
@@ -765,6 +773,7 @@ let canciones = [
      botonTer.classList.remove("selecionado")
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.add("selecionado")
+     botonSexto.classList.remove("selecionado")
 
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
@@ -772,7 +781,63 @@ let canciones = [
    })
 
 
+   let  botonSexto =document.querySelector('#sexto')
+   botonSexto.addEventListener("click",function () {
+     canciones =[];
+     canciones.push(
+      "Barbie/Una Princesa - La Princesa y La Plebeya.mp3", 
+      "Barbie/Confío - Barbie y el Castillo de Diamantes.mp3", 
+      "Barbie/Creer - Barbie y el Castillo de Diamantes.mp3", 
+      "Barbie/Cuando El Amor Llega - La Princesa de la Isla.mp3", 
+      "Barbie/Debo Saber - La Princesa de la Isla.mp3", 
+      "Barbie/El Amor es Para Compartir - La Princesa de la Isla.mp3", 
+      "Barbie/En El Baile - La Princesa de la Isla.mp3", 
+      "Barbie/Estar En Su Lugar - La Princesa y la Estrella de Rock.mp3", 
+      "Barbie/Hacia El Campamento - Barbie en El Campamento de Princesas.mp3", 
+      "Barbie/La Cima Alcanzar - Escuela de Princesas.mp3", 
+      "Barbie/Libre Seré - La Princesa y La Plebeya.mp3", 
+      "Barbie/Mi Gato Perruno - La Princesa y La Plebeya.mp3", 
+      "Barbie/Opening Theme - 12 Dancing Princesses .mp3", 
+      "Barbie/Puedes Ver Que es Princesa - Escuela de Princesas.mp3", 
+      "Barbie/Qué Es Lo Que Sigue - La Puerta Secreta.mp3", 
+      "Barbie/Si Eres Princesa-Si Eres Estrella - La Princesa y la Estrella de Rock.mp3", 
+      "Barbie/Si Me Amas Como Soy - La Princesa y La Plebeya.mp3", 
+      "Barbie/Siendo Princesa - Barbie en El Campamento de Princesas.mp3", 
+      "Barbie/Soy Como Tu - La Princesa y La Plebeya.mp3", 
+      "Barbie/Teniendo Magia - La Puerta Secreta.mp3", 
+      "Barbie/Tu Destino Encontrarás - La Princesa y La Plebeya.mp3" 
+      )
+     function listar(){
+       const listado = document.createElement('ol')
+       listado.setAttribute("id", 'listadoMusica')
+       for (let i = 0; i<canciones.length; i++){
+           const item = document.createElement('li')
+           const span =document.createElement('span')
+     
+           span.appendChild(document.createTextNode(canciones[i])) 
+           item.appendChild(document.createTextNode(((canciones[i]).slice(7,100).replace(".mp3","")))) 
+     
+           item.appendChild(span)
+           item.setAttribute("id", canciones.indexOf(canciones[i]))
+           span.setAttribute("id", canciones.indexOf(canciones[i]))
+     
+           listado.appendChild(item)
+       }
+       return listado
+     }
+     imgportada.setAttribute("src","https://i.pinimg.com/originals/71/3c/9e/713c9ef81541e3e43161fccd480aba64.png")
 
+     botonPrime.classList.remove("selecionado")
+     botonSecu.classList.remove("selecionado")
+     botonTer.classList.remove("selecionado")
+     botonCuar.classList.remove("selecionado")
+     botonQuinto.classList.remove("selecionado")
+     botonSexto.classList.add("selecionado")
+
+     listadoMusica.innerHTML=``
+     listadoMusica.appendChild(listar())
+     titulo.innerText="Openings"
+   })
 
 
 
