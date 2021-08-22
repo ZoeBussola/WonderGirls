@@ -52,6 +52,7 @@ pelisParaVer.forEach(pelicula=>{
 })
 
 document.querySelector('#cb4').checked=true
+document.querySelector('#cb7').checked=true
 
 let contRandom = document.querySelector('#acanombre');
 let boton = document.querySelector(".boton")
@@ -61,9 +62,9 @@ boton.addEventListener("click",function () {
     let numeroRan = Math.round(Math.random() * (pelisParaVer.length - 1))
     contRandom.innerHTML=`
     <h2 class="Rtextos">
-    ${pelisParaVer[numeroRan==3?numeroRan-1:numeroRan].titulo}
-    </h2>
+    ${pelisParaVer[numeroRan==3?numeroRan-1:numeroRan].titulo ||pelisParaVer[numeroRan==7?numeroRan-1:numeroRan].titulo}</h2>
     `
+   
     contRandom.classList.toggle('aparecer')
     contRandom.classList.toggle('aparecerDos')
 })

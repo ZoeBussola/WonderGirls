@@ -1,4 +1,15 @@
 const Peliculas=[
+    {
+        titulo:'WolfWlakers',
+        img:'https://www.bogartmagazine.mx/wp-content/uploads/2021/03/image-2.jpeg',
+        ratingM:0,
+        ratingZ:10,
+        ratingF:0,
+        fuegosM:0,
+        fuegosF:0,
+        fuegosZ:0,
+    
+    },
 {
     titulo:'Luca',
     img:'img/lecciones-de-amistad-que-aprendimos-de-luca.png',
