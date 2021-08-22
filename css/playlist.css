@@ -11,6 +11,7 @@ main{
 }
 body{
   background-color: var(--zochu);
+  overflow: hidden;
 }
 
 
