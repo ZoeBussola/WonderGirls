@@ -453,6 +453,9 @@ font-family: 'Poppins', sans-serif;
 
 
 @media (max-width:700px ){
+  body{
+    overflow: scroll;
+  }
   .fas.fa-bars {
     color: var(--zochu);
     font-size: 40px;
@@ -466,6 +469,7 @@ main{
   flex-direction: column;
   justify-content: center;
   height: max-content;
+  overflow: scroll;
 }
 .contenedor{
   width: 95vw;
