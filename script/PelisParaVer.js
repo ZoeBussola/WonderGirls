@@ -23,6 +23,19 @@ const pelisParaVer =[
         titulo:'Palabras Que Burbujean',
         id:6,
     },
+    {
+        titulo:'Wolfwalker',
+        id:7,
+    },
+    {
+        titulo:'Sex and the City',
+        id:8,
+    },
+    {
+        titulo:'Wotakoi',
+        id:9,
+    },
+
 ]
 
 let contenedor = document.querySelector("#textos")
