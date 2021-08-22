@@ -836,7 +836,7 @@ let canciones = [
 
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
-     titulo.innerText="Openings"
+     titulo.innerText="Barbie"
    })
 
 
