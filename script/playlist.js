@@ -825,7 +825,7 @@ let canciones = [
        }
        return listado
      }
-     imgportada.setAttribute("src","https://i.pinimg.com/originals/71/3c/9e/713c9ef81541e3e43161fccd480aba64.png")
+     imgportada.setAttribute("src","img/Barbie.png")
 
      botonPrime.classList.remove("selecionado")
      botonSecu.classList.remove("selecionado")
