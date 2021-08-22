@@ -1,10 +1,10 @@
 const Peliculas=[
     {
         titulo:'WolfWlakers',
-        img:'https://www.bogartmagazine.mx/wp-content/uploads/2021/03/image-2.jpeg',
-        ratingM:0,
+        img:'https://images.wsj.net/im-269942?width=1280&size=1',
+        ratingM:1,
         ratingZ:10,
-        ratingF:0,
+        ratingF:1,
         fuegosM:0,
         fuegosF:0,
         fuegosZ:0,
