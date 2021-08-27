@@ -317,6 +317,7 @@ let canciones = [
     botonCuar.classList.remove("selecionado")
     botonQuinto.classList.remove("selecionado")
     botonSexto.classList.remove("selecionado")
+    botonseptimo.classList.remove("selecionado")
 
 
 
@@ -411,6 +412,7 @@ let canciones = [
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.remove("selecionado")
      botonSexto.classList.remove("selecionado")
+     botonseptimo.classList.remove("selecionado")
 
 
      listadoMusica.innerHTML=``
@@ -568,6 +570,7 @@ let canciones = [
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.remove("selecionado")
      botonSexto.classList.remove("selecionado")
+     botonseptimo.classList.remove("selecionado")
 
 
 
@@ -681,6 +684,7 @@ let canciones = [
      botonCuar.classList.add("selecionado")
      botonQuinto.classList.remove("selecionado")
      botonSexto.classList.remove("selecionado")
+     botonseptimo.classList.remove("selecionado")
 
      
      listadoMusica.innerHTML=``
@@ -774,6 +778,7 @@ let canciones = [
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.add("selecionado")
      botonSexto.classList.remove("selecionado")
+     botonseptimo.classList.remove("selecionado")
 
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
@@ -833,6 +838,7 @@ let canciones = [
      botonCuar.classList.remove("selecionado")
      botonQuinto.classList.remove("selecionado")
      botonSexto.classList.add("selecionado")
+     botonseptimo.classList.remove("selecionado")
 
      listadoMusica.innerHTML=``
      listadoMusica.appendChild(listar())
@@ -841,7 +847,79 @@ let canciones = [
 
 
 
+   let  botonseptimo =document.querySelector('#septimo')
+   botonseptimo.addEventListener("click",function () {
+     canciones =[];
+     canciones.push(
+      "PhiYFeA/cetato.mp3", 
+      "PhiYFeA/rdillas por doquier.mp3", 
+      "PhiYFeC/andace Fiesta.mp3", 
+      "PhiYFeC/ómo ser una dama.mp3", 
+      "PhiYFeE/l es genial.mp3", 
+      "PhiYFeE/n la batidora social.mp3", 
+      "PhiYFeE/n marte reina soy.mp3", 
+      "PhiYFeE/s Una Alien.mp3", 
+      "PhiYFeG/itchee gitchee ki.mp3", 
+      "PhiYFeH/ermanitos.mp3", 
+      "PhiYFeI/nvierano.mp3", 
+      "PhiYFeI/sa esta esponjada.mp3", 
+      "PhiYFeL/a ciudad del amor.mp3", 
+      "PhiYFeL/legando a Tokio.mp3", 
+      "PhiYFeL/legaste hasta mi corazón.mp3", 
+      "PhiYFeL/o digital llegó.mp3", 
+      "PhiYFeM/alvado amor.mp3", 
+      "PhiYFeM/i graduación.mp3", 
+      "PhiYFeM/i hermano el exquisito.mp3", 
+      "PhiYFeM/i playa es.mp3", 
+      "PhiYFeM/irando y esperando.mp3", 
+      "PhiYFeM/is cadenas son.mp3", 
+      "PhiYFeN/o tengo ritmo.mp3", 
+      "PhiYFeP/iso Tras Piso.mp3", 
+      "PhiYFeR/egresa Perry.mp3", 
+      "PhiYFeR/eina del minigolf.mp3", 
+      "PhiYFeS/iempre más allá.mp3", 
+      "PhiYFeS/on Malos.mp3", 
+      "PhiYFeS/on niños malos.mp3", 
+      "PhiYFeS/oy Lindana y Amo La Diversión.mp3", 
+      "PhiYFeS/oy yo.mp3", 
+      "PhiYFeT/al Vez No Eres Mal Papá.mp3", 
+      "PhiYFeT/uyo el verano es.mp3", 
+      "PhiYFeU/n susto a ti te caería bien.mp3", 
+      "PhiYFeV/ean A Las Bettys.mp3", 
+      "PhiYFeV/iaje de bodas.mp3" 
+      )
+     function listar(){
+       const listado = document.createElement('ol')
+       listado.setAttribute("id", 'listadoMusica')
+       for (let i = 0; i<canciones.length; i++){
+           const item = document.createElement('li')
+           const span =document.createElement('span')
+     
+           span.appendChild(document.createTextNode(canciones[i])) 
+           item.appendChild(document.createTextNode(((canciones[i]).slice(7,100).replace(".mp3","")))) 
+     
+           item.appendChild(span)
+           item.setAttribute("id", canciones.indexOf(canciones[i]))
+           span.setAttribute("id", canciones.indexOf(canciones[i]))
+     
+           listado.appendChild(item)
+       }
+       return listado
+     }
+     imgportada.setAttribute("src","https://i0.wp.com/modogeeks.com/wp-content/uploads/2020/07/phineas-y-ferb.jpg?fit=800%2C600&ssl=1")
 
+     botonPrime.classList.remove("selecionado")
+     botonSecu.classList.remove("selecionado")
+     botonTer.classList.remove("selecionado")
+     botonCuar.classList.remove("selecionado")
+     botonQuinto.classList.remove("selecionado")
+     botonSexto.classList.remove("selecionado")
+     botonseptimo.classList.add("selecionado")
+
+     listadoMusica.innerHTML=``
+     listadoMusica.appendChild(listar())
+     titulo.innerText="Phineas y Ferb"
+   })
    
    
    
