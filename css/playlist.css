@@ -512,9 +512,7 @@ margin-right: 0;
   /* margin-bottom: 10vw; */
 }
 .infoVol {
-  display: block;
-  color: var(--Ccomun);
-  width: 8.8vw;
+  width:32.4px;
 }
 .cambioVolDos{
   margin-bottom: 0;
@@ -531,13 +529,13 @@ border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  margin-top: -140px;
-  height: 16vh;
+  margin-top: -22vh;
+  height: 20vh;
 }
 .volumeninput {
-  margin-top: 6vh;
-  margin-left: -11vw;
-  width: 30vw;
+  margin-top: 9vh;
+  margin-left: -8vw;
+  width: 20vw;
   height: 5vh;
   transform: rotate(270deg);
 }
