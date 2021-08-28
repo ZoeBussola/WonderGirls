@@ -858,7 +858,7 @@ let canciones = [
       "asdfgh/Como Ser Una Dama.mp3", 
       "asdfgh/De Marte Reina Soy.mp3", 
       "asdfgh/Él Es Genial.mp3", 
-      "asdfgh/En La Batidora Social.mp3", 
+      "asdfgh/Batidora Social.mp3", 
       "asdfgh/Ester Egg.mp3",
       "asdfgh/Es Una Alien.mp3", 
       "asdfgh/Gitchee Gitchee Ki.mp3", 
