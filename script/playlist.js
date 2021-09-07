@@ -630,6 +630,7 @@ let canciones = [
       "DisneE/Love Will Find A Way - The Lion King ll.mp3", 
       "DisneE/Ma Belle Evangeline - Princess and the Frog.mp3", 
       "DisneE/Magic - Selena Gomez.mp3", 
+      "DisneE/Mother Knows Best - Tangled.mp3",
       "DisneE/Oh I Just Cant Wait To Be King - The Lion King.mp3", 
       "DisneE/On my Way - Brother Bear.mp3", 
       "DisneE/Part of Your World - The Little Mermaid.mp3", 
