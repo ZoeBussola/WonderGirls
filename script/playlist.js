@@ -748,6 +748,7 @@ let canciones = [
       "Openig/Tokyo Ghoul - Ending 1.mp3", 
       "Openig/Wotaku ni Koi wa Muzukashii - Opening.mp3", 
       "Openig/Yarichin Bclub - Opening.mp3", 
+      "Openig/Your Lie in April - Opening.mp3",
       "Openig/Your Name - Dream Lantern.mp3", 
       "Openig/Your Name - Nandemonaiya..mp3", 
       "Openig/Your Name - Sparkle.mp3", 
